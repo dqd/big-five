@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  bigfive:
+    build: .
+    volumes:
+      - sqlite-data:/code/data
+    ports:
+      - "9200:9200"
+    restart: unless-stopped
+
+volumes:
+  sqlite-data:
+    driver: local
