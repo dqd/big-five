@@ -12,9 +12,9 @@ class PersonalInfoForm(forms.ModelForm):
 
 
 class QuestionForm(forms.Form):
-    statement = forms.CharField(label=_("Statement"), disabled=True)  # Tvrzení
+    statement = forms.CharField(label=_("Statement"), disabled=True)
     answer = forms.ChoiceField(
-        label=_("Answer"),  # Odpověď
+        label=_("Answer"),
         choices=Response.choices,
         widget=forms.RadioSelect,
         required=False,

@@ -85,6 +85,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/stable/topics/i18n/
 
+LOCALE_PATHS = [
+    BASE_DIR / "locale",
+]
 LANGUAGE_CODE = "cs"
 LANGUAGES = [
     ("cs", "česky"),

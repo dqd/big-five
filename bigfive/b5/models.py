@@ -24,12 +24,12 @@ class Answer(models.Model):
         db_index=True,
     )
     sex = models.CharField(
-        verbose_name=_("Your sex"),  # Vaše pohlaví
+        verbose_name=_("Your sex"),
         max_length=1,
         choices=Sex.choices,
     )
     age_group = models.CharField(
-        verbose_name=_("Your age group"),  # Vaše věková skupina
+        verbose_name=_("Your age group"),
         max_length=1,
         choices=AgeGroup.choices,
     )

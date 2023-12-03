@@ -1,0 +1,1737 @@
+# Czech translation of big-five.cz.
+# This file is distributed under the same license as the PACKAGE package.
+# Pavel Mises <id@dqd.cz>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-03 22:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: bigfive/b5/constants.py:12
+msgid "Female"
+msgstr "Žena"
+
+#: bigfive/b5/constants.py:13
+msgid "Male"
+msgstr "Muž"
+
+#: bigfive/b5/constants.py:18
+msgid "20 years old or younger"
+msgstr "20 let nebo mladší"
+
+#: bigfive/b5/constants.py:19
+msgid "21–40 years old"
+msgstr "21–40 let"
+
+#: bigfive/b5/constants.py:20
+msgid "41–60 years old"
+msgstr "41–60 let"
+
+#: bigfive/b5/constants.py:21
+msgid "61 years old or older"
+msgstr "61 let nebo starší"
+
+#: bigfive/b5/constants.py:25
+msgid "Very accurate"
+msgstr "Naprosto souhlasím"
+
+#: bigfive/b5/constants.py:26
+msgid "Moderately accurate"
+msgstr "Spíše souhlasím"
+
+#: bigfive/b5/constants.py:27
+msgid "I am not sure"
+msgstr "Nic z uvedeného"
+
+#: bigfive/b5/constants.py:28
+msgid "Moderately inaccurate"
+msgstr "Spíše nesouhlasím"
+
+#: bigfive/b5/constants.py:29
+msgid "Very inaccurate"
+msgstr "Zásadně nesouhlasím"
+
+#: bigfive/b5/constants.py:39
+msgid "Worry about things."
+msgstr ""
+
+#: bigfive/b5/constants.py:43
+msgid "Make friends easily."
+msgstr ""
+
+#: bigfive/b5/constants.py:47
+msgid "Have a vivid imagination."
+msgstr ""
+
+#: bigfive/b5/constants.py:51
+msgid "Trust others."
+msgstr ""
+
+#: bigfive/b5/constants.py:55
+msgid "Complete tasks successfully."
+msgstr ""
+
+#: bigfive/b5/constants.py:59
+msgid "Get angry easily."
+msgstr ""
+
+#: bigfive/b5/constants.py:63
+msgid "Love large parties."
+msgstr ""
+
+#: bigfive/b5/constants.py:67
+msgid "Believe in the importance of art."
+msgstr ""
+
+#: bigfive/b5/constants.py:71
+msgid "Use others for my own ends."
+msgstr ""
+
+#: bigfive/b5/constants.py:75
+msgid "Like to tidy up."
+msgstr ""
+
+#: bigfive/b5/constants.py:79
+msgid "Often feel blue."
+msgstr ""
+
+#: bigfive/b5/constants.py:83
+msgid "Take charge."
+msgstr ""
+
+#: bigfive/b5/constants.py:87
+msgid "Experience my emotions intensely."
+msgstr ""
+
+#: bigfive/b5/constants.py:91
+msgid "Love to help others."
+msgstr ""
+
+#: bigfive/b5/constants.py:95
+msgid "Keep my promises."
+msgstr ""
+
+#: bigfive/b5/constants.py:99
+msgid "Find it difficult to approach others."
+msgstr ""
+
+#: bigfive/b5/constants.py:103
+msgid "Am always busy."
+msgstr ""
+
+#: bigfive/b5/constants.py:107
+msgid "Prefer variety to routine."
+msgstr ""
+
+#: bigfive/b5/constants.py:111
+msgid "Love a good fight."
+msgstr ""
+
+#: bigfive/b5/constants.py:115
+msgid "Work hard."
+msgstr ""
+
+#: bigfive/b5/constants.py:119
+msgid "Go on binges."
+msgstr ""
+
+#: bigfive/b5/constants.py:123
+msgid "Love excitement."
+msgstr ""
+
+#: bigfive/b5/constants.py:127
+msgid "Love to read challenging material."
+msgstr ""
+
+#: bigfive/b5/constants.py:131
+msgid "Believe that I am better than others."
+msgstr ""
+
+#: bigfive/b5/constants.py:135
+msgid "Am always prepared."
+msgstr ""
+
+#: bigfive/b5/constants.py:139
+msgid "Panic easily."
+msgstr ""
+
+#: bigfive/b5/constants.py:143
+msgid "Radiate joy."
+msgstr ""
+
+#: bigfive/b5/constants.py:147
+msgid "Tend to vote for liberal political candidates."
+msgstr ""
+
+#: bigfive/b5/constants.py:151
+msgid "Sympathize with the homeless."
+msgstr ""
+
+#: bigfive/b5/constants.py:155
+msgid "Jump into things without thinking."
+msgstr ""
+
+#: bigfive/b5/constants.py:159
+msgid "Fear for the worst."
+msgstr ""
+
+#: bigfive/b5/constants.py:163
+msgid "Feel comfortable around people."
+msgstr ""
+
+#: bigfive/b5/constants.py:167
+msgid "Enjoy wild flights of fantasy."
+msgstr ""
+
+#: bigfive/b5/constants.py:171
+msgid "Believe that others have good intentions."
+msgstr ""
+
+#: bigfive/b5/constants.py:175
+msgid "Excel in what I do."
+msgstr ""
+
+#: bigfive/b5/constants.py:179
+msgid "Get irritated easily."
+msgstr ""
+
+#: bigfive/b5/constants.py:183
+msgid "Talk to a lot of different people at parties."
+msgstr ""
+
+#: bigfive/b5/constants.py:187
+msgid "See beauty in things that others might not notice."
+msgstr ""
+
+#: bigfive/b5/constants.py:191
+msgid "Cheat to get ahead."
+msgstr ""
+
+#: bigfive/b5/constants.py:195
+msgid "Often forget to put things back in their proper place."
+msgstr ""
+
+#: bigfive/b5/constants.py:199
+msgid "Dislike myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:203
+msgid "Try to lead others."
+msgstr ""
+
+#: bigfive/b5/constants.py:207
+msgid "Feel others' emotions."
+msgstr ""
+
+#: bigfive/b5/constants.py:211
+msgid "Am concerned about others."
+msgstr ""
+
+#: bigfive/b5/constants.py:215
+msgid "Tell the truth."
+msgstr ""
+
+#: bigfive/b5/constants.py:219
+msgid "Am afraid to draw attention to myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:223
+msgid "Am always on the go."
+msgstr ""
+
+#: bigfive/b5/constants.py:227
+msgid "Prefer to stick with things that I know."
+msgstr ""
+
+#: bigfive/b5/constants.py:231
+msgid "Yell at people."
+msgstr ""
+
+#: bigfive/b5/constants.py:235
+msgid "Do more than what's expected of me."
+msgstr ""
+
+#: bigfive/b5/constants.py:239
+msgid "Rarely overindulge."
+msgstr ""
+
+#: bigfive/b5/constants.py:243
+msgid "Seek adventure."
+msgstr ""
+
+#: bigfive/b5/constants.py:247
+msgid "Avoid philosophical discussions."
+msgstr ""
+
+#: bigfive/b5/constants.py:251
+msgid "Think highly of myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:255
+msgid "Carry out my plans."
+msgstr ""
+
+#: bigfive/b5/constants.py:259
+msgid "Become overwhelmed by events."
+msgstr ""
+
+#: bigfive/b5/constants.py:263
+msgid "Have a lot of fun."
+msgstr ""
+
+#: bigfive/b5/constants.py:267
+msgid "Believe that there is no absolute right or wrong."
+msgstr ""
+
+#: bigfive/b5/constants.py:271
+msgid "Feel sympathy for those who are worse off than myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:275
+msgid "Make rash decisions."
+msgstr ""
+
+#: bigfive/b5/constants.py:279
+msgid "Am afraid of many things."
+msgstr ""
+
+#: bigfive/b5/constants.py:283
+msgid "Avoid contacts with others."
+msgstr ""
+
+#: bigfive/b5/constants.py:287
+msgid "Love to daydream."
+msgstr ""
+
+#: bigfive/b5/constants.py:291
+msgid "Trust what people say."
+msgstr ""
+
+#: bigfive/b5/constants.py:295
+msgid "Handle tasks smoothly."
+msgstr ""
+
+#: bigfive/b5/constants.py:299
+msgid "Lose my temper."
+msgstr ""
+
+#: bigfive/b5/constants.py:303
+msgid "Prefer to be alone."
+msgstr ""
+
+#: bigfive/b5/constants.py:307
+msgid "Do not like poetry."
+msgstr ""
+
+#: bigfive/b5/constants.py:311
+msgid "Take advantage of others."
+msgstr ""
+
+#: bigfive/b5/constants.py:315
+msgid "Leave a mess in my room."
+msgstr ""
+
+#: bigfive/b5/constants.py:319
+msgid "Am often down in the dumps."
+msgstr ""
+
+#: bigfive/b5/constants.py:323
+msgid "Take control of things."
+msgstr ""
+
+#: bigfive/b5/constants.py:327
+msgid "Rarely notice my emotional reactions."
+msgstr ""
+
+#: bigfive/b5/constants.py:331
+msgid "Am indifferent to the feelings of others."
+msgstr ""
+
+#: bigfive/b5/constants.py:335
+msgid "Break rules."
+msgstr ""
+
+#: bigfive/b5/constants.py:339
+msgid "Only feel comfortable with friends."
+msgstr ""
+
+#: bigfive/b5/constants.py:343
+msgid "Do a lot in my spare time."
+msgstr ""
+
+#: bigfive/b5/constants.py:347
+msgid "Dislike changes."
+msgstr ""
+
+#: bigfive/b5/constants.py:351
+msgid "Insult people."
+msgstr ""
+
+#: bigfive/b5/constants.py:355
+msgid "Do just enough work to get by."
+msgstr ""
+
+#: bigfive/b5/constants.py:359
+msgid "Easily resist temptations."
+msgstr ""
+
+#: bigfive/b5/constants.py:363
+msgid "Enjoy being reckless."
+msgstr ""
+
+#: bigfive/b5/constants.py:367
+msgid "Have difficulty understanding abstract ideas."
+msgstr ""
+
+#: bigfive/b5/constants.py:371
+msgid "Have a high opinion of myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:375
+msgid "Waste my time."
+msgstr ""
+
+#: bigfive/b5/constants.py:379
+msgid "Feel that I'm unable to deal with things."
+msgstr ""
+
+#: bigfive/b5/constants.py:383
+msgid "Love life."
+msgstr ""
+
+#: bigfive/b5/constants.py:387
+msgid "Tend to vote for conservative political candidates."
+msgstr ""
+
+#: bigfive/b5/constants.py:391
+msgid "Am not interested in other people's problems."
+msgstr ""
+
+#: bigfive/b5/constants.py:395
+msgid "Rush into things."
+msgstr ""
+
+#: bigfive/b5/constants.py:399
+msgid "Get stressed out easily."
+msgstr ""
+
+#: bigfive/b5/constants.py:403
+msgid "Keep others at a distance."
+msgstr ""
+
+#: bigfive/b5/constants.py:407
+msgid "Like to get lost in thought."
+msgstr ""
+
+#: bigfive/b5/constants.py:411
+msgid "Distrust people."
+msgstr ""
+
+#: bigfive/b5/constants.py:415
+msgid "Know how to get things done."
+msgstr ""
+
+#: bigfive/b5/constants.py:419
+msgid "Am not easily annoyed."
+msgstr ""
+
+#: bigfive/b5/constants.py:423
+msgid "Avoid crowds."
+msgstr ""
+
+#: bigfive/b5/constants.py:427
+msgid "Do not enjoy going to art museums."
+msgstr ""
+
+#: bigfive/b5/constants.py:431
+msgid "Obstruct others' plans."
+msgstr ""
+
+#: bigfive/b5/constants.py:435
+msgid "Leave my belongings around."
+msgstr ""
+
+#: bigfive/b5/constants.py:439
+msgid "Feel comfortable with myself."
+msgstr ""
+
+#: bigfive/b5/constants.py:443
+msgid "Wait for others to lead the way."
+msgstr ""
+
+#: bigfive/b5/constants.py:447
+msgid "Don't understand people who get emotional."
+msgstr ""
+
+#: bigfive/b5/constants.py:451
+msgid "Take no time for others."
+msgstr ""
+
+#: bigfive/b5/constants.py:455
+msgid "Break my promises."
+msgstr ""
+
+#: bigfive/b5/constants.py:459
+msgid "Am not bothered by difficult social situations."
+msgstr ""
+
+#: bigfive/b5/constants.py:463
+msgid "Like to take it easy."
+msgstr ""
+
+#: bigfive/b5/constants.py:467
+msgid "Am attached to conventional ways."
+msgstr ""
+
+#: bigfive/b5/constants.py:471
+msgid "Get back at others."
+msgstr ""
+
+#: bigfive/b5/constants.py:475
+msgid "Put little time and effort into my work."
+msgstr ""
+
+#: bigfive/b5/constants.py:479
+msgid "Am able to control my cravings."
+msgstr ""
+
+#: bigfive/b5/constants.py:483
+msgid "Act wild and crazy."
+msgstr ""
+
+#: bigfive/b5/constants.py:487
+msgid "Am not interested in theoretical discussions."
+msgstr ""
+
+#: bigfive/b5/constants.py:491
+msgid "Boast about my virtues."
+msgstr ""
+
+#: bigfive/b5/constants.py:495
+msgid "Have difficulty starting tasks."
+msgstr ""
+
+#: bigfive/b5/constants.py:499
+msgid "Remain calm under pressure."
+msgstr ""
+
+#: bigfive/b5/constants.py:503
+msgid "Look at the bright side of life."
+msgstr ""
+
+#: bigfive/b5/constants.py:507
+msgid "Believe that we should be tough on crime."
+msgstr ""
+
+#: bigfive/b5/constants.py:511
+msgid "Try not to think about the needy."
+msgstr ""
+
+#: bigfive/b5/constants.py:515
+msgid "Act without thinking."
+msgstr ""
+
+#: bigfive/b5/forms.py:15
+msgid "Statement"
+msgstr "Tvrzení"
+
+#: bigfive/b5/forms.py:17
+msgid "Answer"
+msgstr "Odpověď"
+
+#: bigfive/b5/models.py:27
+msgid "Your sex"
+msgstr "Vaše pohlaví"
+
+#: bigfive/b5/models.py:32
+msgid "Your age group"
+msgstr "Vaše věková skupina"
+
+#: bigfive/templates/index.html:8
+msgid "Go back"
+msgstr "Vrátit se"
+
+#: bigfive/templates/index.html:9
+msgid "Continue forward"
+msgstr "Pokračovat dále"
+
+#: bigfive/templates/index.html:10
+msgid "Let’s start!"
+msgstr "Začít vyplňovat!"
+
+#: bigfive/templates/index.html:17
+msgid "Discover yourself! Free Big Five personality test"
+msgstr "Objevte sami sebe! Bezplatný test osobnosti Big five (Velká pětka)"
+
+#: bigfive/templates/index.html:18
+msgid "Explore the five key dimensions of your personality free of charge."
+msgstr "Prozkoumejte pět klíčových dimenzí své osobnosti zadarmo."
+
+#: bigfive/templates/index.html:20
+msgid "What are the Big Five personality traits?"
+msgstr "Jaké jsou osobnostní rysy Velké pětky?"
+
+#: bigfive/templates/index.html:21
+msgid ""
+"The Big Five personality traits model is a cornerstone in psychological "
+"research, offering a robust framework for understanding human personality. "
+"It offers a comprehensive approach to understanding human personality by "
+"categorizing traits into five distinct dimensions. These dimensions are "
+"<em>Openness to experience</em>, <em>Conscientiousness</em>, "
+"<em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>, "
+"collectively known as OCEAN or CANOE. Each trait represents a spectrum, with "
+"individuals varying in the degree to which they exhibit aspects of each "
+"trait."
+msgstr ""
+
+#: bigfive/templates/index.html:23
+msgid "The five dimensions"
+msgstr "Pět dimenzí osobnosti"
+
+#: bigfive/templates/index.html:25 bigfive/templates/result.html:91
+#: bigfive/templates/result.html:225
+msgid "Openness to experience"
+msgstr "Otevřenost"
+
+#: bigfive/templates/index.html:25
+msgid ""
+"This dimension reflects the degree of intellectual curiosity, creativity, "
+"and a preference for novelty and variety. Individuals high in openness are "
+"often imaginative, open to new experiences, and have a broad range of "
+"interests. Conversely, those lower in openness may prefer routine and "
+"familiarity."
+msgstr ""
+
+#: bigfive/templates/index.html:26 bigfive/templates/result.html:91
+#: bigfive/templates/result.html:160
+msgid "Conscientiousness"
+msgstr "Svědomitost"
+
+#: bigfive/templates/index.html:26
+msgid ""
+"This trait denotes the level of thoughtfulness, good impulse control, and "
+"goal-directed behaviors. Highly conscientious individuals tend to be "
+"organized, mindful of details, and responsible. Those with lower "
+"conscientiousness might be more spontaneous and less focused on details."
+msgstr ""
+
+#: bigfive/templates/index.html:27 bigfive/templates/result.html:91
+#: bigfive/templates/result.html:97
+msgid "Extraversion"
+msgstr "Extraverze"
+
+#: bigfive/templates/index.html:27
+msgid ""
+"Extraversion is characterized by excitability, sociability, talkativeness, "
+"assertiveness, and high amounts of emotional expressiveness. Extroverts "
+"derive energy from interacting with others, while introverts, who score "
+"lower on this trait, find energy in solitary activities."
+msgstr ""
+
+#: bigfive/templates/index.html:28 bigfive/templates/result.html:91
+#: bigfive/templates/result.html:128
+msgid "Agreeableness"
+msgstr "Přívětivost"
+
+#: bigfive/templates/index.html:28
+msgid ""
+"This trait reflects individual differences in cooperation and social "
+"harmony. Agreeable individuals are compassionate, trustworthy, and "
+"altruistic. They prefer to avoid conflict. Those scoring lower on "
+"agreeableness may be more competitive or challenging in their interactions "
+"with others."
+msgstr ""
+
+#: bigfive/templates/index.html:29 bigfive/templates/result.html:91
+#: bigfive/templates/result.html:193
+msgid "Neuroticism"
+msgstr "Neuroticismus"
+
+#: bigfive/templates/index.html:29
+msgid ""
+"Neuroticism indicates the tendency towards unstable emotions and moodiness. "
+"High scorers may experience mood swings, anxiety, irritability, and sadness. "
+"Those with lower scores in neuroticism tend to be more emotionally stable "
+"and resilient."
+msgstr ""
+
+#: bigfive/templates/index.html:32
+msgid "Comparison to MBTI"
+msgstr "Srovnání s MBTI"
+
+#: bigfive/templates/index.html:33
+msgid ""
+"The Big Five personality traits model and the widely known Myers-Briggs Type "
+"Indicator (MBTI) are two distinct methods of personality assessment, but "
+"they differ significantly in scientific validity and approach. The Big Five "
+"model is highly regarded in the psychological community for its empirical "
+"support and reliability. It assesses personality across a spectrum in five "
+"key dimensions, providing a nuanced view of personality traits."
+msgstr ""
+
+#: bigfive/templates/index.html:35
+msgid ""
+"On the other hand, the MBTI, which categorizes individuals into 16 "
+"personality types based on four dichotomies, has been widely criticized by "
+"psychologists for its lack of empirical grounding and scientific rigor. One "
+"major criticism of the MBTI is its reliance on binary choices, which "
+"oversimplifies the complex nature of human personality. Additionally, "
+"numerous studies have questioned the test's reliability, as many individuals "
+"receive different MBTI types when retaking the test. Despite its popularity "
+"in corporate and educational settings, the MBTI is often viewed as a tool "
+"for self-reflection rather than a scientifically validated instrument."
+msgstr ""
+
+#: bigfive/templates/index.html:37
+msgid ""
+"In contrast, the Big Five model's consistency across diverse populations and "
+"its ability to predict various life outcomes, such as job performance and "
+"psychological well-being, have made it a preferred choice for researchers "
+"and clinicians seeking a more evidence-based approach to understanding "
+"personality."
+msgstr ""
+
+#: bigfive/templates/index.html:39
+msgid "Take the test!"
+msgstr "Pusťte se do toho!"
+
+#: bigfive/templates/index.html:42
+msgid "The test"
+msgstr "Osobnostní test"
+
+#: bigfive/templates/index.html:60
+#, python-format
+msgid "Question number %(number)s of %(count)s"
+msgstr "Otázka číslo %(number)s ze %(count)s"
+
+#: bigfive/templates/index.html:79
+msgid "Evaluate answers"
+msgstr "Vyhodnotit odpovědi"
+
+#: bigfive/templates/index.html:91
+msgid "Our detailed report"
+msgstr "Náš detailní report"
+
+#: bigfive/templates/index.html:92
+msgid ""
+"After completing our comprehensive <a href=\"#test\">120-question test</a>, "
+"you will receive a detailed report that delves into each of the Big Five "
+"traits, providing a nuanced understanding of your personality. Accompanying "
+"this report are interactive bar charts, which visually represent your scores "
+"in each dimension. This personalized report aims to enlighten you about your "
+"unique personality profile, enhancing self-awareness and personal growth."
+msgstr ""
+
+#: bigfive/templates/index.html:94
+msgid "The history of the Big Five"
+msgstr "Historie Velké pětky"
+
+#: bigfive/templates/index.html:95
+msgid ""
+"The journey of the Big Five personality traits model to becoming a "
+"cornerstone in psychological assessment is a fascinating tale of scientific "
+"evolution. The roots of this model trace back to the 1930s when psychologist "
+"Gordon Allport and his colleague H. S. Odbert hypothesized that the "
+"fundamental traits of human personality could be extracted from the language "
+"we use to describe people. They started by identifying thousands of words in "
+"the English language that described personality traits."
+msgstr ""
+
+#: bigfive/templates/index.html:97
+msgid ""
+"This initial list was refined over the decades by various psychologists, "
+"notably Raymond Cattell in the 1940s and 1950s. Cattell used factor "
+"analysis, a statistical method, to reduce the extensive list of traits to a "
+"more manageable number. However, it was not until the 1970s and 1980s that "
+"the Big Five model as we know it today began to take shape. Researchers Paul "
+"Costa and Robert McCrae played a pivotal role in this. They used factor "
+"analysis on personality survey data and consistently found five broad "
+"factors, which they labeled as <em>Openness to experience</em>, "
+"<em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, "
+"and <em>Neuroticism</em>."
+msgstr ""
+
+#: bigfive/templates/index.html:99
+msgid ""
+"The Big Five model gained momentum in the 1990s as a large body of research "
+"began to validate its applicability across different cultures and languages, "
+"establishing it as a universal framework for understanding personality. This "
+"universality was a significant leap forward, as it suggested that these five "
+"dimensions could encompass the breadth of human personality traits."
+msgstr ""
+
+#: bigfive/templates/index.html:101
+msgid ""
+"The model's simplicity and empirical support have made it a popular tool not "
+"only in psychological research but also in practical applications like "
+"psychotherapy, career counseling, and even organizational hiring practices. "
+"Today, the Big Five model stands as a testament to the ongoing quest to "
+"understand the complexities of human personality through a scientific lens."
+msgstr ""
+
+#: bigfive/templates/index.html:103
+msgid "Accuracy and reliability"
+msgstr "Přesnost a spolehlivost"
+
+#: bigfive/templates/index.html:104
+msgid ""
+"The Big Five personality traits model distinguishes itself not only through "
+"its comprehensive framework but also through its robust accuracy and "
+"reliability, validated by extensive psychological research. The model's "
+"reliability is evident in its consistency across various studies and "
+"cultural contexts, showcasing its universal applicability."
+msgstr ""
+
+#: bigfive/templates/index.html:106
+msgid ""
+"One of the key strengths of the Big Five is its basis in empirical research, "
+"which has continually supported its validity. Numerous studies have "
+"confirmed that the five dimensions are able to predict a range of important "
+"life outcomes, including academic and career success, interpersonal "
+"relationships, and psychological well-being. This predictive validity is a "
+"crucial aspect of any psychological model, as it demonstrates its practical "
+"utility in real-world settings."
+msgstr ""
+
+#: bigfive/templates/index.html:108
+msgid ""
+"Furthermore, the Big Five's reliability is demonstrated through its "
+"replicability in various studies over time. The consistency with which "
+"different researchers using diverse populations have identified the same "
+"five factors underscores the stability of the model. Unlike some other "
+"personality assessments that rely on subjective interpretations, the Big "
+"Five is grounded in objective, data-driven analysis, lending it a high "
+"degree of scientific credibility."
+msgstr ""
+
+#: bigfive/templates/index.html:110
+msgid ""
+"Another notable aspect of the Big Five is its scalability. The model "
+"provides a flexible framework that can be adapted for different research "
+"purposes, from broad, general personality overviews to more specific, "
+"detailed analyses. This adaptability does not compromise its reliability, as "
+"the core dimensions remain robust across various adaptations."
+msgstr ""
+
+#: bigfive/templates/index.html:112
+msgid ""
+"In summary, the accuracy and reliability of the Big Five model are well-"
+"established, making it a valuable tool in both psychological research and "
+"practical applications. Its empirical foundations, consistent replication "
+"across studies, predictive validity, and flexible yet stable framework make "
+"it one of the most reliable and respected models in personality psychology."
+msgstr ""
+
+#: bigfive/templates/index.html:114
+msgid "Acknowledgement"
+msgstr "Poděkování"
+
+#: bigfive/templates/index.html:115
+msgid ""
+"This website is based on <a href=\"https://github.com/kholia/IPIP-NEO-PI/"
+"\">Python port</a> of the <a href=\"https://sites.psu.edu/drj5j/\">John A. "
+"Johnson’s</a> IPIP-NEO-120 software, which is IPIP version of the NEO-PI-R "
+"test."
+msgstr ""
+"Tato webová stránka je založena na <a href=\"https://github.com/kholia/IPIP-NEO-PI/"
+"\">pythonové verzi</a> softwaru IPIP-NEO-120 od <a href=\"https://sites.psu.edu/drj5j/\">Johna A. "
+"Johnsona</a>, která je IPIP verzí testu NEO-PI-R."
+
+#: bigfive/templates/result.html:10
+msgid "High threshold"
+msgstr "Hranice vysokého skóre"
+
+#: bigfive/templates/result.html:11
+msgid "Low threshold"
+msgstr "Hranice nízkého skóre"
+
+#: bigfive/templates/result.html:21
+msgid "Your Big Five personality test traits results"
+msgstr "Výsledek testu osobnosti Big five (Velká pětka)"
+
+#: bigfive/templates/result.html:23
+#, python-format
+msgid ""
+"This report, completed %(created)s, estimates the individual's level on each "
+"of the five broad personality domains of the Big Five model."
+msgstr ""
+"Tento report, dokončen %(created)s, odhaduje osobní úroveň každé z pěti "
+"širších osobnostních domén modelu Big five."
+
+#: bigfive/templates/result.html:25
+msgid ""
+"Personality traits describe, relative to other people, the frequency or "
+"intensity of a person's feelings, thoughts, or behaviors. Possession of a "
+"trait is therefore a matter of degree. We might describe two individuals as "
+"<em>extraverts</em>, but still see one as more extraverted than the other. "
+"This report uses expressions such as \"extravert\" or \"high in "
+"extraversion\" to describe someone who is likely to be seen by others as "
+"relatively extraverted."
+msgstr ""
+
+#: bigfive/templates/result.html:27
+#, python-format
+msgid ""
+"The computer program that generates this report classifies you as low, "
+"average, or high in a trait according to whether your score is approximately "
+"in the lowest 30%%, middle 40%%, or highest 30%% of scores obtained by "
+"people of your sex and roughly your age (%(sex)s, %(age_group)s). Your "
+"numerical scores are reported and graphed as <em>percentile estimates</em>. "
+"For example, a score of \"60\" means that your level on that trait is "
+"estimated to be higher than 60%% of persons of your sex and age."
+msgstr ""
+
+#: bigfive/templates/result.html:29
+msgid ""
+"Please keep in mind that \"low,\" \"average,\" and \"high\" scores on a "
+"personality test are neither absolutely good nor bad. A particular level on "
+"any trait will probably be neutral or irrelevant for a great many "
+"activities, be helpful for accomplishing some things, and detrimental for "
+"accomplishing other things."
+msgstr ""
+
+#: bigfive/templates/result.html:31
+msgid ""
+"As with any personality inventory, scores and descriptions can only "
+"approximate an individual's actual personality. High and low score "
+"descriptions are usually accurate, but average scores close to the low or "
+"high boundaries might misclassify you as only average. On each set of six "
+"subdomain scales it is somewhat uncommon but certainly possible to score "
+"high in some of the subdomains and low in the others. In such cases more "
+"attention should be paid to the subdomain scores than to the broad domain "
+"score. Questions about the accuracy of your results are best resolved by "
+"showing your report to people who know you well."
+msgstr ""
+
+#: bigfive/templates/result.html:33
+msgid "Your results"
+msgstr "Vaše výsledky"
+
+#: bigfive/templates/result.html:37
+msgid "Your score on <em>Extraversion</em> is"
+msgstr "Vaše skóre <em>Extraverze</em> je"
+
+#: bigfive/templates/result.html:39 bigfive/templates/result.html:49
+#: bigfive/templates/result.html:59 bigfive/templates/result.html:69
+#: bigfive/templates/result.html:79
+msgid "low"
+msgstr "nízké"
+
+#: bigfive/templates/result.html:41 bigfive/templates/result.html:51
+#: bigfive/templates/result.html:61 bigfive/templates/result.html:71
+#: bigfive/templates/result.html:81
+msgid "high"
+msgstr "vysoké"
+
+#: bigfive/templates/result.html:43 bigfive/templates/result.html:53
+#: bigfive/templates/result.html:63 bigfive/templates/result.html:73
+#: bigfive/templates/result.html:83
+msgid "average"
+msgstr "průměrné"
+
+#: bigfive/templates/result.html:47
+msgid "Your score on <em>Agreeableness</em> is"
+msgstr "Vaše skóre <em>Přívětivosti</em> je"
+
+#: bigfive/templates/result.html:57
+msgid "Your score on <em>Conscientiousness</em> is"
+msgstr "Vaše skóre <em>Svědomitosti</em> je"
+
+#: bigfive/templates/result.html:67
+msgid "Your score on <em>Neuroticism</em> is"
+msgstr "Vaše skóre <em>Neuroticismu</em> je"
+
+#: bigfive/templates/result.html:77
+msgid "Your score on <em>Openness to experience</em> is"
+msgstr "Vaše skóre <em>Otevřenosti</em> je"
+
+#: bigfive/templates/result.html:90
+msgid "Personality traits"
+msgstr "Osobnostní rysy"
+
+#: bigfive/templates/result.html:95
+msgid ""
+"Below, you will find the explanation what those scores mean. The description "
+"of each one of the five broad domains is followed by a more detailed "
+"description of personality according to the six subdomains that comprise "
+"each domain."
+msgstr ""
+
+#: bigfive/templates/result.html:98
+msgid ""
+"<em>Extraversion</em> is marked by pronounced engagement with the external "
+"world. Extraverts enjoy being with people, are full of energy, and often "
+"experience positive emotions. They tend to be enthusiastic, action-oriented, "
+"individuals who are likely to say \"Yes!\" or \"Let's go!\" to opportunities "
+"for excitement. In groups they like to talk, assert themselves, and draw "
+"attention to themselves."
+msgstr ""
+
+#: bigfive/templates/result.html:100
+msgid ""
+"Introverts lack the exuberance, energy, and activity levels of extraverts. "
+"They tend to be quiet, low-key, deliberate, and disengaged from the social "
+"world. Their lack of social involvement should <em>not</em> be interpreted "
+"as shyness or depression; the introvert simply needs less stimulation than "
+"an extravert and prefers to be alone. The independence and reserve of the "
+"introvert is sometimes mistaken as unfriendliness or arrogance. In reality, "
+"an introvert who scores high on the <em>Agreeableness</em> dimension will "
+"not seek others out but will be quite pleasant when approached."
+msgstr ""
+
+#: bigfive/templates/result.html:103
+msgid ""
+"Your score on <em>Extraversion</em> is low, indicating you are introverted, "
+"reserved, and quiet. You enjoy solitude and solitary activities. Your "
+"socializing tends to be restricted to a few close friends."
+msgstr ""
+
+#: bigfive/templates/result.html:105
+msgid ""
+"Your score on <em>Extraversion</em> is high, indicating you are sociable, "
+"outgoing, energetic, and lively. You prefer to be around people much of the "
+"time."
+msgstr ""
+
+#: bigfive/templates/result.html:107
+msgid ""
+"Your score on <em>Extraversion</em> is average, indicating you are neither a "
+"subdued loner nor a jovial chatterbox. You enjoy time with others but also "
+"time alone."
+msgstr ""
+
+#: bigfive/templates/result.html:110 bigfive/templates/result.html:114
+msgid "Extraversion facets"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:120
+msgid "Friendliness"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:121
+msgid "Gregariousness"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:122
+msgid "Assertiveness"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:123
+msgid "Activity level"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:124
+msgid "Excitement-seeking"
+msgstr ""
+
+#: bigfive/templates/result.html:115 bigfive/templates/result.html:125
+msgid "Cheerfulness"
+msgstr ""
+
+#: bigfive/templates/result.html:120
+#, python-format
+msgid ""
+"Friendly people genuinely like other people and openly demonstrate positive "
+"feelings toward others. They make friends quickly and it is easy for them to "
+"form close, intimate relationships. Low scorers on <em>Friendliness</em> are "
+"not necessarily cold and hostile, but they do not reach out to others and "
+"are perceived as distant and reserved. Your level of friendliness is "
+"%(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:121
+#, python-format
+msgid ""
+"Gregarious people find the company of others pleasantly stimulating and "
+"rewarding. They enjoy the excitement of crowds. Low scorers tend to feel "
+"overwhelmed by, and therefore actively avoid, large crowds. They do not "
+"necessarily dislike being with people sometimes, but their need for privacy "
+"and time to themselves is much greater than for individuals who score high "
+"on this scale. Your level of gregariousness is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:122
+#, python-format
+msgid ""
+"High scorers <em>Assertiveness</em> like to speak out, take charge, and "
+"direct the activities of others. They tend to be leaders in groups. Low "
+"scorers tend not to talk much and let others control the activities of "
+"groups. Your level of assertiveness is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:123
+#, python-format
+msgid ""
+"Active individuals lead fast-paced, busy lives. They move about quickly, "
+"energetically, and vigorously, and they are involved in many activities. "
+"People who score low on this scale follow a slower and more leisurely, "
+"relaxed pace. Your activity level is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:124
+#, python-format
+msgid ""
+"High scorers on this scale are easily bored without high levels of "
+"stimulation. They love bright lights and hustle and bustle. They are likely "
+"to take risks and seek thrills. Low scorers are overwhelmed by noise and "
+"commotion and are averse to thrill-seeking. Your level of excitement-seeking "
+"is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:125
+#, python-format
+msgid ""
+"This scale measures positive mood and feelings, not negative emotions (which "
+"are a part of the <em>Neuroticism</em> domain). Persons who score high on "
+"this scale typically experience a range of positive feelings, including "
+"happiness, enthusiasm, optimism, and joy. Low scorers are not as prone to "
+"such energetic, high spirits. Your level of positive emotions is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:129
+msgid ""
+"<em>Agreeableness</em> reflects individual differences in concern with "
+"cooperation and social harmony. Agreeable individuals value getting along "
+"with others. They are therefore considerate, friendly, generous, helpful, "
+"and willing to compromise their interests with others'. Agreeable people "
+"also have an optimistic view of human nature. They believe people are "
+"basically honest, decent, and trustworthy."
+msgstr ""
+
+#: bigfive/templates/result.html:131
+msgid ""
+"Disagreeable individuals place self-interest above getting along with "
+"others. They are generally unconcerned with others' well-being, and "
+"therefore are unlikely to extend themselves for other people. Sometimes "
+"their skepticism about others' motives causes them to be suspicious, "
+"unfriendly, and uncooperative."
+msgstr ""
+
+#: bigfive/templates/result.html:132
+msgid ""
+"<em>Agreeableness</em> is obviously advantageous for attaining and "
+"maintaining popularity. Agreeable people are better liked than disagreeable "
+"people. On the other hand, <em>Agreeableness</em> is not useful in "
+"situations that require tough or absolute objective decisions. Disagreeable "
+"people can make excellent scientists, critics, or soldiers."
+msgstr ""
+
+#: bigfive/templates/result.html:135
+msgid ""
+"Your score on <em>Agreeableness</em> is low, indicating less concern with "
+"others' needs than with your own. People see you as tough, critical, and "
+"uncompromising."
+msgstr ""
+
+#: bigfive/templates/result.html:137
+msgid ""
+"Your high level of <em>Agreeableness</em> indicates a strong interest in "
+"others' needs and well-being. You are pleasant, sympathetic, and cooperative."
+msgstr ""
+
+#: bigfive/templates/result.html:139
+msgid ""
+"Your level of <em>Agreeableness</em> is average, indicating some concern "
+"with others' needs, but, generally, unwillingness to sacrifice yourself for "
+"others."
+msgstr ""
+
+#: bigfive/templates/result.html:142 bigfive/templates/result.html:146
+msgid "Agreeableness facets"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:152
+msgid "Trust"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:153
+msgid "Morality"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:154
+msgid "Altruism"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:155
+msgid "Cooperation"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:156
+msgid "Modesty"
+msgstr ""
+
+#: bigfive/templates/result.html:147 bigfive/templates/result.html:157
+msgid "Sympathy"
+msgstr ""
+
+#: bigfive/templates/result.html:152
+#, python-format
+msgid ""
+"A person with high trust assumes that most people are fair, honest, and have "
+"good intentions. Persons low in trust see others as selfish, devious, and "
+"potentially dangerous. Your level of trust is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:153
+#, python-format
+msgid ""
+"High scorers on this scale see no need for pretense or manipulation when "
+"dealing with others and are therefore candid, frank, and sincere. Low "
+"scorers believe that a certain amount of deception in social relationships "
+"is necessary. People find it relatively easy to relate to the "
+"straightforward high-scorers on this scale. They generally find it more "
+"difficult to relate to the unstraightforward low-scorers on this scale. It "
+"should be made clear that low scorers are <em>not</em> unprincipled or "
+"immoral; they are simply more guarded and less willing to openly reveal the "
+"whole truth. Your level of morality is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:154
+#, python-format
+msgid ""
+"Altruistic people find helping other people genuinely rewarding. "
+"Consequently, they are generally willing to assist those who are in need. "
+"Altruistic people find that doing things for others is a form of self-"
+"fulfillment rather than self-sacrifice. Low scorers on this scale do not "
+"particularly like helping those in need. Requests for help feel like an "
+"imposition rather than an opportunity for self-fulfillment. Your level of "
+"altruism is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:155
+#, python-format
+msgid ""
+"Individuals who score high on this scale dislike confrontations. They are "
+"perfectly willing to compromise or to deny their own needs in order to get "
+"along with others. Those who score low on this scale are more likely to "
+"intimidate others to get their way. Your level of cooperation is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:156
+#, python-format
+msgid ""
+"High scorers on this scale do not like to claim that they are better than "
+"other people. In some cases this attitude may derive from low self-"
+"confidence or self-esteem. Nonetheless, some people with high self-esteem "
+"find immodesty unseemly. Those who <em>are</em> willing to describe "
+"themselves as superior tend to be seen as disagreeably arrogant by other "
+"people. Your level of modesty is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:157
+#, python-format
+msgid ""
+"People who score high on this scale are tenderhearted and compassionate. "
+"They feel the pain of others vicariously and are easily moved to pity. Low "
+"scorers are not affected strongly by human suffering. They pride themselves "
+"on making objective judgments based on reason. They are more concerned with "
+"truth and impartial justice than with mercy. Your level of tender-mindedness "
+"is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:161
+msgid ""
+"<em>Conscientiousness</em> concerns the way in which we control, regulate, "
+"and direct our impulses. Impulses are not inherently bad; occasionally time "
+"constraints require a snap decision, and acting on our first impulse can be "
+"an effective response. Also, in times of play rather than work, acting "
+"spontaneously and impulsively can be fun. Impulsive individuals can be seen "
+"by others as colorful, fun-to-be-with, and zany."
+msgstr ""
+
+#: bigfive/templates/result.html:162
+msgid ""
+"Nonetheless, acting on impulse can lead to trouble in a number of ways. Some "
+"impulses are antisocial. Uncontrolled antisocial acts not only harm other "
+"members of society, but also can result in retribution toward the "
+"perpetrator of such impulsive acts. Another problem with impulsive acts is "
+"that they often produce immediate rewards but undesirable, long-term "
+"consequences. Examples include excessive socializing that leads to being "
+"fired from one's job, hurling an insult that causes the breakup of an "
+"important relationship, or using pleasure-inducing drugs that eventually "
+"destroy one's health."
+msgstr ""
+
+#: bigfive/templates/result.html:163
+msgid ""
+"Impulsive behavior, even when not seriously destructive, diminishes a "
+"person's effectiveness in significant ways. Acting impulsively disallows "
+"contemplating alternative courses of action, some of which would have been "
+"wiser than the impulsive choice. Impulsivity also sidetracks people during "
+"projects that require organized sequences of steps or stages. "
+"Accomplishments of an impulsive person are therefore small, scattered, and "
+"inconsistent."
+msgstr ""
+
+#: bigfive/templates/result.html:164
+msgid ""
+"A hallmark of intelligence, what potentially separates human beings from "
+"earlier life forms, is the ability to think about future consequences before "
+"acting on an impulse. Intelligent activity involves contemplation of long-"
+"range goals, organizing and planning routes to these goals, and persisting "
+"toward one's goals in the face of short-lived impulses to the contrary. The "
+"idea that intelligence involves impulse control is nicely captured by the "
+"term prudence, an alternative label for the <em>Conscientiousness</em> "
+"domain. Prudent means both wise and cautious. Persons who score high on the "
+"<em>Conscientiousness</em> scale are, in fact, perceived by others as "
+"intelligent."
+msgstr ""
+
+#: bigfive/templates/result.html:165
+msgid ""
+"The benefits of high conscientiousness are obvious. Conscientious "
+"individuals avoid trouble and achieve high levels of success through "
+"purposeful planning and persistence. They are also positively regarded by "
+"others as intelligent and reliable. On the negative side, they can be "
+"compulsive perfectionists and workaholics. Furthermore, extremely "
+"conscientious individuals might be regarded as stuffy and boring. "
+"Unconscientious people may be criticized for their unreliability, lack of "
+"ambition, and failure to stay within the lines, but they will experience "
+"many short-lived pleasures and they will never be called stuffy."
+msgstr ""
+
+#: bigfive/templates/result.html:168
+msgid ""
+"IYour score on <em>Conscientiousness</em> is low, indicating you like to "
+"live for the moment and do what feels good now. Your work tends to be "
+"careless and disorganized."
+msgstr ""
+
+#: bigfive/templates/result.html:170
+msgid ""
+"IYour score on <em>Conscientiousness</em> is high. This means you set clear "
+"goals and pursue them with determination. People regard you as reliable and "
+"hard-working."
+msgstr ""
+
+#: bigfive/templates/result.html:172
+msgid ""
+"IYour score on <em>Conscientiousness</em> is average. This means you are "
+"reasonably reliable, organized, and self-controlled."
+msgstr ""
+
+#: bigfive/templates/result.html:175 bigfive/templates/result.html:179
+msgid "Conscientiousness facets"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:185
+msgid "Self-efficacy"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:186
+msgid "Orderliness"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:187
+msgid "Dutifulness"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:188
+msgid "Achievement-striving"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:189
+msgid "Self-discipline"
+msgstr ""
+
+#: bigfive/templates/result.html:180 bigfive/templates/result.html:190
+msgid "Cautiousness"
+msgstr ""
+
+#: bigfive/templates/result.html:185
+#, python-format
+msgid ""
+"Self-efficacy describes confidence in one's ability to accomplish things. "
+"High scorers believe they have the intelligence (common sense), drive, and "
+"self-control necessary for achieving success. Low scorers do not feel "
+"effective, and may have a sense that they are not in control of their lives. "
+"Your level of self-efficacy is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:186
+#, python-format
+msgid ""
+"Persons with high scores on orderliness are well-organized. They like to "
+"live according to routines and schedules. They keep lists and make plans. "
+"Low scorers tend to be disorganized and scattered. Your level of orderliness "
+"is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:187
+#, python-format
+msgid ""
+"This scale reflects the strength of a person's sense of duty and obligation. "
+"Those who score high on this scale have a strong sense of moral obligation. "
+"Low scorers find contracts, rules, and regulations overly confining. They "
+"are likely to be seen as unreliable or even irresponsible. Your level of "
+"dutifulness is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:188
+#, python-format
+msgid ""
+"Individuals who score high on this scale strive hard to achieve excellence. "
+"Their drive to be recognized as successful keeps them on track toward their "
+"lofty goals. They often have a strong sense of direction in life, but "
+"extremely high scores may be too single-minded and obsessed with their work. "
+"Low scorers are content to get by with a minimal amount of work, and might "
+"be seen by others as lazy. Your level of achievement striving is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:189
+#, python-format
+msgid ""
+"Self-discipline-what many people call will-power-refers to the ability to "
+"persist at difficult or unpleasant tasks until they are completed. People "
+"who possess high self-discipline are able to overcome reluctance to begin "
+"tasks and stay on track despite distractions. Those with low self-discipline "
+"procrastinate and show poor follow-through, often failing to complete tasks-"
+"even tasks they want very much to complete. Your level of self-discipline is "
+"%(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:190
+#, python-format
+msgid ""
+"Cautiousness describes the disposition to think through possibilities before "
+"acting. High scorers on the <em>Cautiousness</em> scale take their time when "
+"making decisions. Low scorers often say or do first thing that comes to mind "
+"without deliberating alternatives and the probable consequences of those "
+"alternatives. Your level of cautiousness is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:194
+msgid ""
+"Freud originally used the term <i>neurosis</i> to describe a condition "
+"marked by mental distress, emotional suffering, and an inability to cope "
+"effectively with the normal demands of life. He suggested that everyone "
+"shows some signs of neurosis, but that we differ in our degree of suffering "
+"and our specific symptoms of distress. Today neuroticism refers to the "
+"tendency to experience negative feelings. Those who score high on "
+"<em>Neuroticism</em> may experience primarily one specific negative feeling "
+"such as anxiety, anger, or depression, but are likely to experience several "
+"of these emotions."
+msgstr ""
+
+#: bigfive/templates/result.html:195
+msgid ""
+"People high in <em>Neuroticism</em> are emotionally reactive. They respond "
+"emotionally to events that would not affect most people, and their reactions "
+"tend to be more intense than normal. They are more likely to interpret "
+"ordinary situations as threatening, and minor frustrations as hopelessly "
+"difficult. Their negative emotional reactions tend to persist for unusually "
+"long periods of time, which means they are often in a bad mood. These "
+"problems in emotional regulation can diminish a neurotic's ability to think "
+"clearly, make decisions, and cope effectively with stress."
+msgstr ""
+
+#: bigfive/templates/result.html:196
+msgid ""
+"At the other end of the scale, individuals who score low in <em>Neuroticism</"
+"em> are less easily upset and are less emotionally reactive. They tend to be "
+"calm, emotionally stable, and free from persistent negative feelings. "
+"Freedom from negative feelings does not mean that low scorers experience a "
+"lot of positive feelings; frequency of positive emotions is a component of "
+"the <em>Extraversion</em> domain."
+msgstr ""
+
+#: bigfive/templates/result.html:199
+msgid ""
+"Your score on <em>Neuroticism</em> is low, indicating that you are "
+"exceptionally calm, composed and unflappable. You do not react with intense "
+"emotions, even to situations that most people would describe as stressful."
+msgstr ""
+
+#: bigfive/templates/result.html:201
+msgid ""
+"Your score on <em>Neuroticism</em> is high, indicating that you are easily "
+"upset, even by what most people consider the normal demands of living. "
+"People consider you to be sensitive and emotional."
+msgstr ""
+
+#: bigfive/templates/result.html:203
+msgid ""
+"Your score on <em>Neuroticism</em> is average, indicating that your level of "
+"emotional reactivity is typical of the general population. Stressful and "
+"frustrating situations are somewhat upsetting to you, but you are generally "
+"able to get over these feelings and cope with these situations."
+msgstr ""
+
+#: bigfive/templates/result.html:206 bigfive/templates/result.html:210
+msgid "Neuroticism facets"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:216
+msgid "Anxiety"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:217
+msgid "Anger"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:218
+msgid "Depression"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:219
+msgid "Self-consciousness"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:221
+msgid "Immoderation"
+msgstr ""
+
+#: bigfive/templates/result.html:211 bigfive/templates/result.html:222
+msgid "Vulnerability"
+msgstr ""
+
+#: bigfive/templates/result.html:216
+#, python-format
+msgid ""
+"The \"fight-or-flight\" system of the brain of anxious individuals is too "
+"easily and too often engaged. Therefore, people who are high in anxiety "
+"often feel like something dangerous is about to happen. They may be afraid "
+"of specific situations or be just generally fearful. They feel tense, "
+"jittery, and nervous. Persons low in <em>Anxiety</em> are generally calm and "
+"fearless. Your level of anxiety is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:217
+#, python-format
+msgid ""
+"Persons who score high in <em>Anger</em> feel enraged when things do not go "
+"their way. They are sensitive about being treated fairly and feel resentful "
+"and bitter when they feel they are being cheated. This scale measures the "
+"tendency to <i>feel</i> angry; whether or not the person <i>expresses</i> "
+"annoyance and hostility depends on the individual's level on "
+"<em>Agreeableness</em>. Low scorers do not get angry often or easily. Your "
+"level of anger is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:218
+#, python-format
+msgid ""
+"This scale measures the tendency to feel sad, dejected, and discouraged. "
+"High scorers lack energy and have difficult initiating activities. Low "
+"scorers tend to be free from these depressive feelings. Your level of "
+"depression is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:219
+#, python-format
+msgid ""
+"Self-conscious individuals are sensitive about what others think of them. "
+"Their concern about rejection and ridicule cause them to feel shy and "
+"uncomfortable around others. They are easily embarrassed and often feel "
+"ashamed. Their fears that others will criticize or make fun of them are "
+"exaggerated and unrealistic, but their awkwardness and discomfort may make "
+"these fears a self-fulfilling prophecy. Low scorers, in contrast, do not "
+"suffer from the mistaken impression that everyone is watching and judging "
+"them. They do not feel nervous in social situations. Your level of self-"
+"consciousness is\n"
+"        %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:221
+#, python-format
+msgid ""
+"Immoderate individuals feel strong cravings and urges that they have have "
+"difficulty resisting. They tend to be oriented toward short-term pleasures "
+"and rewards rather than long- term consequences. Low scorers do not "
+"experience strong, irresistible cravings and consequently do not find "
+"themselves tempted to overindulge. Your level of immoderation is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:222
+#, python-format
+msgid ""
+"High scorers on <em>Vulnerability</em> experience panic, confusion, and "
+"helplessness when under pressure or stress. Low scorers feel more poised, "
+"confident, and clear-thinking when stressed. Your level of vulnerability is "
+"%(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:226
+msgid ""
+"<em>Openness to experience</em> describes a dimension of cognitive style "
+"that distinguishes imaginative, creative people from down-to-earth, "
+"conventional people. Open people are intellectually curious, appreciative of "
+"art, and sensitive to beauty. They tend to be, compared to closed people, "
+"more aware of their feelings. They tend to think and act in individualistic "
+"and nonconforming ways. Intellectuals typically score high on <em>Openness "
+"to experience</em>; consequently, this factor has also been called "
+"<i>Culture</i> or <i>Intellect</i>. Nonetheless, Intellect is probably best "
+"regarded as one aspect of <em>Openness to experience</em>. Scores on "
+"<em>Openness to experienc</em>e are only modestly related to years of "
+"education and scores on standard intelligent tests."
+msgstr ""
+
+#: bigfive/templates/result.html:227
+msgid ""
+"Another characteristic of the open cognitive style is a facility for "
+"thinking in symbols and abstractions far removed from concrete experience. "
+"Depending on the individual's specific intellectual abilities, this symbolic "
+"cognition may take the form of mathematical, logical, or geometric thinking, "
+"artistic and metaphorical use of language, music composition or performance, "
+"or one of the many visual or performing arts. People with low scores on "
+"<em>Openness to experience</em> tend to have narrow, common interests. They "
+"prefer the plain, straightforward, and obvious over the complex, ambiguous, "
+"and subtle. They may regard the arts and sciences with suspicion, regarding "
+"these endeavors as abstruse or of no practical use. Closed people prefer "
+"familiarity over novelty; they are conservative and resistant to change."
+msgstr ""
+
+#: bigfive/templates/result.html:228
+msgid ""
+"Openness is often presented as healthier or more mature by psychologists, "
+"who are often themselves open to experience. However, open and closed styles "
+"of thinking are useful in different environments. The intellectual style of "
+"the open person may serve a professor well, but research has shown that "
+"closed thinking is related to superior job performance in police work, "
+"sales, and a number of service occupations."
+msgstr ""
+
+#: bigfive/templates/result.html:231
+msgid ""
+"Your score on <em>Openness to experience</em> is low, indicating you like to "
+"think in plain and simple terms. Others describe you as down-to-earth, "
+"practical, and conservative."
+msgstr ""
+
+#: bigfive/templates/result.html:233
+msgid ""
+"Your score on <em>Openness to experience</em> is high, indicating you enjoy "
+"novelty, variety, and change. You are curious, imaginative, and creative."
+msgstr ""
+
+#: bigfive/templates/result.html:235
+msgid ""
+"Your score on <em>Openness to experience</em> is average, indicating you "
+"enjoy tradition but are willing to try new things. Your thinking is neither "
+"simple nor complex. To others you appear to be a well-educated person but "
+"not an intellectual."
+msgstr ""
+
+#: bigfive/templates/result.html:238 bigfive/templates/result.html:242
+msgid "Openness facets"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:248
+msgid "Imagination"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:249
+msgid "Artistic interests"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:250
+msgid "Emotionality"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:251
+msgid "Adventurousness"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:252
+msgid "Intellect"
+msgstr ""
+
+#: bigfive/templates/result.html:243 bigfive/templates/result.html:253
+msgid "Liberalism"
+msgstr ""
+
+#: bigfive/templates/result.html:248
+#, python-format
+msgid ""
+"To imaginative individuals, the real world is often too plain and ordinary. "
+"High scorers on this scale use fantasy as a way of creating a richer, more "
+"interesting world. Low scorers are on this scale are more oriented to facts "
+"than fantasy. Your level of imagination is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:249
+#, python-format
+msgid ""
+"High scorers on this scale love beauty, both in art and in nature. They "
+"become easily involved and absorbed in artistic and natural events. They are "
+"not necessarily artistically trained nor talented, although many will be. "
+"The defining features of this scale are <i>interest in</i>, and "
+"<i>appreciation of</i> natural and artificial beauty. Low scorers lack "
+"aesthetic sensitivity and interest in the arts. Your level of artistic "
+"interests is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:250
+#, python-format
+msgid ""
+"Persons high on <em>Emotionality</em> have good access to and awareness of "
+"their own feelings. Low scorers are less aware of their feelings and tend "
+"not to express their emotions openly. Your level of emotionality is "
+"%(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:251
+#, python-format
+msgid ""
+"High scorers on adventurousness are eager to try new activities, travel to "
+"foreign lands, and experience different things. They find familiarity and "
+"routine boring, and will take a new route home just because it is different. "
+"Low scorers tend to feel uncomfortable with change and prefer familiar "
+"routines. Your level of adventurousness is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:252
+#, python-format
+msgid ""
+"Intellect and artistic interests are the two most important, central aspects "
+"of openness to experience. High scorers on <em>Intellect</em> love to play "
+"with ideas. They are open-minded to new and unusual ideas, and like to "
+"debate intellectual issues. They enjoy riddles, puzzles, and brain teasers. "
+"Low scorers on <em>Intellect</em> prefer dealing with either people or "
+"things rather than ideas. They regard intellectual exercises as a waste of "
+"time. <em>Intellect</em> should <em>not</em> be equated with intelligence. "
+"<em>Intellect</em> is an intellectual style, not an intellectual ability, "
+"although high scorers on <em>Intellect</em> score <em>slightly</em> higher "
+"than low-<em>Intellect</em> individuals on standardized intelligence tests. "
+"Your level of intellect is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:253
+#, python-format
+msgid ""
+"Psychological liberalism refers to a readiness to challenge authority, "
+"convention, and traditional values. In its most extreme form, psychological "
+"liberalism can even represent outright hostility toward rules, sympathy for "
+"law-breakers, and love of ambiguity, chaos, and disorder. Psychological "
+"conservatives prefer the security and stability brought by conformity to "
+"tradition. Psychological liberalism and conservatism are not identical to "
+"political affiliation, but certainly incline individuals toward certain "
+"political parties. Your level of liberalism is %(level)s."
+msgstr ""
+
+#: bigfive/templates/result.html:256
+msgid "Sharing is caring"
+msgstr "Sdílení potěší"
+
+#: bigfive/templates/result.html:258
+msgid ""
+"Did you like this test? Tell about your result to your friends by sending "
+"them the URL to this page or by sharing it on the social media."
+msgstr ""
+"Líbil se vám tento test osobnosti? Podělte se o své výsledky se svými "
+"přátelizasláním odkazu na tuto stránku nebo jejím sdílením na sociální síti."
+
+#: bigfive/templates/result.html:263
+msgid "Take another test!"
+msgstr "Zkuste vyplnit další test!"

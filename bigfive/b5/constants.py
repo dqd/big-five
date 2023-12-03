@@ -15,18 +15,18 @@ class Sex(TextChoices):
 
 class AgeGroup(TextChoices):
     NONE = "", "—"
-    YOUNG = "Y", _("20 years old or younger")  # "20 let nebo mladší"
-    ADULTS = "A", _("21–40 years old")  # "21–40 let"
-    MATURE = "M", _("41–60 years old")  # "41–60 let"
-    ELDERLY = "E", _("61 years old or older")  # "61 let nebo starší"
+    YOUNG = "Y", _("20 years old or younger")
+    ADULTS = "A", _("21–40 years old")
+    MATURE = "M", _("41–60 years old")
+    ELDERLY = "E", _("61 years old or older")
 
 
 class Response(IntegerChoices):
-    VERY_INACCURATE = 1, _("Very accurate")  # "Naprosto souhlasím"
-    INACCURATE = 2, _("Moderately accurate")  # "Spíše souhlasím"
-    NEITHER = 3, _("I am not sure")  # "Nic z uvedeného"
-    ACCURATE = 4, _("Moderately inaccurate")  # "Spíše nesouhlasím"
-    VERY_ACCURATE = 5, _("Very inaccurate")  # "Zásadně nesouhlasím"
+    VERY_INACCURATE = 1, _("Very accurate")
+    INACCURATE = 2, _("Moderately accurate")
+    NEITHER = 3, _("I am not sure")
+    ACCURATE = 4, _("Moderately inaccurate")
+    VERY_ACCURATE = 5, _("Very inaccurate")
 
 
 class Ordering(IntegerChoices):

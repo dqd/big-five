@@ -18,10 +18,9 @@
 {% endblock %}
 
 {% block content %}
-    <h1>{% block title %}{% translate 'Big Five personality test traits results' %}{% endblock %}</h1>
-    {% comment %}Výsledek testu osobnosti Big five (Velká pětka){% endcomment %}
+    <h1>{% block title %}{% translate 'Your Big Five personality test traits results' %}{% endblock %}</h1>
 
-    <p>{% blocktranslate %}This report estimates the individual's level on each of the five broad personality domains of the Big Five model.{% endblocktranslate %}</p>
+    <p>{% blocktranslate with created=answer.created|date %}This report, completed {{ created }}, estimates the individual's level on each of the five broad personality domains of the Big Five model.{% endblocktranslate %}</p>
 
     <p>{% blocktranslate %}Personality traits describe, relative to other people, the frequency or intensity of a person's feelings, thoughts, or behaviors. Possession of a trait is therefore a matter of degree. We might describe two individuals as <em>extraverts</em>, but still see one as more extraverted than the other. This report uses expressions such as "extravert" or "high in extraversion" to describe someone who is likely to be seen by others as relatively extraverted.{% endblocktranslate %}</p>
 
@@ -254,6 +253,9 @@
         <li><strong>{% translate 'Liberalism' %}</strong>. {% blocktranslate with level=answer.results.liberalism %}Psychological liberalism refers to a readiness to challenge authority, convention, and traditional values. In its most extreme form, psychological liberalism can even represent outright hostility toward rules, sympathy for law-breakers, and love of ambiguity, chaos, and disorder. Psychological conservatives prefer the security and stability brought by conformity to tradition. Psychological liberalism and conservatism are not identical to political affiliation, but certainly incline individuals toward certain political parties. Your level of liberalism is {{ level }}.{% endblocktranslate %}</li>
     </ul>
 
+    <h2>{% translate 'Sharing is caring' %}</h2>
+
+    <p>{% blocktranslate %}Did you like this test? Tell about your result to your friends by sending them the URL to this page or by sharing it on the social media.{% endblocktranslate %}</p>
     {% comment %}TODO: share button{% endcomment %}
 
     <p>

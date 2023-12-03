@@ -5,7 +5,7 @@ WORKDIR $WORKDIR
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install --no-install-recommends -y sqlite3 && \
+    apt-get install --no-install-recommends -y sqlite3 gettext && \
     apt-get clean
 
 COPY . $WORKDIR

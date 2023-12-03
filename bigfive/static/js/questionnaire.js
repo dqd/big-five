@@ -11,26 +11,24 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     questionsElement.querySelectorAll(questionSelector + ' ' + controlSelector).forEach(function(control, i) {
         if (i > 0) {
-            control.appendChild(createButton(translations.back, displayQuestion(i, -1))); // Vrátit se
+            control.appendChild(createButton(translations.back, displayQuestion(i, -1)));
         }
 
         if (i < questions.length - 1) {
-            control.appendChild(createButton(translations.forward, displayQuestion(i, 1), true)); // Pokračovat dále
+            control.appendChild(createButton(translations.forward, displayQuestion(i, 1), true));
         }
     });
 
     personalInfo = document.getElementById('personal-info');
 
-    const startButton = createButton(translations.start, startQuestionnaire, true); // Začít vyplňovat!
+    const selects = personalInfo.querySelectorAll('select');
+    const startButton = createButton(translations.start, startQuestionnaire, isStartButtonDisabled(selects));
 
     personalInfo.querySelector(controlSelector).appendChild(startButton);
 
-    const selects = personalInfo.querySelectorAll('select');
     selects.forEach(function(select) {
         select.addEventListener('change', function() {
-            startButton.disabled = Array.prototype.some.call(selects, function(x) {
-                return x.value === '';
-            });
+            startButton.disabled = isStartButtonDisabled(selects);
         });
     });
 });
@@ -52,6 +50,12 @@ function createButton(text, event, disabled) {
     });
 
     return button;
+}
+
+function isStartButtonDisabled(selects) {
+    return Array.prototype.some.call(selects, function(x) {
+        return x.value === '';
+    });
 }
 
 function startQuestionnaire() {

@@ -7,6 +7,20 @@ body {
     margin: 0 auto;
 }
 
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+#test {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#test h3 {
+    margin-top: 0;
+}
+
 #questions td>.control,
 #personal-info td>.control {
     display: flex;
