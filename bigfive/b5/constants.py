@@ -24,7 +24,7 @@ class AgeGroup(TextChoices):
 class Response(IntegerChoices):
     VERY_INACCURATE = 1, _("Very accurate")  # "Naprosto souhlasím"
     INACCURATE = 2, _("Moderately accurate")  # "Spíše souhlasím"
-    NEITHER = 3, _("I am not sure")  # "Nevím"
+    NEITHER = 3, _("I am not sure")  # "Nic z uvedeného"
     ACCURATE = 4, _("Moderately inaccurate")  # "Spíše nesouhlasím"
     VERY_ACCURATE = 5, _("Very inaccurate")  # "Zásadně nesouhlasím"
 
