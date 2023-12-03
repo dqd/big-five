@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block header_extra %}
+    <script type="text/javascript" src="{% static 'js/result.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <h1>{% block title %}{% translate 'Big Five personality test traits results' %}{% endblock %}</h1>
+    {% comment %} Výsledek testu osobnosti Big five (Velká pětka) {% endcomment %}
+
+    <p><a href="{% url 'index' %}">{% translate 'Try it again.' %}</a></p>
+    {{ answer.results }}
+{% endblock %}

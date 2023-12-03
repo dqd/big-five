@@ -6,3 +6,14 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+#questions td>.control,
+#personal-info td>.control {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#questions td>.control>button:last-child,
+#personal-info td>.control>button:last-child {
+    margin-left: 20px;
+}

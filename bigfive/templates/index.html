@@ -1,7 +1,56 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block header_extra %}
+    <script type="text/javascript">
+        var translations = {
+            back: '{% translate 'Go back' %}',
+            forward: '{% translate 'Continue forward' %}',
+            start: '{% translate 'Let’s start!' %}',
+        };
+    </script>
+    <script type="text/javascript" src="{% static 'js/questionnaire.js' %}"></script>
+{% endblock %}
 
 {% block content %}
-    <h1>{% block title %}Test osobnosti Big five (Velká pětka){% endblock %}</h1>
+    <h1>{% block title %}{% translate 'Big Five personality traits test' %}{% comment %}Test osobnosti Big five (Velká pětka){% endcomment %}{% endblock %}</h1>
 
-
+    <form method="post" action=".">
+        {% csrf_token %}
+        <table id="personal-info">
+            {{ personal_info_form.as_table }}
+            <tr>
+                <td colspan="2">
+                    <div class="control"></div>
+                </td>
+            </tr>
+        </table>
+        <div id="questions">
+            {{ questions_formset.management_form }}
+            {% with count=questions_formset|length %}
+                {% for question_form in questions_formset %}
+                    <table class="question">
+                        <tr>
+                            <th colspan="2">
+                                {% blocktranslate with number=forloop.counter %}Question number {{ number }} of {{ count }}{% endblocktranslate %}
+                                {% comment %}Otázka číslo x ze y{% endcomment %}
+                            </th>
+                        </tr>
+                        {{ question_form.as_table }}
+                        <tr>
+                            <td colspan="2">
+                                <div class="control">
+                                    {% if forloop.last %}
+                                        <input type="submit" value="{% translate 'Evaluate answers' %}">
+                                        {% comment %}Vyhodnotit odpovědi{% endcomment %}
+                                    {% endif %}
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                {% endfor %}
+            {% endwith %}
+        </div>
+    </form>
 {% endblock %}

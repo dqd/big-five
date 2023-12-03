@@ -16,22 +16,41 @@ ALLOWED_HOSTS = [
     "localhost",
     "big-five.cz",
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://big-five.cz",
+]
 
 # Application definition
 
 INSTALLED_APPS = [
+    "django.contrib.sessions",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.staticfiles",
+    "django_extensions",
     "bigfive.b5",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
+if DEBUG:
+    INSTALLED_APPS.append("debug_toolbar")
+    MIDDLEWARE.insert(0, "debug_toolbar.middleware.DebugToolbarMiddleware")
+
+    import socket
+
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS = [ip[: ip.rfind(".")] + ".1" for ip in ips] + [
+        "127.0.0.1",
+        "10.0.2.2",
+    ]
 
 ROOT_URLCONF = "bigfive.urls"
 
@@ -66,7 +85,11 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/stable/topics/i18n/
 
-LANGUAGE_CODE = "cs-cz"
+LANGUAGE_CODE = "cs"
+LANGUAGES = [
+    ("cs", "česky"),
+    ("en", "English"),
+]
 
 TIME_ZONE = "Europe/Prague"
 
