@@ -165,11 +165,11 @@
     <p>{% blocktranslate %}The benefits of high conscientiousness are obvious. Conscientious individuals avoid trouble and achieve high levels of success through purposeful planning and persistence. They are also positively regarded by others as intelligent and reliable. On the negative side, they can be compulsive perfectionists and workaholics. Furthermore, extremely conscientious individuals might be regarded as stuffy and boring. Unconscientious people may be criticized for their unreliability, lack of ambition, and failure to stay within the lines, but they will experience many short-lived pleasures and they will never be called stuffy.{% endblocktranslate %}</p>
 
     {% if answer.results.conscientiousness < low %}
-        <p>{% blocktranslate %}IYour score on <em>Conscientiousness</em> is low, indicating you like to live for the moment and do what feels good now. Your work tends to be careless and disorganized.{% endblocktranslate %}</p>
+        <p>{% blocktranslate %}Your score on <em>Conscientiousness</em> is low, indicating you like to live for the moment and do what feels good now. Your work tends to be careless and disorganized.{% endblocktranslate %}</p>
     {% elif answer.results.conscientiousness > high %}
-        <p>{% blocktranslate %}IYour score on <em>Conscientiousness</em> is high. This means you set clear goals and pursue them with determination. People regard you as reliable and hard-working.{% endblocktranslate %}</p>
+        <p>{% blocktranslate %}Your score on <em>Conscientiousness</em> is high. This means you set clear goals and pursue them with determination. People regard you as reliable and hard-working.{% endblocktranslate %}</p>
     {% else %}
-        <p>{% blocktranslate %}IYour score on <em>Conscientiousness</em> is average. This means you are reasonably reliable, organized, and self-controlled.{% endblocktranslate %}</p>
+        <p>{% blocktranslate %}Your score on <em>Conscientiousness</em> is average. This means you are reasonably reliable, organized, and self-controlled.{% endblocktranslate %}</p>
     {% endif %}
 
     <h3>{% translate 'Conscientiousness facets' %}</h3>
