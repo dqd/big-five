@@ -22,6 +22,7 @@ class QuestionForm(forms.Form):
     ordering = forms.ChoiceField(
         choices=Ordering.choices,
         widget=forms.HiddenInput,
+        required=False,
     )
 
 

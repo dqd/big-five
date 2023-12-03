@@ -1,5 +1,5 @@
 # Big Five personality traits
-A source code of the [big-five.cz](https://big-five.cz/) website that provides personality test Big Five. Based on the [IPIP-NEO-PI](https://github.com/kholia/IPIP-NEO-PI) project, version 21.06.
+A source code of the [big-five.cz](https://big-five.cz/) website that provides personality traits test Big Five. Based on the [IPIP-NEO-PI](https://github.com/kholia/IPIP-NEO-PI) project, version 21.06.
 
 Developed using [Django](https://www.djangoproject.com/) and [Vanilla JS](http://vanilla-js.com/).
 

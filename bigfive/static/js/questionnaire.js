@@ -2,13 +2,14 @@ let questions, personalInfo;
 
 document.addEventListener('DOMContentLoaded', function() {
     const questionsElement = document.getElementById('questions');
-    let questionSelector = ':scope > table.question';
+    let questionSelector = ':scope > table.question',
+        controlSelector = 'td > .control';
 
     questions = questionsElement.querySelectorAll(questionSelector);
     questions.forEach(function(question) {
         question.style.display = 'none';
     });
-    questionsElement.querySelectorAll(questionSelector + ' td > .control').forEach(function(control, i) {
+    questionsElement.querySelectorAll(questionSelector + ' ' + controlSelector).forEach(function(control, i) {
         if (i > 0) {
             control.appendChild(createButton(translations.back, displayQuestion(i, -1))); // Vrátit se
         }
@@ -22,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const startButton = createButton(translations.start, startQuestionnaire, true); // Začít vyplňovat!
 
-    personalInfo.querySelector('td > .control').appendChild(startButton);
+    personalInfo.querySelector(controlSelector).appendChild(startButton);
 
     const selects = personalInfo.querySelectorAll('select');
     selects.forEach(function(select) {

@@ -2,7 +2,7 @@ from django.views.generic import View
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 
-from .constants import QUESTIONS
+from .constants import QUESTIONS, HIGH_SCORE, LOW_SCORE
 from .evaluator import evaluate
 from .forms import PersonalInfoForm, QuestionFormSet
 from .models import Answer
@@ -41,4 +41,8 @@ class IndexView(View):
 class ResultView(View):
     def get(self, request, slug):
         answer = get_object_or_404(Answer, slug=slug)
-        return render(request, "result.html", {"answer": answer})
+        return render(
+            request,
+            "result.html",
+            {"answer": answer, "high": HIGH_SCORE, "low": LOW_SCORE},
+        )
