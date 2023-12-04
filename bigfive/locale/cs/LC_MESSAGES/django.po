@@ -133,7 +133,7 @@ msgstr "Upřednostňuji rozmanitost oproti jednotvárnosti."
 
 #: bigfive/b5/constants.py:111
 msgid "Love a good fight."
-msgstr "Miluji dobrou hádku."
+msgstr "Miluji pořádnou hádku."
 
 #: bigfive/b5/constants.py:115
 msgid "Work hard."
@@ -345,7 +345,7 @@ msgstr "Často mívám depku."
 
 #: bigfive/b5/constants.py:323
 msgid "Take control of things."
-msgstr "Mám kontrolu nad věcmi."
+msgstr "Přebírám kontrolu nad věcmi."
 
 #: bigfive/b5/constants.py:327
 msgid "Rarely notice my emotional reactions."

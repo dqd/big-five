@@ -1,7 +1,8 @@
+from typing import Any
 from django import forms
 from django.utils.translation import gettext_lazy as _
 
-from .constants import Response, Ordering
+from .constants import Response, Ordering, QUESTIONS
 from .models import Answer
 
 
@@ -26,4 +27,17 @@ class QuestionForm(forms.Form):
     )
 
 
-QuestionFormSet = forms.formset_factory(QuestionForm, extra=0)
+class BaseQuestionFormSet(forms.BaseFormSet):
+    def clean(self):
+        if any(self.errors):
+            return
+
+        for i, form in enumerate(self.forms):
+            form.cleaned_data["ordering"] = QUESTIONS[i]
+
+
+QuestionFormSet = forms.formset_factory(
+    QuestionForm,
+    formset=BaseQuestionFormSet,
+    extra=0,
+)

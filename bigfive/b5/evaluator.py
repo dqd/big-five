@@ -40,7 +40,7 @@ def evaluate(sex, age_group, answers):
 
     for i, answer in enumerate(answers):
         try:
-            Q[i] = possibilities[int(answer["answer"]) * int(answer["ordering"])]
+            Q[i + 1] = possibilities[int(answer["answer"]) * int(answer["ordering"])]
         except Exception:
             pass
 
