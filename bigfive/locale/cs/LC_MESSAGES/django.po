@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 00:20+0100\n"
+"POT-Creation-Date: 2023-12-04 09:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,383 +64,383 @@ msgstr "Zásadně nesouhlasím"
 
 #: bigfive/b5/constants.py:39
 msgid "Worry about things."
-msgstr ""
+msgstr "Dělám si starosti."
 
 #: bigfive/b5/constants.py:43
 msgid "Make friends easily."
-msgstr ""
+msgstr "Jednoduše se seznamuji."
 
 #: bigfive/b5/constants.py:47
 msgid "Have a vivid imagination."
-msgstr ""
+msgstr "Mám bujnou představivost."
 
 #: bigfive/b5/constants.py:51
 msgid "Trust others."
-msgstr ""
+msgstr "Důvěřuji ostatním."
 
 #: bigfive/b5/constants.py:55
 msgid "Complete tasks successfully."
-msgstr ""
+msgstr "Daří se mi dokončovat úkoly."
 
 #: bigfive/b5/constants.py:59
 msgid "Get angry easily."
-msgstr ""
+msgstr "Lehce se naštvu."
 
 #: bigfive/b5/constants.py:63
 msgid "Love large parties."
-msgstr ""
+msgstr "Mám rád(a) velké večírky."
 
 #: bigfive/b5/constants.py:67
 msgid "Believe in the importance of art."
-msgstr ""
+msgstr "Věřím v důležitost umění."
 
 #: bigfive/b5/constants.py:71
 msgid "Use others for my own ends."
-msgstr ""
+msgstr "Využívám ostatní pro své potřeby."
 
 #: bigfive/b5/constants.py:75
 msgid "Like to tidy up."
-msgstr ""
+msgstr "Rád(a) uklízím."
 
 #: bigfive/b5/constants.py:79
 msgid "Often feel blue."
-msgstr ""
+msgstr "Často se cítím sklíčeně."
 
 #: bigfive/b5/constants.py:83
 msgid "Take charge."
-msgstr ""
+msgstr "Nebojím se převzít kontrolu."
 
 #: bigfive/b5/constants.py:87
 msgid "Experience my emotions intensely."
-msgstr ""
+msgstr "Intenzivně prožívám své city."
 
 #: bigfive/b5/constants.py:91
 msgid "Love to help others."
-msgstr ""
+msgstr "Miluji pomáhat ostatním."
 
 #: bigfive/b5/constants.py:95
 msgid "Keep my promises."
-msgstr ""
+msgstr "Plním své sliby."
 
 #: bigfive/b5/constants.py:99
 msgid "Find it difficult to approach others."
-msgstr ""
+msgstr "Je pro mě náročné navazovat kontakt s cizími lidmi."
 
 #: bigfive/b5/constants.py:103
 msgid "Am always busy."
-msgstr ""
+msgstr "Jsem pořád v jednom kole."
 
 #: bigfive/b5/constants.py:107
 msgid "Prefer variety to routine."
-msgstr ""
+msgstr "Upřednostňuji rozmanitost oproti jednotvárnosti."
 
 #: bigfive/b5/constants.py:111
 msgid "Love a good fight."
-msgstr ""
+msgstr "Miluji dobrou hádku."
 
 #: bigfive/b5/constants.py:115
 msgid "Work hard."
-msgstr ""
+msgstr "Pracuji tvrdě."
 
 #: bigfive/b5/constants.py:119
 msgid "Go on binges."
-msgstr ""
+msgstr "Oddávám se nezřízené konzumaci."
 
 #: bigfive/b5/constants.py:123
 msgid "Love excitement."
-msgstr ""
+msgstr "Zbožňuji vzrušení."
 
 #: bigfive/b5/constants.py:127
 msgid "Love to read challenging material."
-msgstr ""
+msgstr "Rád(a) čtu náročné texty."
 
 #: bigfive/b5/constants.py:131
 msgid "Believe that I am better than others."
-msgstr ""
+msgstr "Věřím, že jsem lepší než ostatní."
 
 #: bigfive/b5/constants.py:135
 msgid "Am always prepared."
-msgstr ""
+msgstr "Jsem vždy připraven(a)."
 
 #: bigfive/b5/constants.py:139
 msgid "Panic easily."
-msgstr ""
+msgstr "Lehce propadám panice."
 
 #: bigfive/b5/constants.py:143
 msgid "Radiate joy."
-msgstr ""
+msgstr "Vyzařuji ze sebe radost."
 
 #: bigfive/b5/constants.py:147
 msgid "Tend to vote for liberal political candidates."
-msgstr ""
+msgstr "Obvykle dávám hlas liberálním politickým kandidátům."
 
 #: bigfive/b5/constants.py:151
 msgid "Sympathize with the homeless."
-msgstr ""
+msgstr "Mám soucit s bezdomovci."
 
 #: bigfive/b5/constants.py:155
 msgid "Jump into things without thinking."
-msgstr ""
+msgstr "Vrhám se do věcí bez rozmyslu."
 
 #: bigfive/b5/constants.py:159
 msgid "Fear for the worst."
-msgstr ""
+msgstr "Obávám se nejhoršího."
 
 #: bigfive/b5/constants.py:163
 msgid "Feel comfortable around people."
-msgstr ""
+msgstr "Cítím se uvolněně v blízkosti jiných lidí."
 
 #: bigfive/b5/constants.py:167
 msgid "Enjoy wild flights of fantasy."
-msgstr ""
+msgstr "Mám požitek z popuštění uzdy fantazie."
 
 #: bigfive/b5/constants.py:171
 msgid "Believe that others have good intentions."
-msgstr ""
+msgstr "Věřím, že ostatní mají dobré záměry."
 
 #: bigfive/b5/constants.py:175
 msgid "Excel in what I do."
-msgstr ""
+msgstr "Vynikám v tom, co dělám."
 
 #: bigfive/b5/constants.py:179
 msgid "Get irritated easily."
-msgstr ""
+msgstr "Lehce se dokážu naštvat."
 
 #: bigfive/b5/constants.py:183
 msgid "Talk to a lot of different people at parties."
-msgstr ""
+msgstr "Na večírcích se bavím s hodně různými lidmi."
 
 #: bigfive/b5/constants.py:187
 msgid "See beauty in things that others might not notice."
-msgstr ""
+msgstr "Vidím krásu věcí, kterou si ostatní vůbec nemusí všímat."
 
 #: bigfive/b5/constants.py:191
 msgid "Cheat to get ahead."
-msgstr ""
+msgstr "Podvádím, abych uspěl(a)."
 
 #: bigfive/b5/constants.py:195
 msgid "Often forget to put things back in their proper place."
-msgstr ""
+msgstr "Často zapomínám vracet věci na jejich správné místo."
 
 #: bigfive/b5/constants.py:199
 msgid "Dislike myself."
-msgstr ""
+msgstr "Nemám se rád(a)."
 
 #: bigfive/b5/constants.py:203
 msgid "Try to lead others."
-msgstr ""
+msgstr "Snažím se vést ostatní."
 
 #: bigfive/b5/constants.py:207
 msgid "Feel others' emotions."
-msgstr ""
+msgstr "Pociťuji emoce ostatních."
 
 #: bigfive/b5/constants.py:211
 msgid "Am concerned about others."
-msgstr ""
+msgstr "Mám starosti o ostatní."
 
 #: bigfive/b5/constants.py:215
 msgid "Tell the truth."
-msgstr ""
+msgstr "Říkám pravdu."
 
 #: bigfive/b5/constants.py:219
 msgid "Am afraid to draw attention to myself."
-msgstr ""
+msgstr "Obávám se, že na sebe přitáhnu pozornost."
 
 #: bigfive/b5/constants.py:223
 msgid "Am always on the go."
-msgstr ""
+msgstr "Jsem stále v pohybu."
 
 #: bigfive/b5/constants.py:227
 msgid "Prefer to stick with things that I know."
-msgstr ""
+msgstr "Mám raději věci, které znám."
 
 #: bigfive/b5/constants.py:231
 msgid "Yell at people."
-msgstr ""
+msgstr "Křičím na lidi."
 
 #: bigfive/b5/constants.py:235
 msgid "Do more than what's expected of me."
-msgstr ""
+msgstr "Dělám více, než se ode mě očekává."
 
 #: bigfive/b5/constants.py:239
 msgid "Rarely overindulge."
-msgstr ""
+msgstr "Zřídkakdy si něčeho dopřávám."
 
 #: bigfive/b5/constants.py:243
 msgid "Seek adventure."
-msgstr ""
+msgstr "Vyhledávám dobrodružství."
 
 #: bigfive/b5/constants.py:247
 msgid "Avoid philosophical discussions."
-msgstr ""
+msgstr "Vyhýbám se filozofickým diskuzím."
 
 #: bigfive/b5/constants.py:251
 msgid "Think highly of myself."
-msgstr ""
+msgstr "Mám o sobě vysoké mínění."
 
 #: bigfive/b5/constants.py:255
 msgid "Carry out my plans."
-msgstr ""
+msgstr "Uskutečňuji své plány."
 
 #: bigfive/b5/constants.py:259
 msgid "Become overwhelmed by events."
-msgstr ""
+msgstr "Bývám zahlcen(a) událostmi."
 
 #: bigfive/b5/constants.py:263
 msgid "Have a lot of fun."
-msgstr ""
+msgstr "Zažívám hodně zábavy."
 
 #: bigfive/b5/constants.py:267
 msgid "Believe that there is no absolute right or wrong."
-msgstr ""
+msgstr "Věřím, že neexistuje absolutní dobro a zlo."
 
 #: bigfive/b5/constants.py:271
 msgid "Feel sympathy for those who are worse off than myself."
-msgstr ""
+msgstr "Soucítím s těmi, kteří jsou na tom hůře než já."
 
 #: bigfive/b5/constants.py:275
 msgid "Make rash decisions."
-msgstr ""
+msgstr "Činím ukvapená rozhodnutí."
 
 #: bigfive/b5/constants.py:279
 msgid "Am afraid of many things."
-msgstr ""
+msgstr "Hodně věcí mi nahání strach."
 
 #: bigfive/b5/constants.py:283
 msgid "Avoid contacts with others."
-msgstr ""
+msgstr "Vyhýbám se kontaktu s ostatními."
 
 #: bigfive/b5/constants.py:287
 msgid "Love to daydream."
-msgstr ""
+msgstr "Miluji oddávat se snění za bílého dne."
 
 #: bigfive/b5/constants.py:291
 msgid "Trust what people say."
-msgstr ""
+msgstr "Věřím tomu, co říkají lidé."
 
 #: bigfive/b5/constants.py:295
 msgid "Handle tasks smoothly."
-msgstr ""
+msgstr "Zvládám úkoly bez problémů."
 
 #: bigfive/b5/constants.py:299
 msgid "Lose my temper."
-msgstr ""
+msgstr "Rozčiluji se."
 
 #: bigfive/b5/constants.py:303
 msgid "Prefer to be alone."
-msgstr ""
+msgstr "Dávám přednost samotě."
 
 #: bigfive/b5/constants.py:307
 msgid "Do not like poetry."
-msgstr ""
+msgstr "Nemám rád(a) poezii."
 
 #: bigfive/b5/constants.py:311
 msgid "Take advantage of others."
-msgstr ""
+msgstr "Využívám ostatní."
 
 #: bigfive/b5/constants.py:315
 msgid "Leave a mess in my room."
-msgstr ""
+msgstr "Nechávám nepořádek ve svém pokoji."
 
 #: bigfive/b5/constants.py:319
 msgid "Am often down in the dumps."
-msgstr ""
+msgstr "Často mívám depku."
 
 #: bigfive/b5/constants.py:323
 msgid "Take control of things."
-msgstr ""
+msgstr "Mám kontrolu nad věcmi."
 
 #: bigfive/b5/constants.py:327
 msgid "Rarely notice my emotional reactions."
-msgstr ""
+msgstr "Zřídkakdy zaznamenám své emocionální reakce."
 
 #: bigfive/b5/constants.py:331
 msgid "Am indifferent to the feelings of others."
-msgstr ""
+msgstr "Pocity ostatních jsou mi lhostejné."
 
 #: bigfive/b5/constants.py:335
 msgid "Break rules."
-msgstr ""
+msgstr "Porušuji pravidla."
 
 #: bigfive/b5/constants.py:339
 msgid "Only feel comfortable with friends."
-msgstr ""
+msgstr "Cítím se dobře pouze se svými přáteli."
 
 #: bigfive/b5/constants.py:343
 msgid "Do a lot in my spare time."
-msgstr ""
+msgstr "Ve volném čase toho dělám hodně."
 
 #: bigfive/b5/constants.py:347
 msgid "Dislike changes."
-msgstr ""
+msgstr "Změny nemám v oblibě."
 
 #: bigfive/b5/constants.py:351
 msgid "Insult people."
-msgstr ""
+msgstr "Urážím lidi."
 
 #: bigfive/b5/constants.py:355
 msgid "Do just enough work to get by."
-msgstr ""
+msgstr "Odvedu jenom tolik práce, kolik se po mně chce."
 
 #: bigfive/b5/constants.py:359
 msgid "Easily resist temptations."
-msgstr ""
+msgstr "Lehce odolám pokušení."
 
 #: bigfive/b5/constants.py:363
 msgid "Enjoy being reckless."
-msgstr ""
+msgstr "Užívám si bezhlavost."
 
 #: bigfive/b5/constants.py:367
 msgid "Have difficulty understanding abstract ideas."
-msgstr ""
+msgstr "Mám potíže s porozuměním abstraktních myšlenek."
 
 #: bigfive/b5/constants.py:371
 msgid "Have a high opinion of myself."
-msgstr ""
+msgstr "Mám na sobě pozitivní názor."
 
 #: bigfive/b5/constants.py:375
 msgid "Waste my time."
-msgstr ""
+msgstr "Mrhám časem."
 
 #: bigfive/b5/constants.py:379
 msgid "Feel that I'm unable to deal with things."
-msgstr ""
+msgstr "Cítím, že se nedokážu vypořádat s věcmi."
 
 #: bigfive/b5/constants.py:383
 msgid "Love life."
-msgstr ""
+msgstr "Miluji život."
 
 #: bigfive/b5/constants.py:387
 msgid "Tend to vote for conservative political candidates."
-msgstr ""
+msgstr "Obvykle dávám hlas konzervativním politickým kandidátům."
 
 #: bigfive/b5/constants.py:391
 msgid "Am not interested in other people's problems."
-msgstr ""
+msgstr "Nezajímají mě problémy ostatních lidí."
 
 #: bigfive/b5/constants.py:395
 msgid "Rush into things."
-msgstr ""
+msgstr "Ženu se do věcí."
 
 #: bigfive/b5/constants.py:399
 msgid "Get stressed out easily."
-msgstr ""
+msgstr "Lehce se vystresuji."
 
 #: bigfive/b5/constants.py:403
 msgid "Keep others at a distance."
-msgstr ""
+msgstr "Ostatní si držím od těla."
 
 #: bigfive/b5/constants.py:407
 msgid "Like to get lost in thought."
-msgstr ""
+msgstr "Rád(a) se zahloubám."
 
 #: bigfive/b5/constants.py:411
 msgid "Distrust people."
-msgstr ""
+msgstr "Nevěřím lidem."
 
 #: bigfive/b5/constants.py:415
 msgid "Know how to get things done."
-msgstr ""
+msgstr "Vím, jak dotáhnout věci do konce"
 
 #: bigfive/b5/constants.py:419
 msgid "Am not easily annoyed."
@@ -448,99 +448,99 @@ msgstr ""
 
 #: bigfive/b5/constants.py:423
 msgid "Avoid crowds."
-msgstr ""
+msgstr "Vyhýbám se davům."
 
 #: bigfive/b5/constants.py:427
 msgid "Do not enjoy going to art museums."
-msgstr ""
+msgstr "Nebaví mě chodit do uměleckých galerií."
 
 #: bigfive/b5/constants.py:431
 msgid "Obstruct others' plans."
-msgstr ""
+msgstr "Narušuji plány ostatních."
 
 #: bigfive/b5/constants.py:435
 msgid "Leave my belongings around."
-msgstr ""
+msgstr "Zapomínám své věci."
 
 #: bigfive/b5/constants.py:439
 msgid "Feel comfortable with myself."
-msgstr ""
+msgstr "Cítím se dobře o samotě."
 
 #: bigfive/b5/constants.py:443
 msgid "Wait for others to lead the way."
-msgstr ""
+msgstr "Čekám, že se někdo jiný ujme vedení."
 
 #: bigfive/b5/constants.py:447
 msgid "Don't understand people who get emotional."
-msgstr ""
+msgstr "Nerozumím lidem, kteří se rozčilují."
 
 #: bigfive/b5/constants.py:451
 msgid "Take no time for others."
-msgstr ""
+msgstr "Nevěnuji čas ostatním."
 
 #: bigfive/b5/constants.py:455
 msgid "Break my promises."
-msgstr ""
+msgstr "Porušuji své sliby."
 
 #: bigfive/b5/constants.py:459
 msgid "Am not bothered by difficult social situations."
-msgstr ""
+msgstr "Nevadí mi složité společenské situace."
 
 #: bigfive/b5/constants.py:463
 msgid "Like to take it easy."
-msgstr ""
+msgstr "Mám rád(a) svůj klid."
 
 #: bigfive/b5/constants.py:467
 msgid "Am attached to conventional ways."
-msgstr ""
+msgstr "Lpím na zvyklostech."
 
 #: bigfive/b5/constants.py:471
 msgid "Get back at others."
-msgstr ""
+msgstr "Mstím se ostatním."
 
 #: bigfive/b5/constants.py:475
 msgid "Put little time and effort into my work."
-msgstr ""
+msgstr "Vkládám málo času a úsilí do své práce."
 
 #: bigfive/b5/constants.py:479
 msgid "Am able to control my cravings."
-msgstr ""
+msgstr "Mám své tužby pod kontrolou."
 
 #: bigfive/b5/constants.py:483
 msgid "Act wild and crazy."
-msgstr ""
+msgstr "Chovám se nevázaně a bláznivě."
 
 #: bigfive/b5/constants.py:487
 msgid "Am not interested in theoretical discussions."
-msgstr ""
+msgstr "Nezajímají mě teoretické diskuze."
 
 #: bigfive/b5/constants.py:491
 msgid "Boast about my virtues."
-msgstr ""
+msgstr "Chlubím se svými dobrými vlastnostmi."
 
 #: bigfive/b5/constants.py:495
 msgid "Have difficulty starting tasks."
-msgstr ""
+msgstr "Těžko se mi začíná s prací."
 
 #: bigfive/b5/constants.py:499
 msgid "Remain calm under pressure."
-msgstr ""
+msgstr "Zachovávám klid pod tlakem."
 
 #: bigfive/b5/constants.py:503
 msgid "Look at the bright side of life."
-msgstr ""
+msgstr "Dívám se na věci z té lepší stránky."
 
 #: bigfive/b5/constants.py:507
 msgid "Believe that we should be tough on crime."
-msgstr ""
+msgstr "Věřím, že bychom měli být tvrdší vůči zločinu."
 
 #: bigfive/b5/constants.py:511
 msgid "Try not to think about the needy."
-msgstr ""
+msgstr "Snažím se nemyslet na chudé."
 
 #: bigfive/b5/constants.py:515
 msgid "Act without thinking."
-msgstr ""
+msgstr "Jednám bezmyšlenkovitě."
 
 #: bigfive/b5/forms.py:15
 msgid "Statement"
@@ -571,16 +571,20 @@ msgid "Let’s start!"
 msgstr "Začít vyplňovat!"
 
 #: bigfive/templates/index.html:17
-msgid "Discover yourself! Free Big Five personality test"
-msgstr "Objevte sami sebe! Bezplatný test osobnosti Big five (Velká pětka)"
+msgid "Free Big Five personality test"
+msgstr "Test osobnosti Big five (Velká pětka) zdarma"
 
 #: bigfive/templates/index.html:18
-msgid "Explore the five key dimensions of your personality free of charge."
-msgstr "Prozkoumejte zdarma pět klíčových dimenzí své osobnosti."
+msgid ""
+"Discover yourself! Explore the five key dimensions of your personality free "
+"of charge."
+msgstr ""
+"Objevte sebe sama! Prozkoumejte bezplatně pět klíčových dimenzí své "
+"osobnosti."
 
 #: bigfive/templates/index.html:20
 msgid "What are the Big Five personality traits?"
-msgstr "Jaké jsou osobnostní rysy modelu Big five?"
+msgstr "Co to jsou osobnostní rysy modelu Big five?"
 
 #: bigfive/templates/index.html:21
 msgid ""
@@ -594,14 +598,14 @@ msgid ""
 "individuals varying in the degree to which they exhibit aspects of each "
 "trait."
 msgstr ""
-"Osobnostní model Big five (Velká pětka) je základním nástrojem "
-"psychologického výzkumu, poskytujícím robustní rámec pro pochopení lidské "
-"osobnosti. Nabízí komplexní přístup k pochopení lidské osobnosti tím, že "
-"kategorizuje rysy do pěti odlišných dimenzí. Tyto dimenze jsou "
-"<em>Otevřenost vůči zkušenostem</em>, <em>Svědomitost</em>, <em>Extraverze</"
-"em>, <em>Přívětivost</em> a <em>Neuroticismus</em>, v angličtině známé pod "
-"zkratkami OCEAN nebo CANOE. Každý rys představuje spektrum, přičemž "
-"jednotlivci se liší mírou, do jaké projevují aspekty každého rysu."
+"Osobnostní model Big five (Velká pětka) poskytuje funkční nástroj pro "
+"pochopení lidského nitra zejména profesionálními psychology prostřednictvím "
+"testů osobnosti. Představuje komplexní přístup k pochopení lidské osobnosti "
+"tím, že kategorizuje osobnostní rysy do pěti odlišných dimenzí. Tyto dimenze "
+"jsou <em>Otevřenost vůči zkušenostem</em>, <em>Svědomitost</em>, "
+"<em>Extraverze</em>, <em>Přívětivost</em> a <em>Neuroticismus</em>, v "
+"angličtině známé pod zkratkami OCEAN nebo CANOE. Každý rys představuje "
+"spektrum, přičemž jednotlivci se liší mírou projevu aspektů každého rysu."
 
 #: bigfive/templates/index.html:23
 msgid "The five dimensions"
@@ -708,11 +712,12 @@ msgid ""
 "support and reliability. It assesses personality across a spectrum in five "
 "key dimensions, providing a nuanced view of personality traits."
 msgstr ""
-"Model osobnostních rysů Big five a široce známý Myers-Briggs Type Indicator "
-"(MBTI) jsou dva odlišné způsoby hodnocení osobnosti, lišící se výrazně "
-"přístupem a uznávaností vědci. Model Big five je v psychologické komunitě "
-"vysoce ceněn pro svou empirickou platnost a spolehlivost. Hodnotí osobnost v "
-"pěti klíčových dimenzích, což poskytuje podrobný pohled na osobnostní rysy."
+"Model osobnostních rysů Big five a veřejností oblíbený Myers-Briggs Type "
+"Indicator (MBTI) jsou dva odlišné způsoby hodnocení osobnosti, lišící se "
+"výrazně přístupem a uznávaností vědci. Model Big five je v psychologické "
+"komunitě vysoce ceněn pro svou empirickou platnost a spolehlivost. Hodnotí "
+"osobnost v pěti klíčových dimenzích, což poskytuje podrobný pohled na "
+"osobnostní rysy."
 
 #: bigfive/templates/index.html:35
 msgid ""
@@ -745,7 +750,7 @@ msgid ""
 "personality."
 msgstr ""
 "Model Big five je v porovnání s MBTI zcela konzistentní napříč různými "
-"populacemi a jeho schopnost předpovídat různé životní výsledky, jako je "
+"populacemi a jeho schopnost předpovídat různé životní úspěchy, jako je "
 "pracovní výkon a psychická pohoda, z něj učinily upřednostňovanou volbu pro "
 "výzkumníky a klinické psychology hledající přístup k porozumění osobnosti "
 "založený na vědeckých důkazech."
@@ -759,9 +764,11 @@ msgid "The test"
 msgstr "Osobnostní test"
 
 #: bigfive/templates/index.html:60
-#, python-format
-msgid "Question number %(number)s of %(count)s"
-msgstr "Otázka číslo %(number)s ze %(count)s"
+msgid ""
+"Question number %(number)s of %(count)s: what do you think of the following "
+"statement?"
+msgstr ""
+"Otázka číslo %(number)s ze %(count)s: co si myslíte o následujícím tvrzení?"
 
 #: bigfive/templates/index.html:79
 msgid "Evaluate answers"
@@ -908,7 +915,7 @@ msgid ""
 "Five is grounded in objective, data-driven analysis, lending it a high "
 "degree of scientific credibility."
 msgstr ""
-"Navíc spolehlivost osobnostního modelu Big five je demonstrována jeho "
+"Navíc o spolehlivosti osobnostního modelu Big five vypovídá jeho "
 "replikovatelností v různých vědeckých studiích v průběhu času. Zmíněná "
 "konzistence, která se ukázala při výzkumu osobností rozmanitých populací, "
 "potvrdila stabilitu modelu. Na rozdíl od některých jiných hodnocení "
@@ -1843,7 +1850,7 @@ msgid ""
 "them the URL to this page or by sharing it on the social media."
 msgstr ""
 "Líbil se vám tento test osobnosti? Podělte se o své výsledky se svými "
-"přátelizasláním odkazu na tuto stránku nebo jejím sdílením na sociální síti."
+"přáteli zasláním odkazu na tuto stránku nebo jejím sdílením na sociální síti."
 
 #: bigfive/templates/result.html:263
 msgid "Take another test!"

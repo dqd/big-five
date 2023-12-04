@@ -6,12 +6,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>{% block title %}{% endblock %}</title>
+        {% get_current_language as LANGUAGE_CODE %}
+        <meta name="language" content="{{ LANGUAGE_CODE }}">
+        <meta name="author" content="dqd">
+        <link rel="icon" href="{% static 'favicon.png' %}" type="image/png">
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
         {% block header_extra %}{% endblock %}
     </head>
     <body>
         <nav>
-            {% get_current_language as LANGUAGE_CODE %}
             {% get_available_languages as LANGUAGES %}
             {% get_language_info_list for LANGUAGES as languages %}
             {% for language in languages %}

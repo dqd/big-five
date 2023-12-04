@@ -22,11 +22,11 @@ class AgeGroup(TextChoices):
 
 
 class Response(IntegerChoices):
-    VERY_INACCURATE = 1, _("Very accurate")
-    INACCURATE = 2, _("Moderately accurate")
+    VERY_ACCURATE = 1, _("Very accurate")
+    ACCURATE = 2, _("Moderately accurate")
     NEITHER = 3, _("I am not sure")
-    ACCURATE = 4, _("Moderately inaccurate")
-    VERY_ACCURATE = 5, _("Very inaccurate")
+    INACCURATE = 4, _("Moderately inaccurate")
+    VERY_INACCURATE = 5, _("Very inaccurate")
 
 
 class Ordering(IntegerChoices):
