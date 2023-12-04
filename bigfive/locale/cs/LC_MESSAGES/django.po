@@ -7,11 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 09:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2023-12-04 11:27+0100\n"
+"Language: Czech\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -444,7 +441,7 @@ msgstr "Vím, jak dotáhnout věci do konce"
 
 #: bigfive/b5/constants.py:419
 msgid "Am not easily annoyed."
-msgstr ""
+msgstr "Není lehké mě naštvat."
 
 #: bigfive/b5/constants.py:423
 msgid "Avoid crowds."
@@ -598,9 +595,9 @@ msgid ""
 "individuals varying in the degree to which they exhibit aspects of each "
 "trait."
 msgstr ""
-"Osobnostní model Big five (Velká pětka) poskytuje funkční nástroj pro "
-"pochopení lidského nitra zejména profesionálními psychology prostřednictvím "
-"testů osobnosti. Představuje komplexní přístup k pochopení lidské osobnosti "
+"Osobnostní model Big five (Velká pětka) poskytuje sofistikovaný nástroj pro "
+"pochopení lidské mysli zejména profesionálními psychology prostřednictvím "
+"testu osobnosti. Představuje komplexní přístup k analýze osobnosti "
 "tím, že kategorizuje osobnostní rysy do pěti odlišných dimenzí. Tyto dimenze "
 "jsou <em>Otevřenost vůči zkušenostem</em>, <em>Svědomitost</em>, "
 "<em>Extraverze</em>, <em>Přívětivost</em> a <em>Neuroticismus</em>, v "
@@ -764,21 +761,27 @@ msgid "The test"
 msgstr "Osobnostní test"
 
 #: bigfive/templates/index.html:60
+#, python-format
 msgid ""
 "Question number %(number)s of %(count)s: what do you think of the following "
-"statement?"
+"statement about yourself?"
 msgstr ""
-"Otázka číslo %(number)s ze %(count)s: co si myslíte o následujícím tvrzení?"
+"Otázka číslo %(number)s ze %(count)s: co si myslíte o následujícím tvrzení o sobě?"
 
-#: bigfive/templates/index.html:79
+#: bigfive/templates/index.html:66
+#, python-format
+msgid "Statement: \"%(statement)s\""
+msgstr "Tvrzení: „%(statement)s“"
+
+#: bigfive/templates/index.html:78
 msgid "Evaluate answers"
 msgstr "Vyhodnotit odpovědi"
 
-#: bigfive/templates/index.html:91
+#: bigfive/templates/index.html:90
 msgid "Our detailed report"
 msgstr "Náš detailní report"
 
-#: bigfive/templates/index.html:92
+#: bigfive/templates/index.html:91
 msgid ""
 "After completing our comprehensive <a href=\"#test\">120-question test</a>, "
 "you will receive a detailed report that delves into each of the Big Five "
@@ -795,11 +798,11 @@ msgstr ""
 "pomoci vám ponořit se do vašeho jedinečného profilu osobnosti, abyste "
 "zvýšili své sebepoznání a pomohli tak svému osobnímu růstu."
 
-#: bigfive/templates/index.html:94
+#: bigfive/templates/index.html:93
 msgid "The history of the Big Five"
-msgstr "Historie Velké pětky"
+msgstr "Historie testu osobnosti Big five"
 
-#: bigfive/templates/index.html:95
+#: bigfive/templates/index.html:94
 msgid ""
 "The journey of the Big Five personality traits model to becoming a "
 "cornerstone in psychological assessment is a fascinating tale of scientific "
@@ -817,7 +820,7 @@ msgstr ""
 "Začali identifikací tisíců slov v anglickém jazyce popisujích osobnostní "
 "rysy."
 
-#: bigfive/templates/index.html:97
+#: bigfive/templates/index.html:96
 msgid ""
 "This initial list was refined over the decades by various psychologists, "
 "notably Raymond Cattell in the 1940s and 1950s. Cattell used factor "
@@ -841,7 +844,7 @@ msgstr ""
 "<em>Svědomitost</em>, <em>Extraverze</em>, <em>Přívětivost</em> a "
 "<em>Neuroticismus</em>."
 
-#: bigfive/templates/index.html:99
+#: bigfive/templates/index.html:98
 msgid ""
 "The Big Five model gained momentum in the 1990s as a large body of research "
 "began to validate its applicability across different cultures and languages, "
@@ -856,7 +859,7 @@ msgstr ""
 "vpřed, protože naznačovala, že těchto pět dimenzí může zahrnout celou šíři "
 "lidských osobnostních rysů."
 
-#: bigfive/templates/index.html:101
+#: bigfive/templates/index.html:100
 msgid ""
 "The model's simplicity and empirical support have made it a popular tool not "
 "only in psychological research but also in practical applications like "
@@ -870,11 +873,11 @@ msgstr ""
 "zaměstnanců v různých organizacích. Dnes je model Big five jasnou ukázkou "
 "neustálé snahy porozumět zákoutím lidské osobnosti prostřednictvím vědy."
 
-#: bigfive/templates/index.html:103
+#: bigfive/templates/index.html:102
 msgid "Accuracy and reliability"
 msgstr "Přesnost a spolehlivost"
 
-#: bigfive/templates/index.html:104
+#: bigfive/templates/index.html:103
 msgid ""
 "The Big Five personality traits model distinguishes itself not only through "
 "its comprehensive framework but also through its robust accuracy and "
@@ -887,7 +890,7 @@ msgstr ""
 "modelu se potvrdila v různých studiích napříč kulturními kontexty, které "
 "ověřily jeho univerzální použitelnost."
 
-#: bigfive/templates/index.html:106
+#: bigfive/templates/index.html:105
 msgid ""
 "One of the key strengths of the Big Five is its basis in empirical research, "
 "which has continually supported its validity. Numerous studies have "
@@ -905,7 +908,7 @@ msgstr ""
 "psychologického modelu, protože ukazuje jeho praktickou užitečnost v "
 "reálných situacích."
 
-#: bigfive/templates/index.html:108
+#: bigfive/templates/index.html:107
 msgid ""
 "Furthermore, the Big Five's reliability is demonstrated through its "
 "replicability in various studies over time. The consistency with which "
@@ -923,7 +926,7 @@ msgstr ""
 "založen na objektivní, daty řízené analýze, což mu poskytuje vysokou míru "
 "vědecké důvěryhodnosti."
 
-#: bigfive/templates/index.html:110
+#: bigfive/templates/index.html:109
 msgid ""
 "Another notable aspect of the Big Five is its scalability. The model "
 "provides a flexible framework that can be adapted for different research "
@@ -937,7 +940,7 @@ msgstr ""
 "detailní analýzy. Tato adaptabilita nemá vliv na jeho spolehlivost, protože "
 "základní dimenze zůstávají v různých adaptacích zachovány."
 
-#: bigfive/templates/index.html:112
+#: bigfive/templates/index.html:111
 msgid ""
 "In summary, the accuracy and reliability of the Big Five model are well-"
 "established, making it a valuable tool in both psychological research and "
@@ -952,11 +955,11 @@ msgstr ""
 "jedním z nejspolehlivějších a nejrespektovanějších modelů v oboru "
 "psychologie osobnosti."
 
-#: bigfive/templates/index.html:114
+#: bigfive/templates/index.html:113
 msgid "Acknowledgement"
 msgstr "Poděkování"
 
-#: bigfive/templates/index.html:115
+#: bigfive/templates/index.html:114
 msgid ""
 "This website is based on <a href=\"https://github.com/kholia/IPIP-NEO-PI/"
 "\">Python port</a> of the <a href=\"https://sites.psu.edu/drj5j/\">John A. "
@@ -986,7 +989,7 @@ msgid ""
 "This report, completed %(created)s, estimates the individual's level on each "
 "of the five broad personality domains of the Big Five model."
 msgstr ""
-"Tento report, dokončen %(created)s, odhaduje osobní úroveň každé z pěti "
+"Tento report, vyhotoven %(created)s, odhaduje osobní úroveň každé z pěti "
 "širších osobnostních domén modelu Big five."
 
 #: bigfive/templates/result.html:25
@@ -1133,31 +1136,31 @@ msgstr ""
 
 #: bigfive/templates/result.html:110 bigfive/templates/result.html:114
 msgid "Extraversion facets"
-msgstr ""
+msgstr "Aspekty Extraverze"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:120
 msgid "Friendliness"
-msgstr ""
+msgstr "Přátelskost"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:121
 msgid "Gregariousness"
-msgstr ""
+msgstr "Družnost"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:122
 msgid "Assertiveness"
-msgstr ""
+msgstr "Asertivita"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:123
 msgid "Activity level"
-msgstr ""
+msgstr "Úroveň aktivity"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:124
 msgid "Excitement-seeking"
-msgstr ""
+msgstr "Vyhledávání vzrušení"
 
 #: bigfive/templates/result.html:115 bigfive/templates/result.html:125
 msgid "Cheerfulness"
-msgstr ""
+msgstr "Radostnost"
 
 #: bigfive/templates/result.html:120
 #, python-format
@@ -1269,31 +1272,31 @@ msgstr ""
 
 #: bigfive/templates/result.html:142 bigfive/templates/result.html:146
 msgid "Agreeableness facets"
-msgstr ""
+msgstr "Aspekty Přívětivosti"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:152
 msgid "Trust"
-msgstr ""
+msgstr "Důvěra"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:153
 msgid "Morality"
-msgstr ""
+msgstr "Morálnost"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:154
 msgid "Altruism"
-msgstr ""
+msgstr "Altruismus"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:155
 msgid "Cooperation"
-msgstr ""
+msgstr "Součinnost"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:156
 msgid "Modesty"
-msgstr ""
+msgstr "Skromnost"
 
 #: bigfive/templates/result.html:147 bigfive/templates/result.html:157
 msgid "Sympathy"
-msgstr ""
+msgstr "Soucítění"
 
 #: bigfive/templates/result.html:152
 #, python-format
@@ -1443,31 +1446,31 @@ msgstr ""
 
 #: bigfive/templates/result.html:175 bigfive/templates/result.html:179
 msgid "Conscientiousness facets"
-msgstr ""
+msgstr "Aspekty Svědomitosti"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:185
 msgid "Self-efficacy"
-msgstr ""
+msgstr "Sebedůvěra"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:186
 msgid "Orderliness"
-msgstr ""
+msgstr "Organizovanost"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:187
 msgid "Dutifulness"
-msgstr ""
+msgstr "Zodpovědnost"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:188
 msgid "Achievement-striving"
-msgstr ""
+msgstr "Cílevědomost"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:189
 msgid "Self-discipline"
-msgstr ""
+msgstr "Disciplinovanost"
 
 #: bigfive/templates/result.html:180 bigfive/templates/result.html:190
 msgid "Cautiousness"
-msgstr ""
+msgstr "Obezřetnost"
 
 #: bigfive/templates/result.html:185
 #, python-format
@@ -1590,31 +1593,31 @@ msgstr ""
 
 #: bigfive/templates/result.html:206 bigfive/templates/result.html:210
 msgid "Neuroticism facets"
-msgstr ""
+msgstr "Aspekty Neuroticismu"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:216
 msgid "Anxiety"
-msgstr ""
+msgstr "Úzkostnost"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:217
 msgid "Anger"
-msgstr ""
+msgstr "Hněvivost"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:218
 msgid "Depression"
-msgstr ""
+msgstr "Depresivnost"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:219
 msgid "Self-consciousness"
-msgstr ""
+msgstr "Rozpačitost"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:221
 msgid "Immoderation"
-msgstr ""
+msgstr "Impulzivnost"
 
 #: bigfive/templates/result.html:211 bigfive/templates/result.html:222
 msgid "Vulnerability"
-msgstr ""
+msgstr "Zranitelnost"
 
 #: bigfive/templates/result.html:216
 #, python-format
@@ -1745,31 +1748,31 @@ msgstr ""
 
 #: bigfive/templates/result.html:238 bigfive/templates/result.html:242
 msgid "Openness facets"
-msgstr ""
+msgstr "Aspekty Otevřenosti"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:248
 msgid "Imagination"
-msgstr ""
+msgstr "Představivost"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:249
 msgid "Artistic interests"
-msgstr ""
+msgstr "Umělecké zájmy"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:250
 msgid "Emotionality"
-msgstr ""
+msgstr "Emotivnost"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:251
 msgid "Adventurousness"
-msgstr ""
+msgstr "Dobrodružnost"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:252
 msgid "Intellect"
-msgstr ""
+msgstr "Intelekt"
 
 #: bigfive/templates/result.html:243 bigfive/templates/result.html:253
 msgid "Liberalism"
-msgstr ""
+msgstr "Svobodomyslnost"
 
 #: bigfive/templates/result.html:248
 #, python-format

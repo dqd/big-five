@@ -57,14 +57,13 @@
                         <table class="question">
                             <tr>
                                 <td colspan="2">
-                                    {% blocktranslate with number=forloop.counter %}Question number {{ number }} of {{ count }}: what do you think of the following statement?{% endblocktranslate %}
+                                    {% blocktranslate with number=forloop.counter %}Question number {{ number }} of {{ count }}: what do you think of the following statement about yourself?{% endblocktranslate %}
                                 </td>
                             </tr>
                             <tr>
                                 <th colspan="2">
                                     <div class="statement">
-                                        {{ question_form.statement.label }}:
-                                        {{ question_form.statement.value }}
+                                        {% blocktranslate with statement=question_form.statement.value %}Statement: "{{ statement }}"{% endblocktranslate %}
                                     </div>
                                 </th>
                             </tr>
