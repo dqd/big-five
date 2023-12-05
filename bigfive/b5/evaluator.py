@@ -71,21 +71,23 @@ def evaluate(sex, age_group, answers):
         j += 4
 
     # Score domain scales
-    #      1       2         3        4        5        6
-    N = ss[1] + ss[6] + ss[11] + ss[16] + ss[21] + ss[26]
-    E = ss[2] + ss[7] + ss[12] + ss[17] + ss[22] + ss[27]
-    O = ss[3] + ss[8] + ss[13] + ss[18] + ss[23] + ss[28]
-    A = ss[4] + ss[9] + ss[14] + ss[19] + ss[24] + ss[29]
-    C = ss[5] + ss[10] + ss[15] + ss[20] + ss[25] + ss[30]
+    #           1       2        3        4        5        6
+    domain_scales = {
+        "N": ss[1] + ss[6] + ss[11] + ss[16] + ss[21] + ss[26],
+        "E": ss[2] + ss[7] + ss[12] + ss[17] + ss[22] + ss[27],
+        "O": ss[3] + ss[8] + ss[13] + ss[18] + ss[23] + ss[28],
+        "A": ss[4] + ss[9] + ss[14] + ss[19] + ss[24] + ss[29],
+        "C": ss[5] + ss[10] + ss[15] + ss[20] + ss[25] + ss[30],
+    }
 
     # Standardize scores
     norm = NORMS[sex][age_group]
 
-    SN = (10 * (N - norm[1]) / norm[6]) + 50
-    SE = (10 * (E - norm[2]) / norm[7]) + 50
-    SO = (10 * (O - norm[3]) / norm[8]) + 50
-    SA = (10 * (A - norm[4]) / norm[9]) + 50
-    SC = (10 * (C - norm[5]) / norm[10]) + 50
+    SN = (10 * (domain_scales["N"] - norm[1]) / norm[6]) + 50
+    SE = (10 * (domain_scales["E"] - norm[2]) / norm[7]) + 50
+    SO = (10 * (domain_scales["O"] - norm[3]) / norm[8]) + 50
+    SA = (10 * (domain_scales["A"] - norm[4]) / norm[9]) + 50
+    SC = (10 * (domain_scales["C"] - norm[5]) / norm[10]) + 50
 
     SNF = [0] * (ITERATIONS + 1)
     SEF = [0] * (ITERATIONS + 1)
