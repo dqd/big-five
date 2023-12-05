@@ -1,3 +1,5 @@
+![build status](https://github.com/dqd/big-five/actions/workflows/build.yml/badge.svg) ![coverage](./coverage.svg)
+
 # Big Five personality traits
 A source code of the [big-five.cz](https://big-five.cz/) website that provides personality traits test Big Five. Based on the [IPIP-NEO-PI](https://github.com/kholia/IPIP-NEO-PI) project, version 21.06.
 
