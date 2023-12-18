@@ -569,7 +569,7 @@ msgstr "Začít vyplňovat!"
 
 #: bigfive/templates/index.html:17
 msgid "Free Big Five personality test"
-msgstr "Test osobnosti Big five (Velká pětka) zdarma"
+msgstr "Test osobnosti Big five zdarma"
 
 #: bigfive/templates/index.html:18
 msgid ""
@@ -982,7 +982,7 @@ msgstr "Hranice nízkého skóre"
 
 #: bigfive/templates/result.html:21
 msgid "Your Big Five personality test traits results"
-msgstr "Výsledek testu osobnosti Big five (Velká pětka)"
+msgstr "Výsledek testu osobnosti Big five"
 
 #: bigfive/templates/result.html:23
 #, python-format
