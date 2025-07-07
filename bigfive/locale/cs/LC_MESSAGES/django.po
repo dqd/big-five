@@ -369,7 +369,7 @@ msgstr "Ve volném čase toho dělám hodně."
 
 #: bigfive/b5/constants.py:347
 msgid "Dislike changes."
-msgstr "Změny nemám v oblibě."
+msgstr "Nemám v oblibě změny."
 
 #: bigfive/b5/constants.py:351
 msgid "Insult people."

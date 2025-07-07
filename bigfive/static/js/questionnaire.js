@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
         question.style.display = 'none';
     });
     questionsElement.querySelectorAll(questionSelector + ' ' + controlSelector).forEach(function(control, i) {
-        if (i > 0) {
-            control.appendChild(createButton(translations.back, displayQuestion(i, -1)));
+        if (i < questions.length - 1) {
+            control.prepend(createButton(translations.forward, displayQuestion(i, 1), true));
         }
 
-        if (i < questions.length - 1) {
-            control.appendChild(createButton(translations.forward, displayQuestion(i, 1), true));
+        if (i > 0) {
+            control.prepend(createButton(translations.back, displayQuestion(i, -1)));
         }
     });
 

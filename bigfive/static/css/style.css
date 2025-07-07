@@ -16,6 +16,10 @@ th {
     text-align: left;
 }
 
+input[type="submit"] {
+    width: auto;
+}
+
 #test {
     border: 1px solid black;
     padding: 20px;
