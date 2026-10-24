@@ -69,10 +69,14 @@ WSGI_APPLICATION = "bigfive.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/stable/ref/settings/#databases
 
+# SQLite does not create missing directories, so make sure the data directory exists.
+DATA_DIR = BASE_DIR.parent / "data"
+DATA_DIR.mkdir(exist_ok=True)
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR.parent / "data" / "db.sqlite3",
+        "NAME": DATA_DIR / "db.sqlite3",
     }
 }
 
