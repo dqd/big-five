@@ -37,6 +37,3 @@ The translation strings are located in the `.po` files in the `bigfive/locale` d
 ```
 
 See [the Django documentation](https://docs.djangoproject.com/en/stable/topics/i18n/translation/) for details.
-
-## License
-Released under the [MIT License](./LICENSE).
