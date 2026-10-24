@@ -1,84 +1,87 @@
-let questions, personalInfo;
+'use strict';
 
-document.addEventListener('DOMContentLoaded', function() {
-    const questionsElement = document.getElementById('questions');
-    let questionSelector = ':scope > table.question',
-        controlSelector = 'td > .control';
+// Turns the questionnaire into a wizard that shows one question at a time.
+// Without JavaScript, the whole questionnaire is shown at once and still works.
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('questionnaire');
+    const labels = JSON.parse(document.getElementById('questionnaire-labels').textContent);
+    const personalInfo = document.getElementById('personal-info');
+    const questions = Array.from(form.querySelectorAll('fieldset.question'));
+    const progress = document.createElement('progress');
+    // -1 stands for the personal info step.
+    let current = -1;
 
-    questions = questionsElement.querySelectorAll(questionSelector);
-    questions.forEach(function(question) {
-        question.style.display = 'none';
-    });
-    questionsElement.querySelectorAll(questionSelector + ' ' + controlSelector).forEach(function(control, i) {
-        if (i < questions.length - 1) {
-            control.prepend(createButton(translations.forward, displayQuestion(i, 1), true));
-        }
+    const createButton = (text, onClick, disabled = false) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = text;
+        button.disabled = disabled;
+        button.addEventListener('click', onClick);
+        return button;
+    };
 
-        if (i > 0) {
-            control.prepend(createButton(translations.back, displayQuestion(i, -1)));
-        }
-    });
+    const isAnswered = (question) => question.querySelector('input[type="radio"]:checked') !== null;
 
-    personalInfo = document.getElementById('personal-info');
+    const stepElement = (index) => (index < 0 ? personalInfo : questions[index]);
 
-    const selects = personalInfo.querySelectorAll('select');
-    const startButton = createButton(translations.start, startQuestionnaire, isStartButtonDisabled(selects));
+    const show = (index) => {
+        stepElement(current).hidden = true;
+        stepElement(index).hidden = false;
+        progress.hidden = index < 0;
+        progress.value = Math.max(index, 0);
+        current = index;
+        form.scrollIntoView({ block: 'start' });
+    };
 
-    personalInfo.querySelector(controlSelector).appendChild(startButton);
-
-    selects.forEach(function(select) {
-        select.addEventListener('change', function() {
-            startButton.disabled = isStartButtonDisabled(selects);
+    // Personal info step: the test can be started once both fields are filled in.
+    const selects = Array.from(personalInfo.querySelectorAll('select'));
+    const isPersonalInfoComplete = () => selects.every((select) => select.value !== '');
+    const startButton = createButton(labels.start, () => show(0), !isPersonalInfoComplete());
+    selects.forEach((select) => {
+        select.addEventListener('change', () => {
+            startButton.disabled = !isPersonalInfoComplete();
         });
     });
-});
+    personalInfo.querySelector('.control').append(startButton);
 
-function createButton(text, event, disabled) {
-    const button = document.createElement('button');
-    button.textContent = text;
-    button.type = 'button';
+    // Questions: the next step is available once the question is answered.
+    progress.max = questions.length;
+    progress.hidden = true;
+    document.getElementById('questions').prepend(progress);
 
-    if (disabled) {
-        button.disabled = disabled;
-    }
+    questions.forEach((question, index) => {
+        const control = question.querySelector('.control');
+        const isLast = index === questions.length - 1;
+        const nextButton = isLast
+            ? control.querySelector('button[type="submit"]')
+            : createButton(labels.next, () => show(index + 1));
 
-    button.addEventListener('click', event);
-    button.addEventListener('keyup', function(e) {
-        if (['Enter', ' '].includes(e.key)) {
-            event();
-        }
-    });
-
-    return button;
-}
-
-function isStartButtonDisabled(selects) {
-    return Array.prototype.some.call(selects, function(x) {
-        return x.value === '';
-    });
-}
-
-function startQuestionnaire() {
-    personalInfo.style.display = 'none';
-    displayQuestion(-1, 1)();
-}
-
-function displayQuestion(index, increment) {
-    return (function() {
-        if (index >= 0) {
-            questions[index].style.display = 'none';
-        }
-
-        const nextQuestion = questions[index + increment];
-        nextQuestion.querySelectorAll('button:disabled').forEach(function(button) {
-            nextQuestion.querySelectorAll('input[type="radio"]').forEach(function(radio) {
-                function enableButton() {
-                    button.disabled = false;
-                    radio.removeEventListener('change', enableButton);
-                }
-                radio.addEventListener('change', enableButton);
+        nextButton.disabled = !isAnswered(question);
+        question.querySelectorAll('input[type="radio"]').forEach((radio) => {
+            radio.addEventListener('change', () => {
+                nextButton.disabled = false;
             });
         });
-        nextQuestion.style.display = '';
+
+        control.prepend(createButton(labels.back, () => show(index - 1)));
+        if (!isLast) {
+            control.append(nextButton);
+        }
+        question.hidden = true;
     });
-}
+
+    // Pressing Enter on a radio button would submit the whole form prematurely;
+    // move to the next question instead.
+    form.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' || current < 0 || current === questions.length - 1) {
+            return;
+        }
+
+        event.preventDefault();
+        const nextButton = questions[current].querySelector('.control > button:last-child');
+
+        if (!nextButton.disabled) {
+            nextButton.click();
+        }
+    });
+});

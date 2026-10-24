@@ -1,41 +1,65 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
+/* Keep the lines of text at a readable length. */
+body > header,
+body > main,
+body > footer {
     max-width: 1000px;
-    margin: 0 auto;
-    line-height: 1.5;
 }
 
-nav {
-    float: right;
+/* Elements hidden by the questionnaire wizard. */
+[hidden] {
+    display: none !important;
 }
 
-th {
-    text-align: left;
+header nav {
+    justify-content: flex-end;
 }
 
-input[type="submit"] {
-    width: auto;
+footer {
+    text-align: center;
+    color: var(--pico-muted-color);
 }
 
-#test {
-    border: 1px solid black;
-    padding: 20px;
+#questionnaire {
+    padding: var(--pico-spacing);
+    border: 1px solid var(--pico-muted-border-color);
+    border-radius: var(--pico-border-radius);
 }
 
-#test h3 {
-    margin-top: 0;
+#questionnaire progress {
+    margin-bottom: var(--pico-spacing);
 }
 
-#questions td>.control,
-#personal-info td>.control {
+#questionnaire legend {
+    font-weight: bold;
+}
+
+.question legend .counter {
+    display: block;
+    font-size: 0.875em;
+    font-weight: normal;
+    color: var(--pico-muted-color);
+}
+
+.question legend .statement {
+    font-size: 1.25em;
+}
+
+.control {
     display: flex;
     justify-content: space-between;
+    gap: var(--pico-spacing);
+    margin-top: var(--pico-spacing);
 }
 
-#questions td>.control>button:last-child,
-#personal-info td>.control>button:last-child {
+.control > button {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.control > button:last-child {
     margin-left: auto;
+}
+
+canvas.chart {
+    margin-bottom: var(--pico-block-spacing-vertical);
 }

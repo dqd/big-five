@@ -1,18 +1,27 @@
-FROM python:3.12-bookworm
+FROM python:3.14-slim-trixie
 
-ENV WORKDIR=/code
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    WORKDIR=/code
+
 WORKDIR $WORKDIR
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install --no-install-recommends -y sqlite3 gettext && \
-    apt-get clean
+    apt-get install --no-install-recommends -y gettext sqlite3 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install dependencies first so that this layer is cached between code changes.
+COPY requirements.txt $WORKDIR/
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . $WORKDIR
-RUN pip install -r requirements.txt
 
-RUN useradd -d "$WORKDIR" -s /bin/bash bigfive
-RUN mkdir -p "$WORKDIR/data" && chown -R bigfive:bigfive "$WORKDIR/data"
+RUN useradd -d "$WORKDIR" -s /bin/bash bigfive && \
+    mkdir -p "$WORKDIR/data" && \
+    chown -R bigfive:bigfive "$WORKDIR/data"
 
 USER bigfive
-CMD [ "gunicorn", "-b", "0:9200", "bigfive.wsgi" ]
+EXPOSE 9200
+CMD ["gunicorn", "--bind", "0:9200", "bigfive.wsgi"]

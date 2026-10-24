@@ -1,116 +1,83 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% load static %}
+{% load i18n static %}
 
-{% block header_extra %}
-    <script type="text/javascript">
-        var translations = {
-            back: '{% translate 'Go back' %}',
-            forward: '{% translate 'Continue forward' %}',
-            start: '{% translate 'Let’s start!' %}',
-        };
-    </script>
-    <script type="text/javascript" src="{% static 'js/questionnaire.js' %}"></script>
+{% block description %}{% translate "Discover yourself. Explore the five key dimensions of your personality with a free 120-question Big Five personality test." %}{% endblock %}
+
+{% block head_extra %}
+    <script src="{% static 'js/questionnaire.js' %}" defer></script>
 {% endblock %}
 
 {% block content %}
-    <h1>{% block title %}{% translate 'Free Big Five personality test' %}{% endblock %}</h1>
-    <p>{% translate 'Discover yourself! Explore the five key dimensions of your personality free of charge.' %}</p>
+    {{ questionnaire_labels|json_script:"questionnaire-labels" }}
 
-    <h2>{% translate 'What is Big Five?' %}</h2>
-    <p>{% blocktranslate %}The Big Five personality traits model is a cornerstone in psychological research, offering a robust framework for understanding human personality. It offers a comprehensive approach to understanding human personality by categorizing traits into five distinct dimensions. These dimensions are <em>Openness to experience</em>, <em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>, collectively known as OCEAN or CANOE. Each trait represents a spectrum, with individuals varying in the degree to which they exhibit aspects of each trait.{% endblocktranslate %}</p>
+    <h1>{% block title %}{% translate "Free Big Five personality test" %}{% endblock %}</h1>
+    <p>{% translate "Discover yourself. Explore the five key dimensions of your personality, free of charge." %}</p>
 
-    <h3>{% translate 'The five dimensions' %}</h3>
+    <h2>{% translate "What is the Big Five?" %}</h2>
+    <p>{% blocktranslate %}The Big Five is the most widely used model of personality in psychological research. It describes personality along five broad dimensions: <em>Openness to experience</em>, <em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>, often remembered by the acronym OCEAN. Each dimension is a spectrum, and everyone falls somewhere between its two extremes.{% endblocktranslate %}</p>
+
+    <h3>{% translate "The five dimensions" %}</h3>
     <ul>
-        <li><strong>{% translate 'Openness to experience' %}</strong>. {% blocktranslate %}This dimension reflects the degree of intellectual curiosity, creativity, and a preference for novelty and variety. Individuals high in openness are often imaginative, open to new experiences, and have a broad range of interests. Conversely, those lower in openness may prefer routine and familiarity.{% endblocktranslate %}</li>
-        <li><strong>{% translate 'Conscientiousness' %}</strong>. {% blocktranslate %}This trait denotes the level of thoughtfulness, good impulse control, and goal-directed behaviors. Highly conscientious individuals tend to be organized, mindful of details, and responsible. Those with lower conscientiousness might be more spontaneous and less focused on details.{% endblocktranslate %}</li>
-        <li><strong>{% translate 'Extraversion' %}</strong>. {% blocktranslate %}Extraversion is characterized by excitability, sociability, talkativeness, assertiveness, and high amounts of emotional expressiveness. Extroverts derive energy from interacting with others, while introverts, who score lower on this trait, find energy in solitary activities.{% endblocktranslate %}</li>
-        <li><strong>{% translate 'Agreeableness' %}</strong>. {% blocktranslate %}This trait reflects individual differences in cooperation and social harmony. Agreeable individuals are compassionate, trustworthy, and altruistic. They prefer to avoid conflict. Those scoring lower on agreeableness may be more competitive or challenging in their interactions with others.{% endblocktranslate %}</li>
-        <li><strong>{% translate 'Neuroticism' %}</strong>. {% blocktranslate %}Neuroticism indicates the tendency towards unstable emotions and moodiness. High scorers may experience mood swings, anxiety, irritability, and sadness. Those with lower scores in neuroticism tend to be more emotionally stable and resilient.{% endblocktranslate %}</li>
+        <li><strong>{% translate "Openness to experience" %}</strong> {% blocktranslate %}reflects intellectual curiosity, creativity, and a taste for novelty and variety. People high in openness are imaginative, open to new experiences, and have a broad range of interests. People lower in openness prefer routine and familiarity.{% endblocktranslate %}</li>
+        <li><strong>{% translate "Conscientiousness" %}</strong> {% blocktranslate %}describes thoughtfulness, impulse control, and goal-directed behavior. Highly conscientious people are organized, attentive to detail, and responsible. Less conscientious people are more spontaneous and less focused on details.{% endblocktranslate %}</li>
+        <li><strong>{% translate "Extraversion" %}</strong> {% blocktranslate %}is marked by sociability, talkativeness, assertiveness, and emotional expressiveness. Extraverts draw energy from being with other people, while introverts, who score lower, recharge in solitary activities.{% endblocktranslate %}</li>
+        <li><strong>{% translate "Agreeableness" %}</strong> {% blocktranslate %}reflects how much a person values cooperation and social harmony. Agreeable people are compassionate, trusting, and altruistic, and they prefer to avoid conflict. Less agreeable people are more competitive and more willing to challenge others.{% endblocktranslate %}</li>
+        <li><strong>{% translate "Neuroticism" %}</strong> {% blocktranslate %}is the tendency toward unstable emotions and moodiness. High scorers experience mood swings, anxiety, irritability, and sadness more often. Low scorers are more emotionally stable and resilient.{% endblocktranslate %}</li>
     </ul>
 
-    <h3>{% translate 'Comparison to MBTI' %}</h3>
-    <p>{% blocktranslate %}The Big Five personality traits model and the widely known Myers-Briggs Type Indicator (MBTI) are two distinct methods of personality assessment, but they differ significantly in scientific validity and approach. The Big Five model is highly regarded in the psychological community for its empirical support and reliability. It assesses personality across a spectrum in five key dimensions, providing a nuanced view of personality traits.{% endblocktranslate %}</p>
+    <h3>{% translate "Comparison with the MBTI" %}</h3>
+    <p>{% blocktranslate %}The Big Five and the popular Myers–Briggs Type Indicator (MBTI) are two very different approaches to personality assessment. The Big Five is highly regarded by psychologists for its empirical support and reliability. It measures each of the five dimensions on a continuous scale, which gives a nuanced picture of a person.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}The MBTI, on the other hand, sorts people into 16 types based on four either-or choices. Psychologists have criticized it for its weak empirical grounding: the binary choices oversimplify personality, and many people get a different type when they retake the test. Despite its popularity in companies and schools, the MBTI is best seen as a tool for self-reflection rather than a scientifically validated instrument.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}The Big Five, in contrast, has proven consistent across diverse populations and predicts real-life outcomes such as job performance and psychological well-being. That is why researchers and clinicians who want an evidence-based approach prefer it.{% endblocktranslate %}</p>
 
-    <p>{% blocktranslate %}On the other hand, the MBTI, which categorizes individuals into 16 personality types based on four dichotomies, has been widely criticized by psychologists for its lack of empirical grounding and scientific rigor. One major criticism of the MBTI is its reliance on binary choices, which oversimplifies the complex nature of human personality. Additionally, numerous studies have questioned the test's reliability, as many individuals receive different MBTI types when retaking the test. Despite its popularity in corporate and educational settings, the MBTI is often viewed as a tool for self-reflection rather than a scientifically validated instrument.{% endblocktranslate %}</p>
+    <h2 id="test">{% translate "Take the test" %}</h2>
+    <p>{% blocktranslate %}The test consists of 120 short statements. For each of them, choose how accurately it describes you. It takes about 15 minutes, and there are no right or wrong answers. Please answer honestly: the report is only as accurate as your answers.{% endblocktranslate %}</p>
 
-    <p>{% blocktranslate %}In contrast, the Big Five model's consistency across diverse populations and its ability to predict various life outcomes, such as job performance and psychological well-being, have made it a preferred choice for researchers and clinicians seeking a more evidence-based approach to understanding personality.{% endblocktranslate %}</p>
+    <form method="post" action="." id="questionnaire">
+        {% csrf_token %}
+        <fieldset id="personal-info">
+            <legend>{% translate "About you" %}</legend>
+            <p>{% translate "Your answers are compared with those of people of the same sex and a similar age." %}</p>
+            {{ personal_info_form.as_div }}
+            <div class="control"></div>
+        </fieldset>
+        <div id="questions">
+            {{ questions_formset.management_form }}
+            {{ questions_formset.non_form_errors }}
+            <p>{% translate "How accurately does the following statement describe you?" %}</p>
+            {% for form in questions_formset %}
+                <fieldset class="question">
+                    <legend>
+                        <span class="counter">{% blocktranslate with number=forloop.counter total=questions_formset|length %}Question {{ number }} of {{ total }}{% endblocktranslate %}</span>
+                        <q class="statement">{{ form.question.statement }}</q>
+                    </legend>
+                    {{ form.answer.errors }}
+                    {{ form.answer }}
+                    <div class="control">
+                        {% if forloop.last %}
+                            <button type="submit">{% translate "Show my results" %}</button>
+                        {% endif %}
+                    </div>
+                </fieldset>
+            {% endfor %}
+        </div>
+    </form>
 
-    <h2>{% translate 'Take the test!' %}</h2>
+    <h3>{% translate "Your detailed report" %}</h3>
+    <p>{% blocktranslate %}After you complete the <a href="#test">120-question test</a>, you will receive a detailed report on each of the Big Five traits and the six facets that make up each of them, with bar charts of your scores. The report helps you understand your unique personality profile and supports self-awareness and personal growth.{% endblocktranslate %}</p>
 
-    <div id="test">
-        <h3>{% translate 'The test' %}</h3>
-        <form method="post" action=".">
-            {% csrf_token %}
-            <table id="personal-info">
-                {{ personal_info_form.as_table }}
-                <tr>
-                    <td colspan="2">
-                        <div class="control"></div>
-                    </td>
-                </tr>
-            </table>
-            <div id="questions">
-                {{ questions_formset.management_form }}
-                {% with count=questions_formset|length %}
-                    {% for question_form in questions_formset %}
-                        <table class="question">
-                            <tr>
-                                <td colspan="2">
-                                    {% blocktranslate with number=forloop.counter %}Question number {{ number }} of {{ count }}: what do you think of the following statement about yourself?{% endblocktranslate %}
-                                </td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">
-                                    <div class="statement">
-                                        {% blocktranslate with statement=question_form.statement.value %}Statement: "{{ statement }}"{% endblocktranslate %}
-                                    </div>
-                                </th>
-                            </tr>
-                            <tr class="answer">
-                                <th>{{ question_form.answer.label }}</th>
-                                <td>{{ question_form.answer }}</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <div class="control">
-                                        {% if forloop.last %}
-                                            <input type="submit" value="{% translate 'Evaluate answers' %}">
-                                        {% endif %}
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    {% endfor %}
-                {% endwith %}
-            </div>
-        </form>
-    </div>
+    <h2>{% translate "The history of the Big Five" %}</h2>
+    <p>{% blocktranslate %}The Big Five model grew out of decades of research. Its roots go back to the 1930s, when psychologist Gordon Allport and his colleague H. S. Odbert hypothesized that the fundamental traits of human personality could be found in the language we use to describe people. They began by collecting thousands of English words that describe personality.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}Over the following decades, psychologists refined this list, most notably Raymond Cattell in the 1940s and 1950s. Cattell used factor analysis, a statistical method, to reduce the long list of traits to a manageable number. The Big Five as we know it took shape in the 1970s and 1980s, when researchers such as Paul Costa and Robert McCrae applied factor analysis to personality questionnaires and consistently found five broad factors: <em>Openness to experience</em>, <em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}In the 1990s, a large body of research confirmed that the model applies across cultures and languages, establishing it as a universal framework for understanding personality.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}Thanks to its simplicity and empirical support, the Big Five is used not only in research but also in psychotherapy, career counseling, and hiring. Today it is the standard scientific model of personality.{% endblocktranslate %}</p>
 
-    <h3>{% translate 'Our detailed report' %}</h3>
-    <p>{% blocktranslate %}After completing our comprehensive <a href="#test">120-question test</a>, you will receive a detailed report that delves into each of the Big Five traits, providing a nuanced understanding of your personality. Accompanying this report are interactive bar charts, which visually represent your scores in each dimension. This personalized report aims to enlighten you about your unique personality profile, enhancing self-awareness and personal growth.{% endblocktranslate %}</p>
+    <h2>{% translate "Accuracy and reliability" %}</h2>
+    <p>{% blocktranslate %}The Big Five stands out for its accuracy and reliability, which have been validated by extensive research. The model has produced consistent results across many studies and cultural contexts.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}Its key strength is its empirical basis. Numerous studies have confirmed that the five dimensions predict important life outcomes, including academic and career success, relationships, and psychological well-being. This predictive validity shows that the model is useful in the real world, not just in theory.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}The model is also replicable: different researchers working with diverse populations keep finding the same five factors. Unlike assessments that rely on subjective interpretation, the Big Five rests on objective, data-driven analysis, which gives it a high degree of scientific credibility.{% endblocktranslate %}</p>
+    <p>{% blocktranslate %}Finally, the model is flexible. It can be adapted to different purposes, from a broad overview of personality to a detailed analysis of individual facets, without losing its reliability.{% endblocktranslate %}</p>
 
-    <h2>{% translate 'The history of the Big Five' %}</h2>
-    <p>{% blocktranslate %}The journey of the Big Five personality traits model to becoming a cornerstone in psychological assessment is a fascinating tale of scientific evolution. The roots of this model trace back to the 1930s when psychologist Gordon Allport and his colleague H. S. Odbert hypothesized that the fundamental traits of human personality could be extracted from the language we use to describe people. They started by identifying thousands of words in the English language that described personality traits.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}This initial list was refined over the decades by various psychologists, notably Raymond Cattell in the 1940s and 1950s. Cattell used factor analysis, a statistical method, to reduce the extensive list of traits to a more manageable number. However, it was not until the 1970s and 1980s that the Big Five model as we know it today began to take shape. Researchers Paul Costa and Robert McCrae played a pivotal role in this. They used factor analysis on personality survey data and consistently found five broad factors, which they labeled as <em>Openness to experience</em>, <em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}The Big Five model gained momentum in the 1990s as a large body of research began to validate its applicability across different cultures and languages, establishing it as a universal framework for understanding personality. This universality was a significant leap forward, as it suggested that these five dimensions could encompass the breadth of human personality traits.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}The model's simplicity and empirical support have made it a popular tool not only in psychological research but also in practical applications like psychotherapy, career counseling, and even organizational hiring practices. Today, the Big Five model stands as a testament to the ongoing quest to understand the complexities of human personality through a scientific lens.{% endblocktranslate %}</p>
-
-    <h2>{% translate 'Accuracy and reliability' %}</h2>
-    <p>{% blocktranslate %}The Big Five personality traits model distinguishes itself not only through its comprehensive framework but also through its robust accuracy and reliability, validated by extensive psychological research. The model's reliability is evident in its consistency across various studies and cultural contexts, showcasing its universal applicability.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}One of the key strengths of the Big Five is its basis in empirical research, which has continually supported its validity. Numerous studies have confirmed that the five dimensions are able to predict a range of important life outcomes, including academic and career success, interpersonal relationships, and psychological well-being. This predictive validity is a crucial aspect of any psychological model, as it demonstrates its practical utility in real-world settings.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}Furthermore, the Big Five's reliability is demonstrated through its replicability in various studies over time. The consistency with which different researchers using diverse populations have identified the same five factors underscores the stability of the model. Unlike some other personality assessments that rely on subjective interpretations, the Big Five is grounded in objective, data-driven analysis, lending it a high degree of scientific credibility.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}Another notable aspect of the Big Five is its scalability. The model provides a flexible framework that can be adapted for different research purposes, from broad, general personality overviews to more specific, detailed analyses. This adaptability does not compromise its reliability, as the core dimensions remain robust across various adaptations.{% endblocktranslate %}</p>
-
-    <p>{% blocktranslate %}In summary, the accuracy and reliability of the Big Five model are well-established, making it a valuable tool in both psychological research and practical applications. Its empirical foundations, consistent replication across studies, predictive validity, and flexible yet stable framework make it one of the most reliable and respected models in personality psychology.{% endblocktranslate %}</p>
-
-    <h2>{% translate 'Acknowledgement' %}</h2>
-    <p>{% blocktranslate %}This website is based on <a href="https://github.com/kholia/IPIP-NEO-PI/">Python port</a> of the <a href="https://sites.psu.edu/drj5j/">John A. Johnson’s</a> IPIP-NEO-120 software, which is IPIP version of the NEO-PI-R test.{% endblocktranslate %}</p>
-
+    <h2>{% translate "Acknowledgement" %}</h2>
+    <p>{% blocktranslate %}This website is based on the <a href="https://github.com/kholia/IPIP-NEO-PI/">Python port</a> of <a href="https://sites.psu.edu/drj5j/">John A. Johnson’s</a> IPIP-NEO-120, a public-domain inventory that measures the same traits as the NEO-PI-R.{% endblocktranslate %}</p>
 {% endblock %}

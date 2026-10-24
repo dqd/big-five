@@ -1,48 +1,67 @@
-from django.views.generic import View
-from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse
+from django.shortcuts import redirect, render
+from django.utils.translation import gettext_lazy as _
+from django.views.generic import DetailView, View
 
-from .constants import QUESTIONS, HIGH_SCORE, LOW_SCORE
+from .constants import HIGH_SCORE, LOW_SCORE
 from .evaluator import evaluate
 from .forms import PersonalInfoForm, QuestionFormSet
 from .models import Answer
 
 
 class IndexView(View):
-    def get(self, request, personal_info_form=None):
+    template_name = "index.html"
+
+    def get(self, request):
+        return self.render(request, PersonalInfoForm(), QuestionFormSet())
+
+    def post(self, request):
+        personal_info_form = PersonalInfoForm(request.POST)
+        questions_formset = QuestionFormSet(request.POST)
+        # Validate both so that the errors of both are shown at once.
+        personal_info_valid = personal_info_form.is_valid()
+        questions_valid = questions_formset.is_valid()
+
+        if personal_info_valid and questions_valid:
+            answer = personal_info_form.save(commit=False)
+            answer.results = evaluate(
+                answer.sex, answer.age_group, questions_formset.responses
+            )
+            answer.save()
+            return redirect(answer)
+
+        return self.render(request, personal_info_form, questions_formset)
+
+    def render(self, request, personal_info_form, questions_formset):
         return render(
             request,
-            "index.html",
+            self.template_name,
             {
-                "personal_info_form": personal_info_form or PersonalInfoForm(),
-                "questions_formset": QuestionFormSet(initial=QUESTIONS),
+                "personal_info_form": personal_info_form,
+                "questions_formset": questions_formset,
+                "questionnaire_labels": {
+                    "start": _("Start the test"),
+                    "back": _("Back"),
+                    "next": _("Next"),
+                },
             },
         )
 
-    def post(self, request):
-        personal_info_form = PersonalInfoForm(data=request.POST)
-        questions_formset = QuestionFormSet(data=request.POST, initial=QUESTIONS)
 
-        if personal_info_form.is_valid() and questions_formset.is_valid():
-            results = evaluate(
-                personal_info_form.cleaned_data["sex"],
-                personal_info_form.cleaned_data["age_group"],
-                questions_formset.cleaned_data,
-            )
-            answer = personal_info_form.save(commit=False)
-            answer.results = results
-            answer.save()
+class ResultView(DetailView):
+    model = Answer
+    context_object_name = "answer"
+    template_name = "result.html"
 
-            return redirect(reverse("result", args=(answer.slug,)))
-
-        return self.get(request, personal_info_form)
-
-
-class ResultView(View):
-    def get(self, request, slug):
-        answer = get_object_or_404(Answer, slug=slug)
-        return render(
-            request,
-            "result.html",
-            {"answer": answer, "high": HIGH_SCORE, "low": LOW_SCORE},
-        )
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["report"] = self.object.report
+        context["chart_config"] = {
+            "low": LOW_SCORE,
+            "high": HIGH_SCORE,
+            "labels": {
+                "low": _("Low score threshold"),
+                "high": _("High score threshold"),
+                "percentile": _("Percentile"),
+            },
+        }
+        return context

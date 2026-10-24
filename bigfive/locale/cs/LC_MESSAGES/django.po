@@ -1,2225 +1,1734 @@
 # Czech translation of big-five.cz.
-# This file is distributed under the same license as the PACKAGE package.
-# Pavel Mises <id@dqd.cz>, 2023.
+# Pavel Mises <id@dqd.cz>, 2023–2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: big-five\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 14:58+0100\n"
-"Language: Czech\n"
+"POT-Creation-Date: 2026-10-24 15:01+0200\n"
+"PO-Revision-Date: 2026-10-24 15:00+0200\n"
+"Last-Translator: Pavel Mises <id@dqd.cz>\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
-"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: bigfive/b5/constants.py:12
 msgid "Female"
 msgstr "Žena"
 
-#: bigfive/b5/constants.py:13
 msgid "Male"
 msgstr "Muž"
 
-#: bigfive/b5/constants.py:18
 msgid "20 years old or younger"
 msgstr "20 let nebo mladší"
 
-#: bigfive/b5/constants.py:19
 msgid "21–40 years old"
 msgstr "21–40 let"
 
-#: bigfive/b5/constants.py:20
 msgid "41–60 years old"
 msgstr "41–60 let"
 
-#: bigfive/b5/constants.py:21
 msgid "61 years old or older"
 msgstr "61 let nebo starší"
 
-#: bigfive/b5/constants.py:25
 msgid "Very accurate"
 msgstr "Naprosto souhlasím"
 
-#: bigfive/b5/constants.py:26
 msgid "Moderately accurate"
 msgstr "Spíše souhlasím"
 
-#: bigfive/b5/constants.py:27
-msgid "I am not sure"
-msgstr "Nic z uvedeného"
+msgid "Neither accurate nor inaccurate"
+msgstr "Ani souhlas, ani nesouhlas"
 
-#: bigfive/b5/constants.py:28
 msgid "Moderately inaccurate"
 msgstr "Spíše nesouhlasím"
 
-#: bigfive/b5/constants.py:29
 msgid "Very inaccurate"
 msgstr "Zásadně nesouhlasím"
 
-#: bigfive/b5/constants.py:39
-msgid "Worry about things."
-msgstr "Dělám si starosti."
-
-#: bigfive/b5/constants.py:43
-msgid "Make friends easily."
-msgstr "Je pro mě jednoduché se seznámit."
-
-#: bigfive/b5/constants.py:47
-msgid "Have a vivid imagination."
-msgstr "Mám bujnou představivost."
-
-#: bigfive/b5/constants.py:51
-msgid "Trust others."
-msgstr "Důvěřuji ostatním."
-
-#: bigfive/b5/constants.py:55
-msgid "Complete tasks successfully."
-msgstr "Daří se mi dokončovat úkoly."
-
-#: bigfive/b5/constants.py:59
-msgid "Get angry easily."
-msgstr "Lehce se naštvu."
-
-#: bigfive/b5/constants.py:63
-msgid "Love large parties."
-msgstr "Mám rád(a) velké večírky."
-
-#: bigfive/b5/constants.py:67
-msgid "Believe in the importance of art."
-msgstr "Věřím v důležitost umění."
-
-#: bigfive/b5/constants.py:71
-msgid "Use others for my own ends."
-msgstr "Využívám ostatní pro své potřeby."
-
-#: bigfive/b5/constants.py:75
-msgid "Like to tidy up."
-msgstr "Rád(a) uklízím."
-
-#: bigfive/b5/constants.py:79
-msgid "Often feel blue."
-msgstr "Často se cítím sklíčeně."
-
-#: bigfive/b5/constants.py:83
-msgid "Take charge."
-msgstr "Nebojím se převzít kontrolu."
-
-#: bigfive/b5/constants.py:87
-msgid "Experience my emotions intensely."
-msgstr "Intenzivně prožívám své city."
-
-#: bigfive/b5/constants.py:91
-msgid "Love to help others."
-msgstr "Miluji pomáhat ostatním."
-
-#: bigfive/b5/constants.py:95
-msgid "Keep my promises."
-msgstr "Plním své sliby."
-
-#: bigfive/b5/constants.py:99
-msgid "Find it difficult to approach others."
-msgstr "Je pro mě náročné navazovat kontakt s cizími lidmi."
-
-#: bigfive/b5/constants.py:103
-msgid "Am always busy."
-msgstr "Jsem pořád v jednom kole."
-
-#: bigfive/b5/constants.py:107
-msgid "Prefer variety to routine."
-msgstr "Upřednostňuji rozmanitost oproti jednotvárnosti."
-
-#: bigfive/b5/constants.py:111
-msgid "Love a good fight."
-msgstr "Miluji pořádnou hádku."
-
-#: bigfive/b5/constants.py:115
-msgid "Work hard."
-msgstr "Pracuji tvrdě."
-
-#: bigfive/b5/constants.py:119
-msgid "Go on binges."
-msgstr "Oddávám se nezřízené konzumaci."
-
-#: bigfive/b5/constants.py:123
-msgid "Love excitement."
-msgstr "Zbožňuji vzrušení."
-
-#: bigfive/b5/constants.py:127
-msgid "Love to read challenging material."
-msgstr "Rád(a) čtu náročné texty."
-
-#: bigfive/b5/constants.py:131
-msgid "Believe that I am better than others."
-msgstr "Věřím, že jsem lepší než ostatní."
-
-#: bigfive/b5/constants.py:135
-msgid "Am always prepared."
-msgstr "Jsem vždy připraven(a)."
-
-#: bigfive/b5/constants.py:139
-msgid "Panic easily."
-msgstr "Lehce propadám panice."
-
-#: bigfive/b5/constants.py:143
-msgid "Radiate joy."
-msgstr "Vyzařuji ze sebe radost."
-
-#: bigfive/b5/constants.py:147
-msgid "Tend to vote for liberal political candidates."
-msgstr "Obvykle dávám hlas liberálním politickým kandidátům."
-
-#: bigfive/b5/constants.py:151
-msgid "Sympathize with the homeless."
-msgstr "Mám soucit s bezdomovci."
-
-#: bigfive/b5/constants.py:155
-msgid "Jump into things without thinking."
-msgstr "Vrhám se do věcí bez rozmyslu."
-
-#: bigfive/b5/constants.py:159
-msgid "Fear for the worst."
-msgstr "Obávám se nejhoršího."
-
-#: bigfive/b5/constants.py:163
-msgid "Feel comfortable around people."
-msgstr "Cítím se uvolněně v blízkosti jiných lidí."
-
-#: bigfive/b5/constants.py:167
-msgid "Enjoy wild flights of fantasy."
-msgstr "Mám požitek z popuštění uzdy fantazie."
-
-#: bigfive/b5/constants.py:171
-msgid "Believe that others have good intentions."
-msgstr "Věřím, že ostatní mají dobré záměry."
-
-#: bigfive/b5/constants.py:175
-msgid "Excel in what I do."
-msgstr "Vynikám v tom, co dělám."
-
-#: bigfive/b5/constants.py:179
-msgid "Get irritated easily."
-msgstr "Lehce se dokážu naštvat."
-
-#: bigfive/b5/constants.py:183
-msgid "Talk to a lot of different people at parties."
-msgstr "Na večírcích se bavím s hodně rozdílnými lidmi."
-
-#: bigfive/b5/constants.py:187
-msgid "See beauty in things that others might not notice."
-msgstr "Vidím krásu věcí, které si ostatní vůbec nemusí všimnout."
-
-#: bigfive/b5/constants.py:191
-msgid "Cheat to get ahead."
-msgstr "Podvádím, abych uspěl(a)."
-
-#: bigfive/b5/constants.py:195
-msgid "Often forget to put things back in their proper place."
-msgstr "Často zapomínám vracet věci na jejich správné místo."
-
-#: bigfive/b5/constants.py:199
-msgid "Dislike myself."
-msgstr "Nemám se rád(a)."
-
-#: bigfive/b5/constants.py:203
-msgid "Try to lead others."
-msgstr "Snažím se vést ostatní."
-
-#: bigfive/b5/constants.py:207
-msgid "Feel others' emotions."
-msgstr "Pociťuji emoce ostatních."
-
-#: bigfive/b5/constants.py:211
-msgid "Am concerned about others."
-msgstr "Mám starosti o ostatní."
-
-#: bigfive/b5/constants.py:215
-msgid "Tell the truth."
-msgstr "Říkám pravdu."
-
-#: bigfive/b5/constants.py:219
-msgid "Am afraid to draw attention to myself."
-msgstr "Obávám se, že na sebe přitáhnu pozornost."
-
-#: bigfive/b5/constants.py:223
-msgid "Am always on the go."
-msgstr "Jsem stále v pohybu."
-
-#: bigfive/b5/constants.py:227
-msgid "Prefer to stick with things that I know."
-msgstr "Mám raději věci, které znám."
-
-#: bigfive/b5/constants.py:231
-msgid "Yell at people."
-msgstr "Křičím na lidi."
-
-#: bigfive/b5/constants.py:235
-msgid "Do more than what's expected of me."
-msgstr "Dělám více, než se ode mě očekává."
-
-#: bigfive/b5/constants.py:239
-msgid "Rarely overindulge."
-msgstr "Zřídkakdy si něčeho dopřávám."
-
-#: bigfive/b5/constants.py:243
-msgid "Seek adventure."
-msgstr "Vyhledávám dobrodružství."
-
-#: bigfive/b5/constants.py:247
-msgid "Avoid philosophical discussions."
-msgstr "Vyhýbám se filozofickým diskuzím."
-
-#: bigfive/b5/constants.py:251
-msgid "Think highly of myself."
-msgstr "Mám o sobě vysoké mínění."
-
-#: bigfive/b5/constants.py:255
-msgid "Carry out my plans."
-msgstr "Uskutečňuji své plány."
-
-#: bigfive/b5/constants.py:259
-msgid "Become overwhelmed by events."
-msgstr "Bývám zahlcen(a) událostmi."
-
-#: bigfive/b5/constants.py:263
-msgid "Have a lot of fun."
-msgstr "Zažívám hodně zábavy."
-
-#: bigfive/b5/constants.py:267
-msgid "Believe that there is no absolute right or wrong."
-msgstr "Věřím, že neexistuje absolutní dobro a zlo."
-
-#: bigfive/b5/constants.py:271
-msgid "Feel sympathy for those who are worse off than myself."
-msgstr "Soucítím s těmi, kteří jsou na tom hůře než já."
-
-#: bigfive/b5/constants.py:275
-msgid "Make rash decisions."
-msgstr "Činím ukvapená rozhodnutí."
-
-#: bigfive/b5/constants.py:279
-msgid "Am afraid of many things."
-msgstr "Hodně věcí mi nahání strach."
-
-#: bigfive/b5/constants.py:283
-msgid "Avoid contacts with others."
-msgstr "Vyhýbám se kontaktu s ostatními."
-
-#: bigfive/b5/constants.py:287
-msgid "Love to daydream."
-msgstr "Miluji oddávat se snění za bílého dne."
-
-#: bigfive/b5/constants.py:291
-msgid "Trust what people say."
-msgstr "Věřím tomu, co říkají lidé."
-
-#: bigfive/b5/constants.py:295
-msgid "Handle tasks smoothly."
-msgstr "Zvládám úkoly bez problémů."
-
-#: bigfive/b5/constants.py:299
-msgid "Lose my temper."
-msgstr "Rozčiluji se."
-
-#: bigfive/b5/constants.py:303
-msgid "Prefer to be alone."
-msgstr "Dávám přednost samotě."
-
-#: bigfive/b5/constants.py:307
-msgid "Do not like poetry."
-msgstr "Nemám rád(a) poezii."
-
-#: bigfive/b5/constants.py:311
-msgid "Take advantage of others."
-msgstr "Využívám ostatní."
-
-#: bigfive/b5/constants.py:315
-msgid "Leave a mess in my room."
-msgstr "Nechávám nepořádek ve svém pokoji."
-
-#: bigfive/b5/constants.py:319
-msgid "Am often down in the dumps."
-msgstr "Často mívám depku."
-
-#: bigfive/b5/constants.py:323
-msgid "Take control of things."
-msgstr "Přebírám kontrolu nad věcmi."
-
-#: bigfive/b5/constants.py:327
-msgid "Rarely notice my emotional reactions."
-msgstr "Zřídkakdy si povšimnu svých emocionálních reakcí."
-
-#: bigfive/b5/constants.py:331
-msgid "Am indifferent to the feelings of others."
-msgstr "Pocity ostatních jsou mi lhostejné."
-
-#: bigfive/b5/constants.py:335
-msgid "Break rules."
-msgstr "Porušuji pravidla."
-
-#: bigfive/b5/constants.py:339
-msgid "Only feel comfortable with friends."
-msgstr "Cítím se dobře pouze se svými přáteli."
-
-#: bigfive/b5/constants.py:343
-msgid "Do a lot in my spare time."
-msgstr "Ve volném čase toho dělám hodně."
-
-#: bigfive/b5/constants.py:347
-msgid "Dislike changes."
-msgstr "Nemám v oblibě změny."
-
-#: bigfive/b5/constants.py:351
-msgid "Insult people."
-msgstr "Urážím lidi."
-
-#: bigfive/b5/constants.py:355
-msgid "Do just enough work to get by."
-msgstr "Odvedu jenom tolik práce, kolik se po mně chce."
-
-#: bigfive/b5/constants.py:359
-msgid "Easily resist temptations."
-msgstr "Lehce odolám pokušení."
-
-#: bigfive/b5/constants.py:363
-msgid "Enjoy being reckless."
-msgstr "Užívám si bezhlavost."
-
-#: bigfive/b5/constants.py:367
-msgid "Have difficulty understanding abstract ideas."
-msgstr "Mám potíže s porozuměním abstraktních myšlenek."
-
-#: bigfive/b5/constants.py:371
-msgid "Have a high opinion of myself."
-msgstr "Mám na sebe pozitivní názor."
-
-#: bigfive/b5/constants.py:375
-msgid "Waste my time."
-msgstr "Mrhám časem."
-
-#: bigfive/b5/constants.py:379
-msgid "Feel that I'm unable to deal with things."
-msgstr "Cítím, že se nedokážu vypořádat s věcmi."
-
-#: bigfive/b5/constants.py:383
-msgid "Love life."
-msgstr "Miluji život."
-
-#: bigfive/b5/constants.py:387
-msgid "Tend to vote for conservative political candidates."
-msgstr "Obvykle dávám hlas konzervativním politickým kandidátům."
-
-#: bigfive/b5/constants.py:391
-msgid "Am not interested in other people's problems."
-msgstr "Nezajímají mě problémy ostatních lidí."
-
-#: bigfive/b5/constants.py:395
-msgid "Rush into things."
-msgstr "Ženu se do věcí."
-
-#: bigfive/b5/constants.py:399
-msgid "Get stressed out easily."
-msgstr "Lehce se vystresuji."
-
-#: bigfive/b5/constants.py:403
-msgid "Keep others at a distance."
-msgstr "Ostatní si držím od těla."
-
-#: bigfive/b5/constants.py:407
-msgid "Like to get lost in thought."
-msgstr "Rád(a) se zahloubám."
-
-#: bigfive/b5/constants.py:411
-msgid "Distrust people."
-msgstr "Nevěřím lidem."
-
-#: bigfive/b5/constants.py:415
-msgid "Know how to get things done."
-msgstr "Vím, jak dotáhnout věci do konce."
-
-#: bigfive/b5/constants.py:419
-msgid "Am not easily annoyed."
-msgstr "Není lehké mě naštvat."
-
-#: bigfive/b5/constants.py:423
-msgid "Avoid crowds."
-msgstr "Vyhýbám se davům."
-
-#: bigfive/b5/constants.py:427
-msgid "Do not enjoy going to art museums."
-msgstr "Nebaví mě chodit do uměleckých galerií."
-
-#: bigfive/b5/constants.py:431
-msgid "Obstruct others' plans."
-msgstr "Narušuji plány ostatních."
-
-#: bigfive/b5/constants.py:435
-msgid "Leave my belongings around."
-msgstr "Zapomínám své věci."
-
-#: bigfive/b5/constants.py:439
-msgid "Feel comfortable with myself."
-msgstr "Cítím se dobře o samotě."
-
-#: bigfive/b5/constants.py:443
-msgid "Wait for others to lead the way."
-msgstr "Čekám, že se někdo jiný ujme vedení."
-
-#: bigfive/b5/constants.py:447
-msgid "Don't understand people who get emotional."
-msgstr "Nerozumím lidem, kteří se rozčilují."
-
-#: bigfive/b5/constants.py:451
-msgid "Take no time for others."
-msgstr "Nevěnuji čas ostatním."
-
-#: bigfive/b5/constants.py:455
-msgid "Break my promises."
-msgstr "Porušuji své sliby."
-
-#: bigfive/b5/constants.py:459
-msgid "Am not bothered by difficult social situations."
-msgstr "Nevadí mi složité společenské situace."
-
-#: bigfive/b5/constants.py:463
-msgid "Like to take it easy."
-msgstr "Mám rád(a) svůj klid."
-
-#: bigfive/b5/constants.py:467
-msgid "Am attached to conventional ways."
-msgstr "Lpím na zvyklostech."
-
-#: bigfive/b5/constants.py:471
-msgid "Get back at others."
-msgstr "Mstím se ostatním."
-
-#: bigfive/b5/constants.py:475
-msgid "Put little time and effort into my work."
-msgstr "Vkládám málo času a úsilí do své práce."
-
-#: bigfive/b5/constants.py:479
-msgid "Am able to control my cravings."
-msgstr "Mám své tužby pod kontrolou."
-
-#: bigfive/b5/constants.py:483
-msgid "Act wild and crazy."
-msgstr "Chovám se nevázaně a bláznivě."
-
-#: bigfive/b5/constants.py:487
-msgid "Am not interested in theoretical discussions."
-msgstr "Nezajímají mě teoretické diskuze."
-
-#: bigfive/b5/constants.py:491
-msgid "Boast about my virtues."
-msgstr "Chlubím se svými dobrými vlastnostmi."
-
-#: bigfive/b5/constants.py:495
-msgid "Have difficulty starting tasks."
-msgstr "Těžko se mi začíná s prací."
-
-#: bigfive/b5/constants.py:499
-msgid "Remain calm under pressure."
-msgstr "Zachovávám klid pod tlakem."
-
-#: bigfive/b5/constants.py:503
-msgid "Look at the bright side of life."
-msgstr "Dívám se na věci z té lepší stránky."
-
-#: bigfive/b5/constants.py:507
-msgid "Believe that we should be tough on crime."
-msgstr "Věřím, že bychom měli být tvrdší vůči zločinu."
-
-#: bigfive/b5/constants.py:511
-msgid "Try not to think about the needy."
-msgstr "Snažím se nemyslet na chudé."
-
-#: bigfive/b5/constants.py:515
-msgid "Act without thinking."
-msgstr "Jednám bezmyšlenkovitě."
-
-#: bigfive/b5/forms.py:15
-msgid "Statement"
-msgstr "Tvrzení"
-
-#: bigfive/b5/forms.py:17
-msgid "Answer"
-msgstr "Odpověď"
-
-#: bigfive/b5/models.py:27
-msgid "Your sex"
-msgstr "Vaše pohlaví"
-
-#: bigfive/b5/models.py:32
-msgid "Your age group"
-msgstr "Vaše věková skupina"
-
-#: bigfive/templates/index.html:8
-msgid "Go back"
-msgstr "Vrátit se"
-
-#: bigfive/templates/index.html:9
-msgid "Continue forward"
-msgstr "Pokračovat dále"
-
-#: bigfive/templates/index.html:10
-msgid "Let’s start!"
-msgstr "Začít vyplňovat!"
-
-#: bigfive/templates/index.html:17
-msgid "Free Big Five personality test"
-msgstr "Test osobnosti Big five zdarma"
-
-#: bigfive/templates/index.html:18
-msgid ""
-"Discover yourself! Explore the five key dimensions of your personality free "
-"of charge."
-msgstr ""
-"Objevte sebe sama! Prozkoumejte bezplatně pět klíčových dimenzí své "
-"osobnosti."
-
-#: bigfive/templates/index.html:20
-msgid "What is Big Five?"
-msgstr "Co je to Big five?"
-
-#: bigfive/templates/index.html:21
-msgid ""
-"The Big Five personality traits model is a cornerstone in psychological "
-"research, offering a robust framework for understanding human personality. "
-"It offers a comprehensive approach to understanding human personality by "
-"categorizing traits into five distinct dimensions. These dimensions are "
-"<em>Openness to experience</em>, <em>Conscientiousness</em>, "
-"<em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>, "
-"collectively known as OCEAN or CANOE. Each trait represents a spectrum, with "
-"individuals varying in the degree to which they exhibit aspects of each "
-"trait."
-msgstr ""
-"Osobnostní model Big five (Velká pětka) poskytuje sofistikovaný nástroj pro "
-"pochopení lidské mysli zejména profesionálními psychology prostřednictvím "
-"testu osobnosti. Představuje komplexní přístup k analýze osobnosti tím, že "
-"kategorizuje osobnostní rysy do pěti odlišných dimenzí. Tyto dimenze jsou "
-"<em>Otevřenost vůči zkušenostem</em>, <em>Svědomitost</em>, <em>Extraverze</"
-"em>, <em>Přívětivost</em> a <em>Neuroticismus</em>, v angličtině známé pod "
-"zkratkami OCEAN nebo CANOE. Každý rys představuje spektrum, přičemž "
-"jednotlivci se liší mírou projevu aspektů každého rysu."
-
-#: bigfive/templates/index.html:23
-msgid "The five dimensions"
-msgstr "Pět dimenzí osobnosti"
-
-#: bigfive/templates/index.html:25 bigfive/templates/result.html:91
-#: bigfive/templates/result.html:224
-msgid "Openness to experience"
-msgstr "Otevřenost vůči zkušenostem"
-
-#: bigfive/templates/index.html:25
-msgid ""
-"This dimension reflects the degree of intellectual curiosity, creativity, "
-"and a preference for novelty and variety. Individuals high in openness are "
-"often imaginative, open to new experiences, and have a broad range of "
-"interests. Conversely, those lower in openness may prefer routine and "
-"familiarity."
-msgstr ""
-"Tato dimenze odráží míru intelektuální zvědavosti, kreativity a preference "
-"novot a rozmanitosti. Jedinci s vysokou mírou otevřenosti jsou často "
-"nápadití, otevření novým zkušenostem a mají širokou škálu zájmů. Naopak ti, "
-"kteří mají nižší míru otevřenosti, mohou preferovat rutinu a všednost."
-
-#: bigfive/templates/index.html:26 bigfive/templates/result.html:91
-#: bigfive/templates/result.html:160
-msgid "Conscientiousness"
-msgstr "Svědomitost"
-
-#: bigfive/templates/index.html:26
-msgid ""
-"This trait denotes the level of thoughtfulness, good impulse control, and "
-"goal-directed behaviors. Highly conscientious individuals tend to be "
-"organized, mindful of details, and responsible. Those with lower "
-"conscientiousness might be more spontaneous and less focused on details."
-msgstr ""
-"Tento osobnostní rys označuje úroveň uvážlivosti, dobré kontroly impulsů a "
-"cílevědomého chování. Vysoce svědomití jedinci bývají organizovaní, vědomí "
-"si detailů a zodpovědní. Ti s nižší svědomitostí mohou být spontánnější a "
-"méně zaměření na detaily."
-
-#: bigfive/templates/index.html:27 bigfive/templates/result.html:91
-#: bigfive/templates/result.html:97
-msgid "Extraversion"
-msgstr "Extraverze"
-
-#: bigfive/templates/index.html:27
-msgid ""
-"Extraversion is characterized by excitability, sociability, talkativeness, "
-"assertiveness, and high amounts of emotional expressiveness. Extroverts "
-"derive energy from interacting with others, while introverts, who score "
-"lower on this trait, find energy in solitary activities."
-msgstr ""
-"Extraverze je charakterizována vzrušivostí, společenskostí, upovídaností, "
-"asertivitou a vysokou mírou emocionální vyjádřivosti. Extroverti čerpají "
-"energii z interakce s ostatními, zatímco introverti, kteří dosahují nižšího "
-"skóre tohoto rysu, nacházejí energii v samotářských aktivitách."
-
-#: bigfive/templates/index.html:28 bigfive/templates/result.html:91
-#: bigfive/templates/result.html:128
-msgid "Agreeableness"
-msgstr "Přívětivost"
-
-#: bigfive/templates/index.html:28
-msgid ""
-"This trait reflects individual differences in cooperation and social "
-"harmony. Agreeable individuals are compassionate, trustworthy, and "
-"altruistic. They prefer to avoid conflict. Those scoring lower on "
-"agreeableness may be more competitive or challenging in their interactions "
-"with others."
-msgstr ""
-"Tento rys odráží individuální rozdíly ve spolupráci a vztahu k sociální "
-"harmonii. Přívětiví jedinci jsou soucitní, důvěryhodní a altruističtí. "
-"Preferují vyhýbání se konfliktům. Ti, kteří dosahují nižších skóre "
-"<em>Přívětivosti</em>, mohou být ve svých interakcích s ostatními "
-"soutěživější a neváhají vyjadřovat svůj nesouhlas."
-
-#: bigfive/templates/index.html:29 bigfive/templates/result.html:91
-#: bigfive/templates/result.html:193
-msgid "Neuroticism"
-msgstr "Neuroticismus"
-
-#: bigfive/templates/index.html:29
-msgid ""
-"Neuroticism indicates the tendency towards unstable emotions and moodiness. "
-"High scorers may experience mood swings, anxiety, irritability, and sadness. "
-"Those with lower scores in neuroticism tend to be more emotionally stable "
-"and resilient."
-msgstr ""
-"Neuroticismus ukazuje na tendenci k nestabilním emocím a náladovosti. "
-"Jedinci s vysokými skóre mohou prožívat výkyvy nálad, úzkost, podrážděnost a "
-"smutek. Ti s nižšími skóre <em>Neuroticismu</em> bývají emočně stabilnější a "
-"odolnější."
-
-#: bigfive/templates/index.html:32
-msgid "Comparison to MBTI"
-msgstr "Srovnání s MBTI"
-
-#: bigfive/templates/index.html:33
-msgid ""
-"The Big Five personality traits model and the widely known Myers-Briggs Type "
-"Indicator (MBTI) are two distinct methods of personality assessment, but "
-"they differ significantly in scientific validity and approach. The Big Five "
-"model is highly regarded in the psychological community for its empirical "
-"support and reliability. It assesses personality across a spectrum in five "
-"key dimensions, providing a nuanced view of personality traits."
-msgstr ""
-"Model osobnostních rysů Big five a veřejností oblíbený Myers-Briggs Type "
-"Indicator (MBTI) jsou dva odlišné způsoby hodnocení osobnosti, lišící se "
-"výrazně přístupem a uznávaností vědci. Model Big five je v psychologické "
-"komunitě vysoce ceněn pro svou empirickou platnost a spolehlivost. Hodnotí "
-"osobnost v pěti klíčových dimenzích, což poskytuje podrobný pohled na "
-"osobnostní rysy."
-
-#: bigfive/templates/index.html:35
-msgid ""
-"On the other hand, the MBTI, which categorizes individuals into 16 "
-"personality types based on four dichotomies, has been widely criticized by "
-"psychologists for its lack of empirical grounding and scientific rigor. One "
-"major criticism of the MBTI is its reliance on binary choices, which "
-"oversimplifies the complex nature of human personality. Additionally, "
-"numerous studies have questioned the test's reliability, as many individuals "
-"receive different MBTI types when retaking the test. Despite its popularity "
-"in corporate and educational settings, the MBTI is often viewed as a tool "
-"for self-reflection rather than a scientifically validated instrument."
-msgstr ""
-"Oproti tomu model MBTI, kategorizující jednotlivce do 16 osobnostních typů "
-"na základě čtyř dichotomií, byl psychology široce kritizován pro svůj "
-"nedostatek empirického základu a chybějící vědecké rigoróznosti. Jednou z "
-"hlavních kritik modelu MBTI je jeho spoléhání na binární volby, které "
-"zjednodušují složitou povahu lidské osobnosti. Navíc studie zpochybnily "
-"spolehlivost testu, protože některým jedincům vychází různé typy MBTI při "
-"opakovaném testování. Přes jeho popularitu v podnikovém a vzdělávacím "
-"prostředí je MBTI často vnímán spíše jako zábavná hříčka pro sebereflexi než "
-"jako vědecky ověřený nástroj."
-
-#: bigfive/templates/index.html:37
-msgid ""
-"In contrast, the Big Five model's consistency across diverse populations and "
-"its ability to predict various life outcomes, such as job performance and "
-"psychological well-being, have made it a preferred choice for researchers "
-"and clinicians seeking a more evidence-based approach to understanding "
-"personality."
-msgstr ""
-"Model Big five je v porovnání s MBTI zcela konzistentní napříč různými "
-"populacemi a jeho schopnost předpovídat různé životní úspěchy, jako je "
-"pracovní výkon a psychická pohoda, z něj učinily upřednostňovanou volbu pro "
-"výzkumníky a klinické psychology hledající přístup k porozumění osobnosti "
-"založený na vědeckých důkazech."
-
-#: bigfive/templates/index.html:39
-msgid "Take the test!"
-msgstr "Pusťte se do toho!"
-
-#: bigfive/templates/index.html:42
-msgid "The test"
-msgstr "Osobnostní test"
-
-#: bigfive/templates/index.html:60
-#, python-format
-msgid ""
-"Question number %(number)s of %(count)s: what do you think of the following "
-"statement about yourself?"
-msgstr ""
-"Otázka číslo %(number)s ze %(count)s: co si myslíte o následujícím tvrzení o "
-"sobě?"
-
-#: bigfive/templates/index.html:66
-#, python-format
-msgid "Statement: \"%(statement)s\""
-msgstr "Tvrzení: „%(statement)s“"
-
-#: bigfive/templates/index.html:78
-msgid "Evaluate answers"
-msgstr "Vyhodnotit odpovědi"
-
-#: bigfive/templates/index.html:90
-msgid "Our detailed report"
-msgstr "Náš detailní report"
-
-#: bigfive/templates/index.html:91
-msgid ""
-"After completing our comprehensive <a href=\"#test\">120-question test</a>, "
-"you will receive a detailed report that delves into each of the Big Five "
-"traits, providing a nuanced understanding of your personality. Accompanying "
-"this report are interactive bar charts, which visually represent your scores "
-"in each dimension. This personalized report aims to enlighten you about your "
-"unique personality profile, enhancing self-awareness and personal growth."
-msgstr ""
-"Po dokončení našeho komplexního <a href=\"#test\">testu se 120 otázkami</a> "
-"obdržíte podrobný report, zabývající se každým z osobnostních rysů Big five "
-"a poskytující podrobné porozumění vaší osobnosti. Součástí reportu jsou i "
-"interaktivní sloupcové diagramy, které vizuálně reprezentují vaše skóre "
-"jednotlivých dimenzích osobnosti. Tento personalizovaný report má za cíl "
-"pomoci vám ponořit se do vašeho jedinečného profilu osobnosti, abyste "
-"zvýšili své sebepoznání a pomohli tak svému osobnímu růstu."
-
-#: bigfive/templates/index.html:93
-msgid "The history of the Big Five"
-msgstr "Historie testu osobnosti Big five"
-
-#: bigfive/templates/index.html:94
-msgid ""
-"The journey of the Big Five personality traits model to becoming a "
-"cornerstone in psychological assessment is a fascinating tale of scientific "
-"evolution. The roots of this model trace back to the 1930s when psychologist "
-"Gordon Allport and his colleague H. S. Odbert hypothesized that the "
-"fundamental traits of human personality could be extracted from the language "
-"we use to describe people. They started by identifying thousands of words in "
-"the English language that described personality traits."
-msgstr ""
-"Cesta modelu osobnostních rysů Big five k tomu, aby se stal základním "
-"nástrojem psychologického hodnocení, je fascinujícím příběhem vývoje vědy. "
-"Kořeny tohoto modelu sahají do 30. let 20. století, kdy psycholog Gordon "
-"Allport a jeho kolega H. S. Odbert formulovali hypotézu, že základní rysy "
-"lidské osobnosti mohou být odvozeny z jazyka, který používáme k popisu lidí. "
-"Začali identifikací tisíců slov v anglickém jazyce popisujích osobnostní "
-"rysy."
-
-#: bigfive/templates/index.html:96
-msgid ""
-"This initial list was refined over the decades by various psychologists, "
-"notably Raymond Cattell in the 1940s and 1950s. Cattell used factor "
-"analysis, a statistical method, to reduce the extensive list of traits to a "
-"more manageable number. However, it was not until the 1970s and 1980s that "
-"the Big Five model as we know it today began to take shape. Researchers Paul "
-"Costa and Robert McCrae played a pivotal role in this. They used factor "
-"analysis on personality survey data and consistently found five broad "
-"factors, which they labeled as <em>Openness to experience</em>, "
-"<em>Conscientiousness</em>, <em>Extraversion</em>, <em>Agreeableness</em>, "
-"and <em>Neuroticism</em>."
-msgstr ""
-"Tento počáteční seznam byl v průběhu desetiletí upravován různými "
-"psychology, zvláště Raymondem Cattellem v 40. a 50. letech 20. století. "
-"Cattell použil faktorovou analýzu, což je statistická metoda, ke zúžení "
-"rozsáhlého seznamu rysů na přijatelný počet. Nicméně až do 70. a 80. let se "
-"nezačal blížit dnešní podobě modelu Big five, jak jej známe. V tomto měli "
-"klíčovou roli výzkumníci Paul Costa a Robert McCrae. Použili faktorovou "
-"analýzu na data získaná psychologickým výzkumem a konzistentně nacházeli pět "
-"širokých faktorů, které označili jako <em>Otevřenost vůči zkušenostem</em>, "
-"<em>Svědomitost</em>, <em>Extraverze</em>, <em>Přívětivost</em> a "
-"<em>Neuroticismus</em>."
-
-#: bigfive/templates/index.html:98
-msgid ""
-"The Big Five model gained momentum in the 1990s as a large body of research "
-"began to validate its applicability across different cultures and languages, "
-"establishing it as a universal framework for understanding personality. This "
-"universality was a significant leap forward, as it suggested that these five "
-"dimensions could encompass the breadth of human personality traits."
-msgstr ""
-"Model Big five vešel ve známost v 90. letech 20. století, kdy podstatné "
-"množství výzkumů začalo potvrzovat jeho uplatnitelnost napříč různými "
-"kulturami a jazyky, čímž potvrdilo jeho postavení do role univerzálního "
-"rámce pro porozumění osobnosti. Tato univerzálnost byla významným krokem "
-"vpřed, protože naznačovala, že těchto pět dimenzí může zahrnout celou šíři "
-"lidských osobnostních rysů."
-
-#: bigfive/templates/index.html:100
-msgid ""
-"The model's simplicity and empirical support have made it a popular tool not "
-"only in psychological research but also in practical applications like "
-"psychotherapy, career counseling, and even organizational hiring practices. "
-"Today, the Big Five model stands as a testament to the ongoing quest to "
-"understand the complexities of human personality through a scientific lens."
-msgstr ""
-"Jednoduchost modelu a jeho empirické potvrzení z něj učinily oblíbený "
-"nástroj nejen v psychologickém výzkumu, ale také v praktických aplikacích, "
-"jako je psychoterapie, kariérní poradenství a dokonce i při náboru nových "
-"zaměstnanců v různých organizacích. Dnes je model Big five jasnou ukázkou "
-"neustálé snahy porozumět zákoutím lidské osobnosti prostřednictvím vědy."
-
-#: bigfive/templates/index.html:102
-msgid "Accuracy and reliability"
-msgstr "Přesnost a spolehlivost"
-
-#: bigfive/templates/index.html:103
-msgid ""
-"The Big Five personality traits model distinguishes itself not only through "
-"its comprehensive framework but also through its robust accuracy and "
-"reliability, validated by extensive psychological research. The model's "
-"reliability is evident in its consistency across various studies and "
-"cultural contexts, showcasing its universal applicability."
-msgstr ""
-"Model osobnostních rysů Big five se odlišuje svou komplexností, přesností a "
-"spolehlivostí, ověřenou rozsáhlým psychologickým výzkumem. Spolehlivost "
-"modelu se potvrdila v různých studiích napříč kulturními kontexty, které "
-"ověřily jeho univerzální použitelnost."
-
-#: bigfive/templates/index.html:105
-msgid ""
-"One of the key strengths of the Big Five is its basis in empirical research, "
-"which has continually supported its validity. Numerous studies have "
-"confirmed that the five dimensions are able to predict a range of important "
-"life outcomes, including academic and career success, interpersonal "
-"relationships, and psychological well-being. This predictive validity is a "
-"crucial aspect of any psychological model, as it demonstrates its practical "
-"utility in real-world settings."
-msgstr ""
-"Jednou z klíčových silných stránek modelu Big five je jeho základ v "
-"empirickém výzkumu podporujícím jeho validitu. Řada studií potvrdila, že pět "
-"dimenzí modelu stačí k předpovězení široké škály důležitých výsledků v "
-"životě, včetně akademického a kariérního úspěchu, mezilidských vztahů a "
-"psychické pohody. Tato prediktivní platnost je zásadním aspektem jakéhokoliv "
-"psychologického modelu, protože ukazuje jeho praktickou užitečnost v "
-"reálných situacích."
-
-#: bigfive/templates/index.html:107
-msgid ""
-"Furthermore, the Big Five's reliability is demonstrated through its "
-"replicability in various studies over time. The consistency with which "
-"different researchers using diverse populations have identified the same "
-"five factors underscores the stability of the model. Unlike some other "
-"personality assessments that rely on subjective interpretations, the Big "
-"Five is grounded in objective, data-driven analysis, lending it a high "
-"degree of scientific credibility."
-msgstr ""
-"Navíc o spolehlivosti osobnostního modelu Big five vypovídá jeho "
-"replikovatelností v různých vědeckých studiích v průběhu času. Zmíněná "
-"konzistence, která se ukázala při výzkumu osobností rozmanitých populací, "
-"potvrdila stabilitu modelu. Na rozdíl od některých jiných hodnocení "
-"osobnosti, spoléhajících se na subjektivní interpretace, je model Big five "
-"založen na objektivní, daty řízené analýze, což mu poskytuje vysokou míru "
-"vědecké důvěryhodnosti."
-
-#: bigfive/templates/index.html:109
-msgid ""
-"Another notable aspect of the Big Five is its scalability. The model "
-"provides a flexible framework that can be adapted for different research "
-"purposes, from broad, general personality overviews to more specific, "
-"detailed analyses. This adaptability does not compromise its reliability, as "
-"the core dimensions remain robust across various adaptations."
-msgstr ""
-"Dalším významným aspektem modelu Big five je jeho škálovatelnost. Model "
-"poskytuje flexibilní rámec, který lze přizpůsobit různým výzkumným účelům, "
-"od širokých, obecných přehledů o typech osobnosti až po specifičtější, "
-"detailní analýzy. Tato adaptabilita nemá vliv na jeho spolehlivost, protože "
-"základní dimenze zůstávají v různých adaptacích zachovány."
-
-#: bigfive/templates/index.html:111
-msgid ""
-"In summary, the accuracy and reliability of the Big Five model are well-"
-"established, making it a valuable tool in both psychological research and "
-"practical applications. Its empirical foundations, consistent replication "
-"across studies, predictive validity, and flexible yet stable framework make "
-"it one of the most reliable and respected models in personality psychology."
-msgstr ""
-"Celkově vzato lze říci, že přesnost a spolehlivost modelu Big five jsou "
-"natolik prozkoumané, že jej můžeme považovat za cenný nástroj v "
-"psychologickém výzkumu i v praktických aplikacích. Jeho empirické základy, "
-"konzistence napříč studiemi, spolehlivé predikce a flexibilita jej činí "
-"jedním z nejspolehlivějších a nejrespektovanějších modelů v oboru "
-"psychologie osobnosti."
-
-#: bigfive/templates/index.html:113
-msgid "Acknowledgement"
-msgstr "Poděkování"
-
-#: bigfive/templates/index.html:114
-msgid ""
-"This website is based on <a href=\"https://github.com/kholia/IPIP-NEO-PI/"
-"\">Python port</a> of the <a href=\"https://sites.psu.edu/drj5j/\">John A. "
-"Johnson’s</a> IPIP-NEO-120 software, which is IPIP version of the NEO-PI-R "
-"test."
-msgstr ""
-"Tato webová stránka je založena na <a href=\"https://github.com/kholia/IPIP-"
-"NEO-PI/\">pythonové verzi</a> softwaru IPIP-NEO-120 od <a href=\"https://"
-"sites.psu.edu/drj5j/\">Johna A. Johnsona</a>, která je IPIP verzí testu NEO-"
-"PI-R."
-
-#: bigfive/templates/result.html:10
-msgid "High threshold"
-msgstr "Hranice vysokého skóre"
-
-#: bigfive/templates/result.html:11
-msgid "Low threshold"
-msgstr "Hranice nízkého skóre"
-
-#: bigfive/templates/result.html:21
-msgid "Your Big Five personality test traits results"
-msgstr "Výsledek testu osobnosti Big five"
-
-#: bigfive/templates/result.html:23
-#, python-format
-msgid ""
-"This report, completed %(created)s, estimates the individual's level on each "
-"of the five broad personality domains of the Big Five model."
-msgstr ""
-"Tento report, vyhotoven %(created)s, odhaduje osobní skóre každého z pěti "
-"širších osobnostních rysů modelu Big five."
-
-#: bigfive/templates/result.html:25
-msgid ""
-"Personality traits describe, relative to other people, the frequency or "
-"intensity of a person's feelings, thoughts, or behaviors. Possession of a "
-"trait is therefore a matter of degree. We might describe two individuals as "
-"<em>extraverts</em>, but still see one as more extraverted than the other. "
-"This report uses expressions such as \"extravert\" or \"high in "
-"extraversion\" to describe someone who is likely to be seen by others as "
-"relatively extraverted."
-msgstr ""
-"Osobnostní rysy popisují frekvenci nebo intenzitu určitých pocitů, myšlenek "
-"nebo chování osoby v porovnání s dalšími lidmi. U osobnostních rysů záleží "
-"na jejich míře. Můžeme tedy označit dva jedince za <em>extroverty</em>, ale "
-"přesto vidět jednoho z nich jako více extrovertního než druhého. Tento "
-"report používá výrazy jako „extrovert“ nebo „vysoké skóre extroverze“ pro "
-"popis někoho, kdo je pravděpodobně vnímán ostatními jako relativně "
-"extrovertní."
-
-#: bigfive/templates/result.html:27
-#, python-format
-msgid ""
-"The computer program that generates this report classifies you as low, "
-"average, or high in a trait according to whether your score is approximately "
-"in the lowest 30%%, middle 40%%, or highest 30%% of scores obtained by "
-"people of your sex and roughly your age (%(sex)s, %(age_group)s). Your "
-"numerical scores are reported and graphed as <em>percentile estimates</em>. "
-"For example, a score of \"60\" means that your level on that trait is "
-"estimated to be higher than 60%% of persons of your sex and age."
-msgstr ""
-"Počítačový program, který vytvořil tento report, vás zařadil do kategorií s "
-"nízkým, průměrným nebo vysokým skóre podle toho, zda je vaše skóre přibližně "
-"v nejnižších 30, středních 40, nebo nejvyšších 30 procentech ve srovnání s "
-"lidmi zařazených do stejné skupiny dle pohlaví a věkové skupiny (%(sex)s, "
-"%(age_group)s). Vaše číselná skóre jsou vypsána a graficky znázorněna jako "
-"<em>percentilové odhady</em>. Například skóre „60“ znamená, že vaše skóre "
-"daného rysu je odhadována jako vyšší než 60&nbsp;%% osob stejného pohlaví a "
-"podobného věku."
-
-#: bigfive/templates/result.html:29
-msgid ""
-"Please keep in mind that \"low,\" \"average,\" and \"high\" scores on a "
-"personality test are neither absolutely good nor bad. A particular level on "
-"any trait will probably be neutral or irrelevant for a great many "
-"activities, be helpful for accomplishing some things, and detrimental for "
-"accomplishing other things."
-msgstr ""
-"Mějte prosím na paměti, že „nízké“, „průměrné“ a „vysoké“ skóre v testu "
-"osobnosti nemůže být samo o sobě považováno za absolutně dobré nebo špatné. "
-"Konkrétní kategorie jakéhokoli rysu bude pravděpodobně neutrální nebo "
-"irelevantní pro mnoho aktivit. Může však napomoci či uškodit dosažení "
-"úspěchu v určitých oblastech."
-
-#: bigfive/templates/result.html:31
-msgid ""
-"As with any personality inventory, scores and descriptions can only "
-"approximate an individual's actual personality. High and low score "
-"descriptions are usually accurate, but average scores close to the low or "
-"high boundaries might misclassify you as only average. On each set of six "
-"subdomain scales it is somewhat uncommon but certainly possible to score "
-"high in some of the subdomains and low in the others. In such cases more "
-"attention should be paid to the subdomain scores than to the broad domain "
-"score. Questions about the accuracy of your results are best resolved by "
-"showing your report to people who know you well."
-msgstr ""
-"Stejně jako u jakéhokoli jiného testu osobnosti, skóre a popisy mohou pouze "
-"přibližně odpovídat skutečné osobnosti jedince. Popisy vysokého a nízkého "
-"skóre jsou obvykle přesné, ale průměrné skóre blízké hranici nízkého nebo "
-"vysokého skóre vás může chybně zařadit mezi průměrné. U každého ze šesti "
-"podřazených aspektů osobnostních rysů je poněkud neobvyklé, ale rozhodně "
-"možné, mít vysoké v některých aspektech a nízké v ostatních. V takových "
-"případech by měla být věnována větší pozornost skóre jednotlivých aspektů "
-"než skóre hlavních osobnostních rysů. Otázky týkající se přesnosti vašich "
-"výsledků budou nejlépe vyřešeny tím, že tento report ukážete lidem, kteří "
-"vás dobře znají."
-
-#: bigfive/templates/result.html:33
-msgid "Your results"
-msgstr "Vaše výsledky"
-
-#: bigfive/templates/result.html:37
-msgid "Your score on <em>Extraversion</em> is"
-msgstr "Vaše skóre <em>Extraverze</em> je"
-
-#: bigfive/templates/result.html:39 bigfive/templates/result.html:49
-#: bigfive/templates/result.html:59 bigfive/templates/result.html:69
-#: bigfive/templates/result.html:79
 msgid "low"
 msgstr "nízké"
 
-#: bigfive/templates/result.html:41 bigfive/templates/result.html:51
-#: bigfive/templates/result.html:61 bigfive/templates/result.html:71
-#: bigfive/templates/result.html:81
-msgid "high"
-msgstr "vysoké"
-
-#: bigfive/templates/result.html:43 bigfive/templates/result.html:53
-#: bigfive/templates/result.html:63 bigfive/templates/result.html:73
-#: bigfive/templates/result.html:83
 msgid "average"
 msgstr "průměrné"
 
-#: bigfive/templates/result.html:47
-msgid "Your score on <em>Agreeableness</em> is"
-msgstr "Vaše skóre <em>Přívětivosti</em> je"
+msgid "high"
+msgstr "vysoké"
 
-#: bigfive/templates/result.html:57
-msgid "Your score on <em>Conscientiousness</em> is"
-msgstr "Vaše skóre <em>Svědomitosti</em> je"
+msgid "Choose…"
+msgstr "Vyberte…"
 
-#: bigfive/templates/result.html:67
-msgid "Your score on <em>Neuroticism</em> is"
-msgstr "Vaše skóre <em>Neuroticismu</em> je"
+msgid "Answer"
+msgstr "Odpověď"
 
-#: bigfive/templates/result.html:77
-msgid "Your score on <em>Openness to experience</em> is"
-msgstr "Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je"
+msgid "Please submit the whole questionnaire."
+msgstr "Odešlete prosím celý dotazník."
 
-#: bigfive/templates/result.html:90
-msgid "Personality traits"
-msgstr "Osobnostní rysy"
+msgid "Your sex"
+msgstr "Vaše pohlaví"
 
-#: bigfive/templates/result.html:95
+msgid "Your age group"
+msgstr "Vaše věková skupina"
+
+msgid "Worry about things."
+msgstr "Dělám si starosti."
+
+msgid "Make friends easily."
+msgstr "Snadno si nacházím přátele."
+
+msgid "Have a vivid imagination."
+msgstr "Mám bujnou představivost."
+
+msgid "Trust others."
+msgstr "Důvěřuji ostatním."
+
+msgid "Complete tasks successfully."
+msgstr "Úspěšně dokončuji úkoly."
+
+msgid "Get angry easily."
+msgstr "Snadno se rozzlobím."
+
+msgid "Love large parties."
+msgstr "Mám rád(a) velké večírky."
+
+msgid "Believe in the importance of art."
+msgstr "Věřím v důležitost umění."
+
+msgid "Use others for my own ends."
+msgstr "Využívám druhé pro své cíle."
+
+msgid "Like to tidy up."
+msgstr "Rád(a) uklízím."
+
+msgid "Often feel blue."
+msgstr "Často se cítím sklíčeně."
+
+msgid "Take charge."
+msgstr "Ujímám se vedení."
+
+msgid "Experience my emotions intensely."
+msgstr "Své emoce prožívám intenzivně."
+
+msgid "Love to help others."
+msgstr "Rád(a) pomáhám druhým."
+
+msgid "Keep my promises."
+msgstr "Plním své sliby."
+
+msgid "Find it difficult to approach others."
+msgstr "Je pro mě těžké oslovit druhé."
+
+msgid "Am always busy."
+msgstr "Jsem pořád v jednom kole."
+
+msgid "Prefer variety to routine."
+msgstr "Dávám přednost rozmanitosti před rutinou."
+
+msgid "Love a good fight."
+msgstr "Miluji pořádnou hádku."
+
+msgid "Work hard."
+msgstr "Pracuji tvrdě."
+
+msgid "Go on binges."
+msgstr "Někdy to přeháním s jídlem nebo pitím."
+
+msgid "Love excitement."
+msgstr "Zbožňuji vzrušení."
+
+msgid "Love to read challenging material."
+msgstr "Rád(a) čtu náročné texty."
+
+msgid "Believe that I am better than others."
+msgstr "Věřím, že jsem lepší než ostatní."
+
+msgid "Am always prepared."
+msgstr "Jsem vždy připraven(a)."
+
+msgid "Panic easily."
+msgstr "Lehce propadám panice."
+
+msgid "Radiate joy."
+msgstr "Vyzařuji radost."
+
+msgid "Tend to vote for liberal political candidates."
+msgstr "Obvykle volím liberální politické kandidáty."
+
+msgid "Sympathize with the homeless."
+msgstr "Soucítím s lidmi bez domova."
+
+msgid "Jump into things without thinking."
+msgstr "Vrhám se do věcí bez rozmyslu."
+
+msgid "Fear for the worst."
+msgstr "Obávám se nejhoršího."
+
+msgid "Feel comfortable around people."
+msgstr "Mezi lidmi se cítím dobře."
+
+msgid "Enjoy wild flights of fantasy."
+msgstr "Rád(a) popouštím uzdu fantazii."
+
+msgid "Believe that others have good intentions."
+msgstr "Věřím, že ostatní mají dobré záměry."
+
+msgid "Excel in what I do."
+msgstr "Vynikám v tom, co dělám."
+
+msgid "Get irritated easily."
+msgstr "Snadno se nechám podráždit."
+
+msgid "Talk to a lot of different people at parties."
+msgstr "Na večírcích mluvím s mnoha různými lidmi."
+
+msgid "See beauty in things that others might not notice."
+msgstr "Vidím krásu ve věcech, kterých si ostatní nemusí všimnout."
+
+msgid "Cheat to get ahead."
+msgstr "Podvádím, abych uspěl(a)."
+
+msgid "Often forget to put things back in their proper place."
+msgstr "Často zapomínám vracet věci na své místo."
+
+msgid "Dislike myself."
+msgstr "Nemám se rád(a)."
+
+msgid "Try to lead others."
+msgstr "Snažím se vést ostatní."
+
+msgid "Feel others' emotions."
+msgstr "Vnímám emoce druhých."
+
+msgid "Am concerned about others."
+msgstr "Záleží mi na druhých."
+
+msgid "Tell the truth."
+msgstr "Mluvím pravdu."
+
+msgid "Am afraid to draw attention to myself."
+msgstr "Bojím se na sebe upoutat pozornost."
+
+msgid "Am always on the go."
+msgstr "Jsem stále v pohybu."
+
+msgid "Prefer to stick with things that I know."
+msgstr "Raději se držím toho, co znám."
+
+msgid "Yell at people."
+msgstr "Křičím na lidi."
+
+msgid "Do more than what's expected of me."
+msgstr "Dělám více, než se ode mě očekává."
+
+msgid "Rarely overindulge."
+msgstr "Málokdy to s něčím přeháním."
+
+msgid "Seek adventure."
+msgstr "Vyhledávám dobrodružství."
+
+msgid "Avoid philosophical discussions."
+msgstr "Vyhýbám se filozofickým diskuzím."
+
+msgid "Think highly of myself."
+msgstr "Hodně si o sobě myslím."
+
+msgid "Carry out my plans."
+msgstr "Uskutečňuji své plány."
+
+msgid "Become overwhelmed by events."
+msgstr "Události mě snadno zahltí."
+
+msgid "Have a lot of fun."
+msgstr "Užívám si hodně zábavy."
+
+msgid "Believe that there is no absolute right or wrong."
+msgstr "Věřím, že neexistuje absolutní dobro a zlo."
+
+msgid "Feel sympathy for those who are worse off than myself."
+msgstr "Soucítím s těmi, kteří jsou na tom hůře než já."
+
+msgid "Make rash decisions."
+msgstr "Dělám ukvapená rozhodnutí."
+
+msgid "Am afraid of many things."
+msgstr "Bojím se mnoha věcí."
+
+msgid "Avoid contacts with others."
+msgstr "Vyhýbám se kontaktu s ostatními."
+
+msgid "Love to daydream."
+msgstr "Rád(a) sním s otevřenýma očima."
+
+msgid "Trust what people say."
+msgstr "Věřím tomu, co lidé říkají."
+
+msgid "Handle tasks smoothly."
+msgstr "Úkoly zvládám hladce."
+
+msgid "Lose my temper."
+msgstr "Neudržím nervy na uzdě."
+
+msgid "Prefer to be alone."
+msgstr "Dávám přednost samotě."
+
+msgid "Do not like poetry."
+msgstr "Nemám rád(a) poezii."
+
+msgid "Take advantage of others."
+msgstr "Zneužívám druhých."
+
+msgid "Leave a mess in my room."
+msgstr "Nechávám nepořádek ve svém pokoji."
+
+msgid "Am often down in the dumps."
+msgstr "Často mívám splín."
+
+msgid "Take control of things."
+msgstr "Beru věci do svých rukou."
+
+msgid "Rarely notice my emotional reactions."
+msgstr "Málokdy si všímám svých emočních reakcí."
+
+msgid "Am indifferent to the feelings of others."
+msgstr "Pocity druhých jsou mi lhostejné."
+
+msgid "Break rules."
+msgstr "Porušuji pravidla."
+
+msgid "Only feel comfortable with friends."
+msgstr "Dobře se cítím jen mezi přáteli."
+
+msgid "Do a lot in my spare time."
+msgstr "Ve volném čase toho dělám hodně."
+
+msgid "Dislike changes."
+msgstr "Nemám rád(a) změny."
+
+msgid "Insult people."
+msgstr "Urážím lidi."
+
+msgid "Do just enough work to get by."
+msgstr "Pracuji jen tolik, kolik je nezbytně nutné."
+
+msgid "Easily resist temptations."
+msgstr "Snadno odolávám pokušení."
+
+msgid "Enjoy being reckless."
+msgstr "Baví mě jednat lehkomyslně."
+
+msgid "Have difficulty understanding abstract ideas."
+msgstr "Abstraktní myšlenky chápu s obtížemi."
+
+msgid "Have a high opinion of myself."
+msgstr "Mám o sobě vysoké mínění."
+
+msgid "Waste my time."
+msgstr "Plýtvám časem."
+
+msgid "Feel that I'm unable to deal with things."
+msgstr "Mám pocit, že věci nezvládám."
+
+msgid "Love life."
+msgstr "Miluji život."
+
+msgid "Tend to vote for conservative political candidates."
+msgstr "Obvykle volím konzervativní politické kandidáty."
+
+msgid "Am not interested in other people's problems."
+msgstr "Problémy druhých lidí mě nezajímají."
+
+msgid "Rush into things."
+msgstr "Ženu se do věcí po hlavě."
+
+msgid "Get stressed out easily."
+msgstr "Snadno se dostanu do stresu."
+
+msgid "Keep others at a distance."
+msgstr "Držím si ostatní od těla."
+
+msgid "Like to get lost in thought."
+msgstr "Rád(a) se ztrácím v myšlenkách."
+
+msgid "Distrust people."
+msgstr "Nedůvěřuji lidem."
+
+msgid "Know how to get things done."
+msgstr "Vím, jak dotáhnout věci do konce."
+
+msgid "Am not easily annoyed."
+msgstr "Není snadné mě podráždit."
+
+msgid "Avoid crowds."
+msgstr "Vyhýbám se davům."
+
+msgid "Do not enjoy going to art museums."
+msgstr "Nebaví mě chodit do galerií."
+
+msgid "Obstruct others' plans."
+msgstr "Mařím plány druhých."
+
+msgid "Leave my belongings around."
+msgstr "Nechávám své věci všude možně."
+
+msgid "Feel comfortable with myself."
+msgstr "Cítím se dobře ve své kůži."
+
+msgid "Wait for others to lead the way."
+msgstr "Čekám, až se vedení ujmou ostatní."
+
+msgid "Don't understand people who get emotional."
+msgstr "Nerozumím lidem, kteří se nechávají unést emocemi."
+
+msgid "Take no time for others."
+msgstr "Nemám čas na druhé."
+
+msgid "Break my promises."
+msgstr "Porušuji své sliby."
+
+msgid "Am not bothered by difficult social situations."
+msgstr "Nepříjemné společenské situace mě nevyvedou z míry."
+
+msgid "Like to take it easy."
+msgstr "Rád(a) to beru s klidem."
+
+msgid "Am attached to conventional ways."
+msgstr "Lpím na zavedených zvyklostech."
+
+msgid "Get back at others."
+msgstr "Oplácím druhým stejnou mincí."
+
+msgid "Put little time and effort into my work."
+msgstr "Do své práce vkládám málo času a úsilí."
+
+msgid "Am able to control my cravings."
+msgstr "Dokážu ovládat své chutě a touhy."
+
+msgid "Act wild and crazy."
+msgstr "Chovám se divoce a bláznivě."
+
+msgid "Am not interested in theoretical discussions."
+msgstr "Nezajímají mě teoretické diskuze."
+
+msgid "Boast about my virtues."
+msgstr "Chlubím se svými přednostmi."
+
+msgid "Have difficulty starting tasks."
+msgstr "Těžko se pouštím do úkolů."
+
+msgid "Remain calm under pressure."
+msgstr "Pod tlakem si zachovávám klid."
+
+msgid "Look at the bright side of life."
+msgstr "Dívám se na život z té lepší stránky."
+
+msgid "Believe that we should be tough on crime."
+msgstr "Věřím, že bychom měli být na zločin tvrdí."
+
+msgid "Try not to think about the needy."
+msgstr "Snažím se nemyslet na potřebné."
+
+msgid "Act without thinking."
+msgstr "Jednám bez přemýšlení."
+
+msgid "Extraversion"
+msgstr "Extraverze"
+
+msgid "Extraversion facets"
+msgstr "Aspekty extraverze"
+
 msgid ""
-"Below, you will find the explanation what those scores mean. The description "
-"of each one of the five broad domains is followed by a more detailed "
-"description of personality according to the six subdomains that comprise "
-"each domain."
-msgstr ""
-"Níže najdete vysvětlení, co jednotlivá skóre znamenají. Popis každého z pěti "
-"hlavních osobnostních rysů je následován podrobnějším popisem osobnosti "
-"podle šesti podřazených aspektů, které tvoří každý osobnostní rys."
-
-#: bigfive/templates/result.html:98
-msgid ""
-"<em>Extraversion</em> is marked by pronounced engagement with the external "
-"world. Extraverts enjoy being with people, are full of energy, and often "
-"experience positive emotions. They tend to be enthusiastic, action-oriented, "
-"individuals who are likely to say \"Yes!\" or \"Let's go!\" to opportunities "
-"for excitement. In groups they like to talk, assert themselves, and draw "
+"<em>Extraversion</em> describes how strongly a person engages with the "
+"outside world. Extraverts enjoy being with people, are full of energy, and "
+"often experience positive emotions. They tend to be enthusiastic and action-"
+"oriented, the kind of people who say “Yes!” or “Let’s go!” to a chance for "
+"excitement. In groups they like to talk, assert themselves, and draw "
 "attention to themselves."
 msgstr ""
-"<em>Extraverze</em> je charakterizována výrazným zapojením do vnějšího "
-"světa. Extroverti si užívají být s lidmi, jsou plní energie a často zažívají "
-"pozitivní emoce. Mají tendenci být plní nadšení a orientovaní na akci. Jsou "
-"to jedinci, kteří pravděpodobně řeknou „Ano!“ nebo „Pojďme na to!“ "
-"příležitostem pro vzrušení. Ve skupinách rádi mluví, prosazují se a "
-"přitahují na sebe pozornost."
+"<em>Extraverze</em> vyjadřuje, jak výrazně se člověk zapojuje do vnějšího "
+"světa. Extraverti jsou rádi mezi lidmi, mají spoustu energie a často "
+"prožívají pozitivní emoce. Bývají nadšení a akční; jsou to lidé, kteří na "
+"nabídku vzrušení odpoví „Ano!“ nebo „Jdeme na to!“. Ve skupině rádi mluví, "
+"prosazují se a přitahují pozornost."
 
-#: bigfive/templates/result.html:100
 msgid ""
-"Introverts lack the exuberance, energy, and activity levels of extraverts. "
-"They tend to be quiet, low-key, deliberate, and disengaged from the social "
-"world. Their lack of social involvement should <em>not</em> be interpreted "
-"as shyness or depression; the introvert simply needs less stimulation than "
-"an extravert and prefers to be alone. The independence and reserve of the "
-"introvert is sometimes mistaken as unfriendliness or arrogance. In reality, "
-"an introvert who scores high on the <em>Agreeableness</em> dimension will "
-"not seek others out but will be quite pleasant when approached."
+"Introverts have less of the exuberance, energy, and activity of extraverts. "
+"They tend to be quiet, low-key, deliberate, and less involved in the social "
+"world. This should <em>not</em> be mistaken for shyness or depression: an "
+"introvert simply needs less stimulation than an extravert and prefers to be "
+"alone. Their independence and reserve are sometimes misread as "
+"unfriendliness or arrogance. In reality, an introvert who scores high on "
+"<em>Agreeableness</em> will not seek others out, but will be quite pleasant "
+"when approached."
 msgstr ""
-"Introverti postrádají nadšení, energii a úroveň aktivit extrovertů. Mají "
-"tendenci být tiší, nenápadní, rozvážní a oproštění od sociálního světa. "
-"Jejich nedostatek sociálního zapojení by <em>neměl</em> být interpretován "
-"jako plachost nebo deprese; introvert prostě potřebuje méně stimulace než "
-"extrovert a upřednostňuje být sám. Nezávislost a rezervovanost introverta je "
-"někdy mylně považována za nepřívětivost nebo aroganci. Ve skutečnosti "
-"introvert, který má vysoké skóre <em>Přívětivosti</em>, nebude vyhledávat "
-"ostatní, ale bude velmi příjemný, když je osloven."
+"Introverti mají méně živelnosti, energie a aktivity než extraverti. Bývají "
+"tiší, nenápadní, rozvážní a méně zapojení do společenského dění. To by se "
+"<em>nemělo</em> zaměňovat s plachostí nebo depresí: introvert prostě "
+"potřebuje méně podnětů než extravert a je raději sám. Jeho nezávislost a "
+"zdrženlivost si okolí někdy mylně vykládá jako nepřátelskost nebo "
+"povýšenost. Ve skutečnosti introvert s vysokým skóre <em>Přívětivosti</em> "
+"sice druhé nevyhledává, ale když ho někdo osloví, chová se velmi příjemně."
 
-#: bigfive/templates/result.html:103
 msgid ""
-"Your score on <em>Extraversion</em> is low, indicating you are introverted, "
-"reserved, and quiet. You enjoy solitude and solitary activities. Your "
-"socializing tends to be restricted to a few close friends."
+"Your score on <em>Extraversion</em> is low. You are introverted, reserved, "
+"and quiet. You enjoy solitude and solitary activities, and you tend to "
+"socialize with a few close friends."
 msgstr ""
-"Vaše skóre <em>Extraverze</em> je nízké, což značí, že jste introvertní, "
-"zdrženlivý a tichý. Užíváte si samoty a aktivit, které provádíte sami. Vaše "
-"socializace se obvykle omezuje na několik blízkých přátel."
+"Vaše skóre <em>Extraverze</em> je nízké. Patříte mezi introvertní, "
+"zdrženlivé a tiché lidi. Máte rádi samotu a činnosti, které můžete dělat "
+"sami, a stýkáte se spíše s několika blízkými přáteli."
 
-#: bigfive/templates/result.html:105
 msgid ""
-"Your score on <em>Extraversion</em> is high, indicating you are sociable, "
-"outgoing, energetic, and lively. You prefer to be around people much of the "
-"time."
+"Your score on <em>Extraversion</em> is average. You are neither a subdued "
+"loner nor a jovial chatterbox: you enjoy time with others, but also time "
+"alone."
 msgstr ""
-"Vaše skóre <em>Extraverze</em> je vysoké, což značí, že jste společenský, "
-"otevřený, energický a živý. Preferujete být většinu času v okolí lidí."
+"Vaše skóre <em>Extraverze</em> je průměrné. Nestraníte se lidí, ale ani "
+"nepotřebujete být neustále středem dění: užíváte si čas s ostatními i čas o "
+"samotě."
 
-#: bigfive/templates/result.html:107
 msgid ""
-"Your score on <em>Extraversion</em> is average, indicating you are neither a "
-"subdued loner nor a jovial chatterbox. You enjoy time with others but also "
-"time alone."
+"Your score on <em>Extraversion</em> is high. You are sociable, outgoing, "
+"energetic, and lively, and you prefer to be around people much of the time."
 msgstr ""
-"Vaše skóre <em>Extraverze</em> je průměrné, což naznačuje, že nejste ani "
-"zdrženlivý samotář, ani veselý tlachal. Užíváte si čas s ostatními, ale také "
-"čas strávený sami."
+"Vaše skóre <em>Extraverze</em> je vysoké. Jste společenský, otevřený a "
+"energický typ plný života a většinu času chcete trávit mezi lidmi."
 
-#: bigfive/templates/result.html:110 bigfive/templates/result.html:114
-msgid "Extraversion facets"
-msgstr "Aspekty Extraverze"
-
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:120
 msgid "Friendliness"
 msgstr "Přátelskost"
 
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:121
+msgid ""
+"Friendly people genuinely like others and openly show them positive "
+"feelings. They make friends quickly and easily form close, intimate "
+"relationships. Low scorers are not necessarily cold or hostile, but they do "
+"not reach out to others and come across as distant and reserved."
+msgstr ""
+"Přátelští lidé mají druhé upřímně rádi a otevřeně jim dávají najevo kladné "
+"pocity. Rychle si získávají přátele a snadno navazují blízké, důvěrné "
+"vztahy. Lidé s nízkým skóre nemusí být nutně chladní nebo nepřátelští, ale "
+"druhým nevycházejí vstříc a působí odtažitě a zdrženlivě."
+
 msgid "Gregariousness"
 msgstr "Družnost"
 
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:122
+msgid ""
+"Gregarious people find the company of others pleasantly stimulating and "
+"rewarding, and they enjoy the excitement of crowds. Low scorers tend to feel"
+" overwhelmed by large crowds and actively avoid them. They do not "
+"necessarily dislike company, but their need for privacy and time to "
+"themselves is much greater."
+msgstr ""
+"Družní lidé vnímají společnost druhých jako příjemně podnětnou a obohacující"
+" a užívají si ruch davu. Lidé s nízkým skóre se ve velkém davu cítí "
+"zahlceni, a proto se mu aktivně vyhýbají. Společnost jim nemusí být "
+"nepříjemná, ale jejich potřeba soukromí a času pro sebe je mnohem větší."
+
 msgid "Assertiveness"
 msgstr "Asertivita"
 
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:123
+msgid ""
+"High scorers like to speak out, take charge, and direct the activities of "
+"others. They tend to lead groups. Low scorers tend not to talk much and let "
+"others run the show."
+msgstr ""
+"Lidé s vysokým skóre rádi vyjadřují své názory, přebírají iniciativu a řídí "
+"činnost ostatních. Ve skupinách bývají vůdčími osobnostmi. Lidé s nízkým "
+"skóre toho obvykle moc nenamluví a nechávají řízení na ostatních."
+
 msgid "Activity level"
 msgstr "Úroveň aktivity"
 
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:124
+msgid ""
+"Active people lead fast-paced, busy lives. They move quickly, energetically,"
+" and vigorously, and they are involved in many activities. Low scorers "
+"follow a slower, more leisurely, and relaxed pace."
+msgstr ""
+"Aktivní lidé žijí rychlým a rušným životem. Pohybují se svižně, energicky a "
+"s vervou a věnují se mnoha činnostem. Lidé s nízkým skóre volí pomalejší, "
+"poklidnější a uvolněnější tempo."
+
 msgid "Excitement-seeking"
 msgstr "Vyhledávání vzrušení"
 
-#: bigfive/templates/result.html:115 bigfive/templates/result.html:125
+msgid ""
+"High scorers are easily bored without a lot of stimulation. They love bright"
+" lights, hustle and bustle, and they are likely to take risks and seek "
+"thrills. Low scorers are overwhelmed by noise and commotion and avoid "
+"thrill-seeking."
+msgstr ""
+"Lidé s vysokým skóre se bez dostatku podnětů snadno nudí. Milují jasná "
+"světla a ruch a mají sklon riskovat a vyhledávat vzrušení. Lidé s nízkým "
+"skóre jsou hlukem a shonem zahlceni a vzrušení nevyhledávají."
+
 msgid "Cheerfulness"
 msgstr "Radostnost"
 
-#: bigfive/templates/result.html:120
-#, python-format
 msgid ""
-"Friendly people genuinely like other people and openly demonstrate positive "
-"feelings toward others. They make friends quickly and it is easy for them to "
-"form close, intimate relationships. Low scorers on <em>Friendliness</em> are "
-"not necessarily cold and hostile, but they do not reach out to others and "
-"are perceived as distant and reserved. Your level of friendliness is "
-"%(level)s."
+"This scale measures positive mood and feelings, not negative emotions (those"
+" belong to the <em>Neuroticism</em> domain). High scorers typically "
+"experience a range of positive feelings, including happiness, enthusiasm, "
+"optimism, and joy. Low scorers are less prone to such energetic high "
+"spirits."
 msgstr ""
-"Přátelští lidé mají ostatní lidi opravdu rádi a otevřeně projevují pozitivní "
-"pocity vůči ostatním. Rychle si nacházejí přátele a snadno vytvářejí blízké, "
-"intimní vztahy. Ti, kdo dosahují nízkých skóre <em>Přátelskosti</em>, nejsou "
-"nutně chladní a nepřátelští, ale nevycházejí vstříc ostatním a jsou vnímáni "
-"jako vzdálení a zdrženliví. Vaše skóre <em>Přátelskosti</em> je %(level)s."
+"Tato škála měří pozitivní náladu a pocity, nikoli negativní emoce (ty patří "
+"do rysu <em>Neuroticismus</em>). Lidé s vysokým skóre obvykle prožívají "
+"celou řadu kladných pocitů, včetně štěstí, nadšení, optimismu a radosti. "
+"Lidé s nízkým skóre mají k takto energickému a povznesenému naladění menší "
+"sklon."
 
-#: bigfive/templates/result.html:121
-#, python-format
+msgid "Agreeableness"
+msgstr "Přívětivost"
+
+msgid "Agreeableness facets"
+msgstr "Aspekty přívětivosti"
+
 msgid ""
-"Gregarious people find the company of others pleasantly stimulating and "
-"rewarding. They enjoy the excitement of crowds. Low scorers tend to feel "
-"overwhelmed by, and therefore actively avoid, large crowds. They do not "
-"necessarily dislike being with people sometimes, but their need for privacy "
-"and time to themselves is much greater than for individuals who score high "
-"on this scale. Your level of gregariousness is %(level)s."
+"<em>Agreeableness</em> reflects how much a person values cooperation and "
+"social harmony. Agreeable people want to get along with others. They are "
+"therefore considerate, friendly, generous, helpful, and willing to "
+"compromise. They also have an optimistic view of human nature: they believe "
+"that people are basically honest, decent, and trustworthy."
 msgstr ""
-"Družní lidé považují společnost ostatních za příjemně stimulující a "
-"odměňující. Užívají si vzrušení z davů. Ti, kdo dosahují nízkých skóre, se "
-"často cítí přeplněni a proto se aktivně vyhýbají velkým davům. Neznamená to "
-"nutně, že by někdy neměli rádi být s lidmi, ale jejich potřeba soukromí a "
-"času pro sebe je mnohem větší než u jedinců, kteří v tomto měřítku dosahují "
-"vysoké skóre. Vaše skóre <em>Družnosti</em> je %(level)s."
+"<em>Přívětivost</em> odráží, jak moc si člověk cení spolupráce a dobrých "
+"vztahů s ostatními. Přívětiví lidé chtějí s druhými dobře vycházet. Jsou "
+"proto ohleduplní, přátelští, štědří, ochotní pomoci a připravení ke "
+"kompromisu. Mají také optimistický pohled na lidskou povahu: věří, že lidé "
+"jsou v zásadě poctiví, slušní a důvěryhodní."
 
-#: bigfive/templates/result.html:122
-#, python-format
 msgid ""
-"High scorers <em>Assertiveness</em> like to speak out, take charge, and "
-"direct the activities of others. They tend to be leaders in groups. Low "
-"scorers tend not to talk much and let others control the activities of "
-"groups. Your level of assertiveness is %(level)s."
+"Disagreeable people put self-interest above getting along with others. They "
+"are generally unconcerned with others’ well-being and therefore unlikely to "
+"go out of their way for other people. Sometimes their skepticism about "
+"others’ motives makes them suspicious, unfriendly, and uncooperative."
 msgstr ""
-"Ti, kteří dosahují vysoké skóre <em>Asertivity</em>, rádi vyjadřují názor, "
-"přebírají vedení a řídí aktivity ostatních. Mají tendenci být lídry ve "
-"skupinách. Ti s nízkým skóre mají tendenci se mnoho nevyjadřovat a nechávají "
-"ostatní řídit aktivity ve skupinách. Vaše skóre <em>Asertivity</em> je "
-"%(level)s."
+"Nepřívětiví lidé staví vlastní zájmy nad dobré vztahy s ostatními. Blaho "
+"druhých je většinou nezajímá, a proto se pro ně nebudou obtěžovat. Jejich "
+"nedůvěra k pohnutkám druhých z nich někdy dělá podezíravé, nevlídné a "
+"nespolupracující lidi."
 
-#: bigfive/templates/result.html:123
-#, python-format
 msgid ""
-"Active individuals lead fast-paced, busy lives. They move about quickly, "
-"energetically, and vigorously, and they are involved in many activities. "
-"People who score low on this scale follow a slower and more leisurely, "
-"relaxed pace. Your activity level is %(level)s."
+"Agreeableness is obviously an advantage for gaining and keeping popularity: "
+"agreeable people are better liked than disagreeable people. On the other "
+"hand, it is not useful in situations that call for tough or strictly "
+"objective decisions. Disagreeable people can make excellent scientists, "
+"critics, or soldiers."
 msgstr ""
-"Aktivní jedinci vedou rychlé a hektické životy. Pohybují se rychle, "
-"energicky a s vervou a jsou zapojeni do mnoha aktivit. Lidé s nízkou úrovní "
-"aktivity preferují pomalejší a pohodovější, uvolněné tempo. Vaše skóre "
-"<em>Úrovně aktivity</em> je %(level)s."
+"Přívětivost je zjevně výhodou pro získání a udržení oblíbenosti: přívětiví "
+"lidé jsou oblíbenější než nepřívětiví. Na druhou stranu není užitečná v "
+"situacích, které vyžadují tvrdá nebo přísně objektivní rozhodnutí. Z "
+"nepřívětivých lidí mohou být vynikající vědci, kritici nebo vojáci."
 
-#: bigfive/templates/result.html:124
-#, python-format
 msgid ""
-"High scorers on this scale are easily bored without high levels of "
-"stimulation. They love bright lights and hustle and bustle. They are likely "
-"to take risks and seek thrills. Low scorers are overwhelmed by noise and "
-"commotion and are averse to thrill-seeking. Your level of excitement-seeking "
-"is %(level)s."
-msgstr ""
-"Ti, kdo dosahují vysoké skóre tohoto měřítka, se bez pořádné stimulace "
-"snadno začnou nudit. Mají rádi světla velkoměsta a ruch. Mají tendenci "
-"riskovat a hledat vzrušení. Ty s nízkým skóre lehce přemůže hluk a zmatek a "
-"mají také averzi k hledání vzrušení. Vaše skóre <em>Vyhledávání vzrušení</"
-"em> je %(level)s."
-
-#: bigfive/templates/result.html:125
-#, python-format
-msgid ""
-"This scale measures positive mood and feelings, not negative emotions (which "
-"are a part of the <em>Neuroticism</em> domain). Persons who score high on "
-"this scale typically experience a range of positive feelings, including "
-"happiness, enthusiasm, optimism, and joy. Low scorers are not as prone to "
-"such energetic, high spirits. Your level of positive emotions is %(level)s."
-msgstr ""
-"Toto měřítko určuje pozitivní náladu a pocity, nikoli negativní emoce (ty "
-"jsou součástí osobnostního rysu <em>Neuroticismu</em>). Osoby s vysokým "
-"skóre v tomto měřítku obvykle zažívají širokou škálu pozitivních pocitů, "
-"včetně štěstí, nadšení, optimismu a radosti. Ti s nízkými skóre nejsou tak "
-"náchylní k takovým energickým, vysokým duchům. Vaše skóre <em>Radostnosti</"
-"em> je %(level)s."
-
-#: bigfive/templates/result.html:129
-msgid ""
-"<em>Agreeableness</em> reflects individual differences in concern with "
-"cooperation and social harmony. Agreeable individuals value getting along "
-"with others. They are therefore considerate, friendly, generous, helpful, "
-"and willing to compromise their interests with others'. Agreeable people "
-"also have an optimistic view of human nature. They believe people are "
-"basically honest, decent, and trustworthy."
-msgstr ""
-"<em>Přívětivost</em> odráží individuální rozdíly v zájmu o spolupráci a "
-"sociální harmonii. Přívětiví jedinci si cení dobrých vztahů s ostatními. "
-"Jsou proto ohleduplní, přátelští, štědří, nápomocní a ochotni sladit své "
-"zájmy se zájmy ostatních. Přívětiví lidé mají také optimistický pohled na "
-"lidskou povahu. Věří, že lidé jsou v zásadě poctiví, slušní a důvěryhodní."
-
-#: bigfive/templates/result.html:131
-msgid ""
-"Disagreeable individuals place self-interest above getting along with "
-"others. They are generally unconcerned with others' well-being, and "
-"therefore are unlikely to extend themselves for other people. Sometimes "
-"their skepticism about others' motives causes them to be suspicious, "
-"unfriendly, and uncooperative."
-msgstr ""
-"Nepřívětiví jedinci staví vlastní zájem nad vycházení s ostatními. Obvykle "
-"se nezajímají o prosperitu dalších lidí, a proto se pravděpodobně ani "
-"neobětují v zájmu jiných. Někdy jejich skepticismus ohledně motivů ostatních "
-"způsobuje, že jsou podezíraví, nevlídní a nespolupracující."
-
-#: bigfive/templates/result.html:132
-msgid ""
-"<em>Agreeableness</em> is obviously advantageous for attaining and "
-"maintaining popularity. Agreeable people are better liked than disagreeable "
-"people. On the other hand, <em>Agreeableness</em> is not useful in "
-"situations that require tough or absolute objective decisions. Disagreeable "
-"people can make excellent scientists, critics, or soldiers."
-msgstr ""
-"<em>Přívětivost</em> je samozřejmě výhodná pro dosažení a udržení "
-"popularity. Přívětiví lidé jsou oblíbenější než nepřívětiví lidé. Na druhou "
-"stranu, <em>Přívětivost</em> není užitečná v situacích, které vyžadují tvrdá "
-"nebo absolutně objektivní rozhodnutí. Nepřívětiví lidé mohou být "
-"vynikajícími vědci, kritiky nebo vojáky."
-
-#: bigfive/templates/result.html:135
-msgid ""
-"Your score on <em>Agreeableness</em> is low, indicating less concern with "
-"others' needs than with your own. People see you as tough, critical, and "
+"Your score on <em>Agreeableness</em> is low. You care less about others’ "
+"needs than about your own, and people see you as tough, critical, and "
 "uncompromising."
 msgstr ""
-"Vaše skóre <em>Přívětivosti</em> je nízké, což naznačuje menší zájem o "
-"potřeby ostatních než o vaše vlastní. Lidé vás vidí jako tvrdého, kritického "
-"a nekompromisního."
+"Vaše skóre <em>Přívětivosti</em> je nízké. Potřeby druhých vás zajímají méně"
+" než ty vlastní a lidé vás vnímají jako tvrdou, kritickou a nekompromisní "
+"osobnost."
 
-#: bigfive/templates/result.html:137
 msgid ""
-"Your high level of <em>Agreeableness</em> indicates a strong interest in "
-"others' needs and well-being. You are pleasant, sympathetic, and cooperative."
+"Your score on <em>Agreeableness</em> is average. You care about others’ "
+"needs to some extent, but you are generally unwilling to sacrifice yourself "
+"for others."
 msgstr ""
-"Vaše vysoké skóre <em>Přívětivosti</em> naznačuje silný zájem o potřeby a "
-"blaho ostatních. Jste příjemný, soucitný a spolupracující."
+"Vaše skóre <em>Přívětivosti</em> je průměrné. Potřeby druhých vám nejsou "
+"lhostejné, ale obětovat se pro ně obvykle nechcete."
 
-#: bigfive/templates/result.html:139
 msgid ""
-"Your level of <em>Agreeableness</em> is average, indicating some concern "
-"with others' needs, but, generally, unwillingness to sacrifice yourself for "
-"others."
+"Your score on <em>Agreeableness</em> is high. You take a strong interest in "
+"others’ needs and well-being, and you are pleasant, sympathetic, and "
+"cooperative."
 msgstr ""
-"Vaše skóre <em>Přívětivosti</em> je průměrné, což naznačuje určitý zájem o "
-"potřeby ostatních, ale obecně neochotu obětovat se pro ostatní."
+"Vaše skóre <em>Přívětivosti</em> je vysoké. Živě se zajímáte o potřeby a "
+"blaho druhých a lidé vás vnímají jako příjemnou, soucitnou a vstřícnou "
+"osobnost."
 
-#: bigfive/templates/result.html:142 bigfive/templates/result.html:146
-msgid "Agreeableness facets"
-msgstr "Aspekty Přívětivosti"
-
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:152
 msgid "Trust"
 msgstr "Důvěra"
 
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:153
+msgid ""
+"People high in trust assume that most others are fair, honest, and well-"
+"meaning. People low in trust see others as selfish, devious, and potentially"
+" dangerous."
+msgstr ""
+"Lidé s vysokou důvěrou předpokládají, že většina ostatních je férová, "
+"poctivá a má dobré úmysly. Lidé s nízkou důvěrou vidí ostatní jako sobecké, "
+"prohnané a potenciálně nebezpečné."
+
 msgid "Morality"
 msgstr "Morálnost"
 
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:154
+msgid ""
+"High scorers see no need for pretense or manipulation when dealing with "
+"others, so they are candid, frank, and sincere. Low scorers believe that a "
+"certain amount of deception is necessary in social relationships. Others "
+"find it easier to relate to straightforward high scorers than to guarded low"
+" scorers. Low scorers are <em>not</em> unprincipled or immoral; they are "
+"simply more cautious about revealing the whole truth."
+msgstr ""
+"Lidé s vysokým skóre nevidí při jednání s druhými důvod k přetvářce ani "
+"manipulaci, a jsou proto otevření, přímí a upřímní. Lidé s nízkým skóre "
+"věří, že určitá míra klamu je ve společenských vztazích nutná. S přímými "
+"lidmi s vysokým skóre se ostatním vychází snáze než s obezřetnými lidmi s "
+"nízkým skóre. Lidé s nízkým skóre však <em>nejsou</em> bezzásadoví ani "
+"nemorální; jsou jen opatrnější a neradi odhalují celou pravdu."
+
 msgid "Altruism"
 msgstr "Altruismus"
 
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:155
-msgid "Cooperation"
-msgstr "Součinnost"
+msgid ""
+"Altruistic people find helping others genuinely rewarding, so they are "
+"generally willing to assist those in need. To them, doing things for others "
+"is a form of self-fulfillment rather than self-sacrifice. Low scorers do not"
+" particularly like helping those in need; requests for help feel like an "
+"imposition rather than an opportunity."
+msgstr ""
+"Altruističtí lidé vnímají pomoc druhým jako skutečně obohacující, a proto "
+"jsou obvykle ochotni pomáhat těm, kdo to potřebují. Dělat něco pro druhé je "
+"pro ně spíše seberealizací než obětí. Lidé s nízkým skóre pomáhají potřebným"
+" neradi; prosbu o pomoc vnímají spíše jako obtěžování než jako příležitost."
 
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:156
+msgid "Cooperation"
+msgstr "Spolupráce"
+
+msgid ""
+"High scorers dislike confrontation. They are perfectly willing to compromise"
+" or to set their own needs aside in order to get along with others. Low "
+"scorers are more likely to intimidate others to get their way."
+msgstr ""
+"Lidé s vysokým skóre nemají rádi konfrontace. Jsou zcela ochotni ke "
+"kompromisu nebo k tomu, aby své potřeby odsunuli stranou a vyšli s ostatními"
+" po dobrém. Lidé s nízkým skóre spíše sáhnou k zastrašování, aby prosadili "
+"svou."
+
 msgid "Modesty"
 msgstr "Skromnost"
 
-#: bigfive/templates/result.html:147 bigfive/templates/result.html:157
+msgid ""
+"High scorers do not like to claim that they are better than other people. "
+"Sometimes this attitude stems from low self-confidence or self-esteem, but "
+"some people with high self-esteem simply find immodesty unseemly. Those who "
+"<em>are</em> willing to call themselves superior tend to be seen as "
+"disagreeably arrogant."
+msgstr ""
+"Lidé s vysokým skóre neradi tvrdí, že jsou lepší než ostatní. Někdy tento "
+"postoj pramení z nízkého sebevědomí nebo sebeúcty, ale někteří lidé s "
+"vysokou sebeúctou prostě považují vychloubání za nevhodné. Ti, kdo se za "
+"nadřazené označit <em>neváhají</em>, bývají vnímáni jako nepříjemně "
+"arogantní."
+
 msgid "Sympathy"
-msgstr "Soucítění"
+msgstr "Soucit"
 
-#: bigfive/templates/result.html:152
-#, python-format
 msgid ""
-"A person with high trust assumes that most people are fair, honest, and have "
-"good intentions. Persons low in trust see others as selfish, devious, and "
-"potentially dangerous. Your level of trust is %(level)s."
+"High scorers are tender-hearted and compassionate. They feel the pain of "
+"others and are easily moved to pity. Low scorers are not strongly affected "
+"by human suffering. They pride themselves on objective judgments based on "
+"reason, and they care more about truth and impartial justice than about "
+"mercy."
 msgstr ""
-"Osoba s vysokým skóre důvěry předpokládá, že většina lidí je spravedlivá, "
-"poctivá a má dobré úmysly. Osoby s nízkým skóre důvěry vnímají ostatní jako "
-"sobecké, prohnané a potenciálně nebezpečné. Vaše skóre <em>Důvěry</em> je "
-"%(level)s."
+"Lidé s vysokým skóre jsou měkkého srdce a soucitní. Cítí bolest druhých a "
+"snadno se nechají dojmout. Lidi s nízkým skóre lidské utrpení příliš "
+"nezasahuje. Zakládají si na objektivním úsudku založeném na rozumu a více "
+"než milosrdenství jim záleží na pravdě a nestranné spravedlnosti."
 
-#: bigfive/templates/result.html:153
-#, python-format
+msgid "Conscientiousness"
+msgstr "Svědomitost"
+
+msgid "Conscientiousness facets"
+msgstr "Aspekty svědomitosti"
+
 msgid ""
-"High scorers on this scale see no need for pretense or manipulation when "
-"dealing with others and are therefore candid, frank, and sincere. Low "
-"scorers believe that a certain amount of deception in social relationships "
-"is necessary. People find it relatively easy to relate to the "
-"straightforward high-scorers on this scale. They generally find it more "
-"difficult to relate to the unstraightforward low-scorers on this scale. It "
-"should be made clear that low scorers are <em>not</em> unprincipled or "
-"immoral; they are simply more guarded and less willing to openly reveal the "
-"whole truth. Your level of morality is %(level)s."
+"<em>Conscientiousness</em> concerns the way we control, regulate, and direct"
+" our impulses. Impulses are not inherently bad. Sometimes time pressure "
+"calls for a snap decision, and acting on a first impulse can be an effective"
+" response. At play rather than at work, acting spontaneously can be fun, and"
+" impulsive people are often seen as colorful, fun to be with, and zany."
 msgstr ""
-"Osoby s vysokým skóre <em>Morálnosti</em> nepovažují za nutné přetvářku nebo "
-"manipulaci při jednání s ostatními a jsou proto upřímné, otevřené a srdečné. "
-"Osoby s nízkým skóre naopak věří, že určité množství klamu je v sociálních "
-"vztazích nutné. Čím vyšší skóre jedinec má, tím je pro ostatní lidi "
-"snadnější navazovat s ním vztahy. Mělo by být jasné, že osoby s nízkým skóre "
-"<em>nejsou</em> bez zásad nebo nemorální; jsou jen prostě opatrnější a méně "
-"ochotné otevřeně odhalit celou pravdu. Vaše skóre <em>Morálnosti</em> je "
-"%(level)s."
+"<em>Svědomitost</em> se týká toho, jak ovládáme, usměrňujeme a řídíme své "
+"impulzy. Impulzy nejsou samy o sobě špatné. Časová tíseň někdy vyžaduje "
+"okamžité rozhodnutí a jednání podle prvního popudu může být účinnou reakcí. "
+"Při zábavě, na rozdíl od práce, může být spontánní jednání příjemné a "
+"impulzivní lidé bývají vnímáni jako pestří, zábavní a ztřeštění."
 
-#: bigfive/templates/result.html:154
-#, python-format
 msgid ""
-"Altruistic people find helping other people genuinely rewarding. "
-"Consequently, they are generally willing to assist those who are in need. "
-"Altruistic people find that doing things for others is a form of self-"
-"fulfillment rather than self-sacrifice. Low scorers on this scale do not "
-"particularly like helping those in need. Requests for help feel like an "
-"imposition rather than an opportunity for self-fulfillment. Your level of "
-"altruism is %(level)s."
+"Nonetheless, acting on impulse can lead to trouble in a number of ways. Some"
+" impulses are antisocial, and uncontrolled antisocial acts harm others and "
+"invite retribution. Impulsive acts also tend to bring immediate rewards but "
+"undesirable long-term consequences: think of excessive socializing that "
+"leads to being fired, an insult that ends an important relationship, or drug"
+" use that eventually destroys one’s health."
 msgstr ""
-"Altruistické osoby považují pomoc ostatním lidem za opravdu odměňující. Jsou "
-"tedy obecně ochotny pomáhat těm, kteří jsou v nouzi. Altruistické osoby "
-"považují dělání věcí pro ostatní za formu seberealizace spíše než za "
-"sebeobětování. Osoby s nízkým skóre na této škále nemají zvlášť rády pomoc "
-"potřebným. Žádosti o pomoc vnímají jako obtíž, nikoli jako příležitost pro "
-"seberealizaci. Vaše skóre <em>Altruismu</em> je %(level)s."
+"Jednání podle impulzů však může vést k problémům mnoha způsoby. Některé "
+"impulzy jsou asociální a nekontrolované asociální činy škodí druhým a "
+"vyvolávají odvetu. Impulzivní činy také přinášejí okamžitou odměnu, ale "
+"nežádoucí dlouhodobé následky: vzpomeňme na nadměrné hýření, které vede k "
+"výpovědi, urážku, která ukončí důležitý vztah, nebo užívání drog, které "
+"nakonec zničí zdraví."
 
-#: bigfive/templates/result.html:155
-#, python-format
 msgid ""
-"Individuals who score high on this scale dislike confrontations. They are "
-"perfectly willing to compromise or to deny their own needs in order to get "
-"along with others. Those who score low on this scale are more likely to "
-"intimidate others to get their way. Your level of cooperation is %(level)s."
-msgstr ""
-"Jedinci s vysokým skóre v tomto měřítku nemají rádi konfrontace. Jsou "
-"nakloněni ke kompromisům nebo popřít své vlastní potřeby, aby dobře "
-"vycházeli s ostatními. Ti s nízkým skóre v tomto měřítku jsou mnohem více "
-"ochotni se chovat nepříjemně či arogantně vůči ostatním, aby dosáhli svého. "
-"Vaše skóre <em>Součinnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:156
-#, python-format
-msgid ""
-"High scorers on this scale do not like to claim that they are better than "
-"other people. In some cases this attitude may derive from low self-"
-"confidence or self-esteem. Nonetheless, some people with high self-esteem "
-"find immodesty unseemly. Those who <em>are</em> willing to describe "
-"themselves as superior tend to be seen as disagreeably arrogant by other "
-"people. Your level of modesty is %(level)s."
-msgstr ""
-"Osoby s vysokým skóre v tomto měřítku nerady tvrdí, že jsou lepší než "
-"ostatní. V některých případech může tento postoj pramenit z nízké "
-"sebejistoty nebo sebeúcty. Přesto někteří lidé s vysokým sebevědomím "
-"považují nedostatek skromnosti za nevhodný. Ti, kteří <em>jsou</em> ochotni "
-"popisovat sebe jako nadřazené, bývají ostatními lidmi vnímáni jako "
-"nepříjemní či arogantní. Vaše skóre <em>Skromnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:157
-#, python-format
-msgid ""
-"People who score high on this scale are tenderhearted and compassionate. "
-"They feel the pain of others vicariously and are easily moved to pity. Low "
-"scorers are not affected strongly by human suffering. They pride themselves "
-"on making objective judgments based on reason. They are more concerned with "
-"truth and impartial justice than with mercy. Your level of tender-mindedness "
-"is %(level)s."
-msgstr ""
-"Lidé s vysokým skóre v tomto měřítku jsou citliví a soucitní. Cítí bolest "
-"ostatních, jako by byla jejich vlastní, a snadno je dojme lítost. Osoby s "
-"nízkým skóre nejsou silně ovlivněny lidským utrpením. Tito lidé jsou hrdí na "
-"to, že jejich úsudky jsou objektivní a založené na rozumu. Více se zajímají "
-"o pravdu a nestrannou spravedlnost než o milosrdenství. Vaše skóre "
-"<em>Soucítění</em> je %(level)s."
-
-#: bigfive/templates/result.html:161
-msgid ""
-"<em>Conscientiousness</em> concerns the way in which we control, regulate, "
-"and direct our impulses. Impulses are not inherently bad; occasionally time "
-"constraints require a snap decision, and acting on our first impulse can be "
-"an effective response. Also, in times of play rather than work, acting "
-"spontaneously and impulsively can be fun. Impulsive individuals can be seen "
-"by others as colorful, fun-to-be-with, and zany."
-msgstr ""
-"<em>Svědomitost</em> se týká způsobu, jakým kontrolujeme, regulujeme a "
-"směřujeme naše impulsy. Impulsy nejsou samy o sobě špatné; časové omezení "
-"občas vyžaduje rychlé rozhodnutí a jednání podle našeho prvního impulsu může "
-"být efektivní reakcí. Také při hře namísto při práci může být spontánní a "
-"impulzivní jednání zábavné. Impulzivní jedinci mohou být ostatními vnímáni "
-"jako svérázní, veselí a blázniví."
-
-#: bigfive/templates/result.html:162
-msgid ""
-"Nonetheless, acting on impulse can lead to trouble in a number of ways. Some "
-"impulses are antisocial. Uncontrolled antisocial acts not only harm other "
-"members of society, but also can result in retribution toward the "
-"perpetrator of such impulsive acts. Another problem with impulsive acts is "
-"that they often produce immediate rewards but undesirable, long-term "
-"consequences. Examples include excessive socializing that leads to being "
-"fired from one's job, hurling an insult that causes the breakup of an "
-"important relationship, or using pleasure-inducing drugs that eventually "
-"destroy one's health."
-msgstr ""
-"Přesto může impulzivní jednání vést k různým problémům. Některé impulsy jsou "
-"antisociální. Neovládané antisociální činy poškozují nejen ostatní členy "
-"společnosti, ale také mohou vést k odplatě vůči pachatelům takových "
-"impulzivních činů. Dalším problémem impulzivních činů je, že často přinášejí "
-"okamžité odměny, ale nežádoucí dlouhodobé výsledky. Příklady zahrnují "
-"nadměrné zapojení do společenských aktivit, které vede k propuštění z práce, "
-"vychrlení urážky, která způsobí rozpad důležitého vztahu, nebo užívání drog "
-"přinášejících potěšení, které však nakonec poškodí zdraví člověka."
-
-#: bigfive/templates/result.html:163
-msgid ""
-"Impulsive behavior, even when not seriously destructive, diminishes a "
-"person's effectiveness in significant ways. Acting impulsively disallows "
-"contemplating alternative courses of action, some of which would have been "
-"wiser than the impulsive choice. Impulsivity also sidetracks people during "
-"projects that require organized sequences of steps or stages. "
-"Accomplishments of an impulsive person are therefore small, scattered, and "
+"Even when it is not seriously destructive, impulsive behavior makes a person"
+" less effective. Acting on impulse leaves no room to consider alternatives, "
+"some of which would have been wiser. Impulsivity also sidetracks people "
+"during projects that require an organized sequence of steps, so the "
+"accomplishments of an impulsive person tend to be small, scattered, and "
 "inconsistent."
 msgstr ""
-"I ne zcela destruktivní impulzivní chování snižuje významně osobní "
-"efektivitu. Impulzivní jednání brání zvážení alternativních postupů, z nichž "
-"by některé byly moudřejší než impulzivní volba. Impulzivita také odvádí lidi "
-"od projektů vyžadujících organizované sekvence kroků nebo etap. Úspěchy "
-"impulzivní osoby jsou proto malé, roztříštěné a nekonzistentní."
+"I když impulzivní chování není vyloženě destruktivní, snižuje efektivitu "
+"člověka. Jednání podle impulzu nenechává prostor pro zvážení alternativ, z "
+"nichž některé by byly moudřejší. Impulzivita také odvádí lidi od projektů, "
+"které vyžadují uspořádaný sled kroků, takže úspěchy impulzivního člověka "
+"bývají malé, roztříštěné a nestálé."
 
-#: bigfive/templates/result.html:164
 msgid ""
-"A hallmark of intelligence, what potentially separates human beings from "
-"earlier life forms, is the ability to think about future consequences before "
-"acting on an impulse. Intelligent activity involves contemplation of long-"
-"range goals, organizing and planning routes to these goals, and persisting "
-"toward one's goals in the face of short-lived impulses to the contrary. The "
-"idea that intelligence involves impulse control is nicely captured by the "
-"term prudence, an alternative label for the <em>Conscientiousness</em> "
-"domain. Prudent means both wise and cautious. Persons who score high on the "
-"<em>Conscientiousness</em> scale are, in fact, perceived by others as "
-"intelligent."
+"A hallmark of intelligence is the ability to think about future consequences"
+" before acting on an impulse. Intelligent activity involves contemplating "
+"long-range goals, planning the route to them, and persisting in the face of "
+"short-lived impulses to the contrary. This is why <em>prudence</em>, meaning"
+" both wise and cautious, is an alternative label for this domain. People who"
+" score high on <em>Conscientiousness</em> are, in fact, perceived by others "
+"as intelligent."
 msgstr ""
-"Charakteristickým rysem inteligence, jež nejspíše odlišuje lidi od "
-"dřívějších životních forem, je schopnost přemýšlet o budoucích důsledcích "
-"před jednáním na základě impulsu. Inteligentní činnost zahrnuje zamyšlení se "
-"nad dlouhodobými cíli, organizování a plánování cest k těmto cílům a "
-"dlouhodobou vytrvalost směrem k vlastním cílům navzdory krátkodobým impulsům "
-"opačného směru. Myšlenka, že inteligence zahrnuje kontrolu impulsů, je pěkně "
-"zachycena pojmem „prozíravost“, alternativním označením pro osobnostní rys "
-"<em>Svědomitosti</em>. „Prozíravý“ znamená jak moudrý, tak opatrný. Osoby s "
-"vysokým skóre na škále <em>Svědomitosti</em> jsou ve skutečnosti vnímány "
-"ostatními jako inteligentní."
+"Charakteristickým znakem inteligence je schopnost přemýšlet o budoucích "
+"následcích dříve, než člověk podlehne impulzu. Inteligentní činnost zahrnuje"
+" promýšlení dlouhodobých cílů, plánování cesty k nim a vytrvalost navzdory "
+"krátkodobým impulzům, které táhnou jinam. Proto je <em>prozíravost</em>, "
+"tedy moudrost spojená s opatrností, alternativním názvem tohoto rysu. Lidé s"
+" vysokým skóre <em>Svědomitosti</em> jsou ostatními skutečně vnímáni jako "
+"inteligentní."
 
-#: bigfive/templates/result.html:165
 msgid ""
-"The benefits of high conscientiousness are obvious. Conscientious "
-"individuals avoid trouble and achieve high levels of success through "
-"purposeful planning and persistence. They are also positively regarded by "
-"others as intelligent and reliable. On the negative side, they can be "
-"compulsive perfectionists and workaholics. Furthermore, extremely "
-"conscientious individuals might be regarded as stuffy and boring. "
+"The benefits of high conscientiousness are obvious. Conscientious people "
+"avoid trouble and achieve high levels of success through purposeful planning"
+" and persistence, and others regard them as intelligent and reliable. On the"
+" negative side, they can be compulsive perfectionists and workaholics, and "
+"extremely conscientious people may come across as stuffy and boring. "
 "Unconscientious people may be criticized for their unreliability, lack of "
-"ambition, and failure to stay within the lines, but they will experience "
-"many short-lived pleasures and they will never be called stuffy."
+"ambition, and failure to stay within the lines, but they enjoy many short-"
+"lived pleasures and are never called stuffy."
 msgstr ""
-"Výhody vysoké míry svědomitosti jsou zřejmé. Svědomití jedinci se vyhýbají "
-"problémům a dosahují velkých úspěchů prostřednictvím cílevědomého plánování "
-"a vytrvalosti. Jsou také pozitivně vnímáni ostatními jako inteligentní a "
-"spolehliví. Negativní stránkou může být kompulzivní perfekcionismus a "
-"workoholismus. Navíc mohou být extrémně svědomití jedinci považováni za "
-"fádní a nudné. Nesvědomití lidé mohou být kritizováni za svou "
-"nespolehlivost, chybějící ambice a neschopnost držet se pravidel, ale zažijí "
-"mnoho krátkodobých potěšení a nikdy nebudou nazýváni fádními."
+"Výhody vysoké svědomitosti jsou zřejmé. Svědomití lidé se vyhýbají problémům"
+" a díky cílevědomému plánování a vytrvalosti dosahují velkých úspěchů; "
+"ostatní je považují za inteligentní a spolehlivé. Na druhou stranu z nich "
+"mohou být nutkaví perfekcionisté a workoholici a mimořádně svědomití lidé "
+"mohou působit upjatě a nudně. Nesvědomitým lidem se může vytýkat "
+"nespolehlivost, nedostatek ambicí a neschopnost držet se pravidel, zato si "
+"užijí mnoho krátkodobých radostí a nikdo je nenazve upjatými."
 
-#: bigfive/templates/result.html:168
 msgid ""
-"Your score on <em>Conscientiousness</em> is low, indicating you like to live "
-"for the moment and do what feels good now. Your work tends to be careless "
-"and disorganized."
+"Your score on <em>Conscientiousness</em> is low. You like to live for the "
+"moment and do what feels good now. Your work tends to be careless and "
+"disorganized."
 msgstr ""
-"Vaše skóre <em>Svědomitosti</em> je nízké, což naznačuje, že rádi žijete pro "
-"okamžik a děláte to, co je vám zrovna příjemné. Vaše práce má tendenci být "
-"nedbalá a neorganizovaná."
+"Vaše skóre <em>Svědomitosti</em> je nízké. Žijete raději přítomným okamžikem"
+" a děláte to, co vám zrovna přináší potěšení. Vaše práce bývá nedbalá a "
+"neuspořádaná."
 
-#: bigfive/templates/result.html:170
 msgid ""
-"Your score on <em>Conscientiousness</em> is high. This means you set clear "
-"goals and pursue them with determination. People regard you as reliable and "
-"hard-working."
+"Your score on <em>Conscientiousness</em> is average. You are reasonably "
+"reliable, organized, and self-controlled."
 msgstr ""
-"Vaše skóre <em>Svědomitosti</em> je vysoké. To znamená, že si stanovujete "
-"jasné cíle a usilovně je pronásledujete. Lidé vás považují za spolehlivé a "
-"pracovité."
+"Vaše skóre <em>Svědomitosti</em> je průměrné. Jste přiměřeně spolehlivý, "
+"organizovaný a ukázněný člověk."
 
-#: bigfive/templates/result.html:172
 msgid ""
-"Your score on <em>Conscientiousness</em> is average. This means you are "
-"reasonably reliable, organized, and self-controlled."
+"Your score on <em>Conscientiousness</em> is high. You set clear goals and "
+"pursue them with determination, and people regard you as reliable and hard-"
+"working."
 msgstr ""
-"Vaše skóre <em>Svědomitosti</em> je průměrné. To znamená, že jste přiměřeně "
-"spolehliví, organizovaní a vyrovnaní."
+"Vaše skóre <em>Svědomitosti</em> je vysoké. Stanovujete si jasné cíle a "
+"jdete za nimi s odhodláním. Lidé vás považují za spolehlivého a pracovitého "
+"člověka."
 
-#: bigfive/templates/result.html:175 bigfive/templates/result.html:179
-msgid "Conscientiousness facets"
-msgstr "Aspekty Svědomitosti"
-
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:185
 msgid "Self-efficacy"
 msgstr "Sebedůvěra"
 
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:186
+msgid ""
+"Self-efficacy is confidence in one’s ability to get things done. High "
+"scorers believe they have the intelligence (common sense), drive, and self-"
+"control needed to succeed. Low scorers do not feel effective and may feel "
+"that they are not in control of their lives."
+msgstr ""
+"Sebedůvěra je přesvědčení o vlastní schopnosti dotahovat věci do konce. Lidé"
+" s vysokým skóre věří, že mají inteligenci (zdravý rozum), tah na branku a "
+"sebeovládání potřebné k úspěchu. Lidé s nízkým skóre si nepřipadají schopní "
+"a mohou mít pocit, že nemají svůj život pod kontrolou."
+
 msgid "Orderliness"
 msgstr "Organizovanost"
 
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:187
+msgid ""
+"High scorers are well organized. They like to live by routines and "
+"schedules, keep lists, and make plans. Low scorers tend to be disorganized "
+"and scattered."
+msgstr ""
+"Lidé s vysokým skóre jsou dobře organizovaní. Rádi žijí podle zavedených "
+"postupů a rozvrhů, vedou si seznamy a plánují. Lidé s nízkým skóre bývají "
+"neuspořádaní a roztěkaní."
+
 msgid "Dutifulness"
 msgstr "Zodpovědnost"
 
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:188
+msgid ""
+"This scale reflects the strength of a person’s sense of duty and obligation."
+" High scorers have a strong sense of moral obligation. Low scorers find "
+"contracts, rules, and regulations overly confining and are likely to be seen"
+" as unreliable or even irresponsible."
+msgstr ""
+"Tato škála odráží sílu smyslu pro povinnost a závazek. Lidé s vysokým skóre "
+"mají silný smysl pro morální povinnost. Lidé s nízkým skóre považují "
+"smlouvy, pravidla a předpisy za příliš svazující a okolí je často vnímá jako"
+" nespolehlivé, nebo dokonce nezodpovědné."
+
 msgid "Achievement-striving"
 msgstr "Cílevědomost"
 
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:189
-msgid "Self-discipline"
-msgstr "Disciplinovanost"
+msgid ""
+"High scorers strive hard for excellence. Their drive to be recognized as "
+"successful keeps them on track toward their lofty goals, and they often have"
+" a strong sense of direction in life. Extremely high scorers, however, may "
+"be too single-minded and obsessed with their work. Low scorers are content "
+"to get by with a minimum of work and may be seen by others as lazy."
+msgstr ""
+"Lidé s vysokým skóre usilovně směřují k vynikajícím výkonům. Touha po uznání"
+" je drží na cestě k vysokým cílům a často mají jasnou představu o směru "
+"svého života. Mimořádně vysoké skóre však může znamenat přílišnou "
+"jednostrannost a posedlost prací. Lidé s nízkým skóre se spokojí s minimem "
+"práce a okolí je může považovat za líné."
 
-#: bigfive/templates/result.html:180 bigfive/templates/result.html:190
+msgid "Self-discipline"
+msgstr "Sebekázeň"
+
+msgid ""
+"Self-discipline, which many people call willpower, is the ability to persist"
+" at difficult or unpleasant tasks until they are completed. People with high"
+" self-discipline overcome their reluctance to begin tasks and stay on track "
+"despite distractions. People with low self-discipline procrastinate and show"
+" poor follow-through, often failing to complete even tasks they very much "
+"want to complete."
+msgstr ""
+"Sebekázeň, kterou mnozí nazývají silou vůle, je schopnost vytrvat u "
+"obtížných či nepříjemných úkolů až do jejich dokončení. Lidé s vysokou "
+"sebekázní překonají nechuť pustit se do úkolu a nenechají se rozptýlit. Lidé"
+" s nízkou sebekázní odkládají práci a věci nedotahují, takže často nedokončí"
+" ani to, co si velmi přejí dokončit."
+
 msgid "Cautiousness"
 msgstr "Obezřetnost"
 
-#: bigfive/templates/result.html:185
-#, python-format
 msgid ""
-"Self-efficacy describes confidence in one's ability to accomplish things. "
-"High scorers believe they have the intelligence (common sense), drive, and "
-"self-control necessary for achieving success. Low scorers do not feel "
-"effective, and may have a sense that they are not in control of their lives. "
-"Your level of self-efficacy is %(level)s."
+"Cautiousness is the disposition to think through possibilities before "
+"acting. High scorers take their time when making decisions. Low scorers "
+"often say or do the first thing that comes to mind without weighing the "
+"alternatives and their probable consequences."
 msgstr ""
-"Sebedůvěra popisuje přesvědčení ve vlastní schopnost dokázat věci. Ti s "
-"vysokým skóre věří, že mají potřebnou inteligenci (selský rozum), motivaci a "
-"sebekontrolu pro dosažení úspěchu. Ti s nízkým skóre se nepovažují za "
-"kompetentní a mohou mít pocit, že nemají kontrolu nad svým životem. Vaše "
-"skóre <em>Sebedůvěry</em> je %(level)s."
+"Obezřetnost je sklon promýšlet možnosti dříve, než člověk jedná. Lidé s "
+"vysokým skóre si při rozhodování dávají načas. Lidé s nízkým skóre často "
+"řeknou nebo udělají první věc, která je napadne, aniž by zvážili alternativy"
+" a jejich pravděpodobné následky."
 
-#: bigfive/templates/result.html:186
-#, python-format
+msgid "Neuroticism"
+msgstr "Neuroticismus"
+
+msgid "Neuroticism facets"
+msgstr "Aspekty neuroticismu"
+
 msgid ""
-"Persons with high scores on orderliness are well-organized. They like to "
-"live according to routines and schedules. They keep lists and make plans. "
-"Low scorers tend to be disorganized and scattered. Your level of orderliness "
-"is %(level)s."
+"Freud originally used the term <em>neurosis</em> for a condition marked by "
+"mental distress, emotional suffering, and an inability to cope effectively "
+"with the normal demands of life. He suggested that everyone shows some signs"
+" of neurosis, but that we differ in how much we suffer and in our specific "
+"symptoms. Today <em>Neuroticism</em> refers to the tendency to experience "
+"negative feelings. High scorers may experience mainly one specific negative "
+"feeling, such as anxiety, anger, or depression, but they are likely to "
+"experience several of them."
 msgstr ""
-"Osoby s vysokým skóre organizovanosti mají věci dobře uspořádány. Mají rádi "
-"život podle rutin a rozvrhů. Vedou seznamy a dělají plány. Osoby s nízkým "
-"skóre mají tendenci být chaotické a roztěkané. Vaše skóre "
-"<em>Organizovanosti</em> je %(level)s."
+"Freud původně používal pojem <em>neuróza</em> pro stav charakterizovaný "
+"duševním strádáním, citovým utrpením a neschopností účinně zvládat běžné "
+"nároky života. Tvrdil, že známky neurózy vykazuje každý, ale lišíme se mírou"
+" utrpení a konkrétními příznaky. Dnes se pojmem <em>Neuroticismus</em> "
+"označuje sklon prožívat negativní pocity. Lidé s vysokým skóre mohou "
+"prožívat hlavně jeden konkrétní negativní pocit, například úzkost, hněv nebo"
+" sklíčenost, ale pravděpodobně jich zažívají více."
 
-#: bigfive/templates/result.html:187
-#, python-format
 msgid ""
-"This scale reflects the strength of a person's sense of duty and obligation. "
-"Those who score high on this scale have a strong sense of moral obligation. "
-"Low scorers find contracts, rules, and regulations overly confining. They "
-"are likely to be seen as unreliable or even irresponsible. Your level of "
-"dutifulness is %(level)s."
-msgstr ""
-"Toto měřítko odráží sílu pocitu povinnosti a závazku vůči jiným lidem. Ti, "
-"kteří dosahují vysokých skóre v tomto měřítku, mají silný pocit morální "
-"povinnosti. Osoby s nízkým skóre považují smlouvy, pravidla a nařízení za "
-"příliš omezující. Jsou pravděpodobně vnímáni jako nespolehliví nebo dokonce "
-"bezohlední. Vaše skóre <em>Zodpovědnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:188
-#, python-format
-msgid ""
-"Individuals who score high on this scale strive hard to achieve excellence. "
-"Their drive to be recognized as successful keeps them on track toward their "
-"lofty goals. They often have a strong sense of direction in life, but "
-"extremely high scores may be too single-minded and obsessed with their work. "
-"Low scorers are content to get by with a minimal amount of work, and might "
-"be seen by others as lazy. Your level of achievement striving is %(level)s."
-msgstr ""
-"Jednotlivci, kteří dosahují vysokých skóre v tomto měřítku se usilovně snaží "
-"o dosažení vynikajících výsledků. Jejich touha po uznání je udržuje na cestě "
-"k jejich vysokým cílům. Často mají silný smysl pro směr v životě, ale "
-"extrémně vysoké skóre mohou indikovat, že jsou příliš jednostranně zaměření "
-"a posedlí prací. Osoby s nízkým skóre jsou spokojeny s odvedením minimálního "
-"množství práce a mohou být ostatními vnímány jako líné. Vaše skóre "
-"<em>Cílevědomosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:189
-#, python-format
-msgid ""
-"Self-discipline-what many people call will-power-refers to the ability to "
-"persist at difficult or unpleasant tasks until they are completed. People "
-"who possess high self-discipline are able to overcome reluctance to begin "
-"tasks and stay on track despite distractions. Those with low self-discipline "
-"procrastinate and show poor follow-through, often failing to complete tasks-"
-"even tasks they want very much to complete. Your level of self-discipline is "
-"%(level)s."
-msgstr ""
-"Disciplinovanost, kterou někteří lidé nazývá vůlí, odkazuje na schopnost "
-"vytrvat v obtížné nebo nepříjemné činnosti, dokud není dokončena. Lidé "
-"vykazující vysoké skóre disciplinovanosti jsou schopni překonat nechuť začít "
-"s úkoly a udržet se na správné cestě navzdory rozptýlení. Ti s nízkou "
-"disciplinovaností úkoly odkládají a často mají problém s dotažením úkolů do "
-"konce – včetně těch, které si velmi přejí dokončit. Vaše skóre "
-"<em>Disciplinovanosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:190
-#, python-format
-msgid ""
-"Cautiousness describes the disposition to think through possibilities before "
-"acting. High scorers on the <em>Cautiousness</em> scale take their time when "
-"making decisions. Low scorers often say or do first thing that comes to mind "
-"without deliberating alternatives and the probable consequences of those "
-"alternatives. Your level of cautiousness is %(level)s."
-msgstr ""
-"Obezřetnost popisuje sklon přemýšlet o možnostech před jednáním. Ti s "
-"vysokým skóre osobnostního rysu <em>Obezřetnosti</em> si dávají při "
-"rozhodování načas. Osoby s nízkým skóre často říkají nebo dělají první věc, "
-"která jim vytane na mysli bez zvážení alternativ a pravděpodobných důsledků. "
-"Vaše skóre <em>Obezřetnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:194
-msgid ""
-"Freud originally used the term <em>neurosis</em> to describe a condition "
-"marked by mental distress, emotional suffering, and an inability to cope "
-"effectively with the normal demands of life. He suggested that everyone "
-"shows some signs of neurosis, but that we differ in our degree of suffering "
-"and our specific symptoms of distress. Today neuroticism refers to the "
-"tendency to experience negative feelings. Those who score high on "
-"<em>Neuroticism</em> may experience primarily one specific negative feeling "
-"such as anxiety, anger, or depression, but are likely to experience several "
-"of these emotions."
-msgstr ""
-"Freud původně použil termín <em>neuróza</em> pro popis stavu "
-"charakterizovaného duševním strádáním, emocionálním utrpením a neschopností "
-"efektivně se vypořádat s běžnými požadavky života. Naznačoval, že každý "
-"projevuje určité známky neurózy, ale lišíme se v míře utrpení a v našich "
-"konkrétních symptomech strádání. Dnes neuróza odkazuje na tendenci prožívat "
-"negativní pocity. Ti, kteří dosahují vysokých skóre <em>Neuroticismu</em>, "
-"někdy mohou prožívat zejména jeden konkrétní negativní pocit, jako je "
-"úzkost, hněv nebo deprese, ale pravděpodobněji zažijí několik z těchto emocí."
-
-#: bigfive/templates/result.html:195
-msgid ""
-"People high in <em>Neuroticism</em> are emotionally reactive. They respond "
-"emotionally to events that would not affect most people, and their reactions "
-"tend to be more intense than normal. They are more likely to interpret "
-"ordinary situations as threatening, and minor frustrations as hopelessly "
+"People high in Neuroticism are emotionally reactive. They respond "
+"emotionally to events that would not affect most people, and their reactions"
+" tend to be more intense than usual. They are more likely to interpret "
+"ordinary situations as threatening and minor frustrations as hopelessly "
 "difficult. Their negative emotional reactions tend to persist for unusually "
-"long periods of time, which means they are often in a bad mood. These "
-"problems in emotional regulation can diminish a neurotic's ability to think "
-"clearly, make decisions, and cope effectively with stress."
+"long periods, which means they are often in a bad mood. These problems with "
+"emotional regulation can diminish their ability to think clearly, make "
+"decisions, and cope with stress."
 msgstr ""
-"Osoby mající vysoké skóre <em>Neuroticismu</em> jsou emočně reaktivní. "
-"Emocionálně reagují na události, které by neovlivnily většinu lidí, a jejich "
-"reakce bývají intenzivnější než normální. Mají větší tendenci interpretovat "
-"obyčejné situace jako hrozby a malé frustrace jako beznadějně těžké. Jejich "
-"negativní emoční reakce mají tendenci přetrvávat neobvykle dlouhou dobu, což "
-"znamená, že jsou často ve špatné náladě. Tyto problémy v emoční regulaci "
-"mohou snižovat schopnost neurotika jasně myslet, rozhodovat se a efektivně "
+"Lidé s vysokým neuroticismem jsou emočně reaktivní. Citově reagují na "
+"události, které by většinu lidí nezasáhly, a jejich reakce bývají silnější "
+"než obvykle. Častěji vnímají běžné situace jako ohrožující a drobné nezdary "
+"jako beznadějně obtížné. Jejich negativní emoční reakce přetrvávají "
+"neobvykle dlouho, a proto mívají často špatnou náladu. Tyto potíže s "
+"regulací emocí mohou oslabit jejich schopnost jasně myslet, rozhodovat se a "
 "zvládat stres."
 
-#: bigfive/templates/result.html:196
 msgid ""
-"At the other end of the scale, individuals who score low in <em>Neuroticism</"
-"em> are less easily upset and are less emotionally reactive. They tend to be "
-"calm, emotionally stable, and free from persistent negative feelings. "
-"Freedom from negative feelings does not mean that low scorers experience a "
-"lot of positive feelings; frequency of positive emotions is a component of "
-"the <em>Extraversion</em> domain."
+"At the other end of the scale, people who score low in Neuroticism are less "
+"easily upset and less emotionally reactive. They tend to be calm, "
+"emotionally stable, and free from persistent negative feelings. Freedom from"
+" negative feelings does not mean that low scorers experience a lot of "
+"positive feelings, though: the frequency of positive emotions is part of the"
+" <em>Extraversion</em> domain."
 msgstr ""
-"Na druhém konci stupnice se nachází jedinci, kteří mají nízké skóre "
-"<em>Neuroticismu</em>. Ti nebývají tak snadno rozrušeni a jsou méně emočně "
-"reaktivní. Mají tendenci být klidní, emočně stabilní a zbaveni trvalých "
-"negativních pocitů. Nedostatek negativních pocitů neznamená, že osoby s "
-"nízkým skóre prožívají hodně pozitivních pocitů; frekvence pozitivních emocí "
-"je součástí oblasti <em>Extraverze</em>."
+"Na opačném konci škály jsou lidé s nízkým neuroticismem, které jen tak něco "
+"nerozhodí a kteří jsou emočně méně reaktivní. Bývají klidní, citově stabilní"
+" a bez přetrvávajících negativních pocitů. To ale neznamená, že by prožívali"
+" hodně pozitivních pocitů: četnost pozitivních emocí patří do rysu "
+"<em>Extraverze</em>."
 
-#: bigfive/templates/result.html:199
 msgid ""
-"Your score on <em>Neuroticism</em> is low, indicating that you are "
-"exceptionally calm, composed and unflappable. You do not react with intense "
-"emotions, even to situations that most people would describe as stressful."
+"Your score on <em>Neuroticism</em> is low. You are exceptionally calm, "
+"composed, and unflappable, and you do not react with intense emotions even "
+"to situations that most people would call stressful."
 msgstr ""
-"Vaše skóre <em>Neuroticismu</em> je nízké, což naznačuje, že jste výjimečně "
-"klidní, vyrovnaní a nevzrušitelní. Nereagujete intenzivními emocemi, dokonce "
-"ani v situacích, které by většina lidí popsala jako stresující."
+"Vaše skóre <em>Neuroticismu</em> je nízké. Jste výjimečně klidný, vyrovnaný "
+"a nevzrušivý člověk. Nereagujete silnými emocemi ani v situacích, které by "
+"většina lidí označila za stresující."
 
-#: bigfive/templates/result.html:201
 msgid ""
-"Your score on <em>Neuroticism</em> is high, indicating that you are easily "
-"upset, even by what most people consider the normal demands of living. "
-"People consider you to be sensitive and emotional."
+"Your score on <em>Neuroticism</em> is average. Your emotional reactivity is "
+"typical of the general population: stressful and frustrating situations are "
+"somewhat upsetting, but you are generally able to get over these feelings "
+"and cope."
 msgstr ""
-"Vaše skóre <em>Neuroticismu</em> je vysoké, což naznačuje, že se snadno "
-"rozrušíte, dokonce i tím, co většina lidí považuje za běžné požadavky "
-"života. Lidé vás považují za citlivého a emocionálního."
+"Vaše skóre <em>Neuroticismu</em> je průměrné. Vaše emoční reaktivita je "
+"typická pro běžnou populaci: stresující a frustrující situace vás do jisté "
+"míry rozruší, ale obvykle se s těmito pocity dokážete vyrovnat."
 
-#: bigfive/templates/result.html:203
 msgid ""
-"Your score on <em>Neuroticism</em> is average, indicating that your level of "
-"emotional reactivity is typical of the general population. Stressful and "
-"frustrating situations are somewhat upsetting to you, but you are generally "
-"able to get over these feelings and cope with these situations."
+"Your score on <em>Neuroticism</em> is high. You are easily upset, even by "
+"what most people consider the normal demands of living, and people consider "
+"you sensitive and emotional."
 msgstr ""
-"Vaše skóre <em>Neuroticismu</em> je průměrné, což naznačuje, že váš stupeň "
-"emoční reaktivity je typický pro obecnou populaci. Stresující a frustrující "
-"situace vás trochu rozrušují, ale obvykle jste schopni tyto pocity překonat "
-"a vypořádat se s běžnými situacemi."
+"Vaše skóre <em>Neuroticismu</em> je vysoké. Snadno vás rozruší i to, co "
+"většina lidí považuje za běžné nároky života, a lidé vás vnímají jako "
+"citlivou a emotivní osobnost."
 
-#: bigfive/templates/result.html:206 bigfive/templates/result.html:210
-msgid "Neuroticism facets"
-msgstr "Aspekty Neuroticismu"
-
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:216
 msgid "Anxiety"
 msgstr "Úzkostnost"
 
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:217
+msgid ""
+"The “fight or flight” system in the brain of anxious people is engaged too "
+"easily and too often, so high scorers often feel that something dangerous is"
+" about to happen. They may fear specific situations or just be generally "
+"fearful, and they feel tense, jittery, and nervous. Low scorers are "
+"generally calm and fearless."
+msgstr ""
+"Systém „boj, nebo útěk“ v mozku úzkostných lidí se spouští příliš snadno a "
+"příliš často, takže lidé s vysokým skóre mají často pocit, že se blíží něco "
+"nebezpečného. Mohou se bát konkrétních situací, nebo mít obecně strach, a "
+"cítí se napjatí, roztěkaní a nervózní. Lidé s nízkým skóre jsou obvykle "
+"klidní a nebojácní."
+
 msgid "Anger"
 msgstr "Hněvivost"
 
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:218
+msgid ""
+"High scorers feel enraged when things do not go their way. They are "
+"sensitive about being treated fairly and feel resentful and bitter when they"
+" think they are being cheated. This scale measures the tendency to "
+"<em>feel</em> angry; whether a person <em>expresses</em> annoyance and "
+"hostility depends on their level of <em>Agreeableness</em>. Low scorers do "
+"not get angry often or easily."
+msgstr ""
+"Lidé s vysokým skóre pociťují vztek, když se věci nevyvíjejí podle jejich "
+"představ. Jsou citliví na to, zda se s nimi jedná férově, a cítí se dotčeni "
+"a zahořklí, když mají pocit, že je někdo podvedl. Tato škála měří sklon hněv"
+" <em>cítit</em>; zda člověk podrážděnost a nepřátelství také "
+"<em>projeví</em>, závisí na jeho <em>Přívětivosti</em>. Lidé s nízkým skóre "
+"se nezlobí často ani snadno."
+
 msgid "Depression"
 msgstr "Depresivnost"
 
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:219
+msgid ""
+"This scale measures the tendency to feel sad, dejected, and discouraged. "
+"High scorers lack energy and have difficulty starting activities. Low "
+"scorers tend to be free from these depressive feelings."
+msgstr ""
+"Tato škála měří sklon cítit se smutně, sklesle a malomyslně. Lidem s vysokým"
+" skóre chybí energie a těžko se pouštějí do činnosti. Lidé s nízkým skóre "
+"bývají těchto depresivních pocitů ušetřeni."
+
 msgid "Self-consciousness"
 msgstr "Rozpačitost"
 
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:220
-msgid "Immoderation"
-msgstr "Impulzivnost"
+msgid ""
+"Self-conscious people are sensitive about what others think of them. Their "
+"fear of rejection and ridicule makes them shy and uncomfortable around "
+"others; they are easily embarrassed and often feel ashamed. Their fear that "
+"others will criticize or mock them is exaggerated and unrealistic, but their"
+" awkwardness and discomfort may turn it into a self-fulfilling prophecy. Low"
+" scorers, in contrast, do not suffer from the mistaken impression that "
+"everyone is watching and judging them, and they do not feel nervous in "
+"social situations."
+msgstr ""
+"Rozpačití lidé jsou citliví na to, co si o nich ostatní myslí. Ze strachu z "
+"odmítnutí a výsměchu jsou mezi lidmi plaší a necítí se dobře; snadno se "
+"zastydí a často se cítí trapně. Jejich obava, že je ostatní budou kritizovat"
+" nebo zesměšňovat, je přehnaná a nerealistická, ale jejich nejistota a "
+"rozpaky z ní mohou udělat sebenaplňující proroctví. Lidé s nízkým skóre "
+"naopak netrpí mylným dojmem, že je všichni sledují a posuzují, a ve "
+"společnosti nebývají nervózní."
 
-#: bigfive/templates/result.html:211 bigfive/templates/result.html:221
+msgid "Immoderation"
+msgstr "Nestřídmost"
+
+msgid ""
+"Immoderate people feel strong cravings and urges that they have difficulty "
+"resisting. They tend to be oriented toward short-term pleasures and rewards "
+"rather than long-term consequences. Low scorers do not experience strong, "
+"irresistible cravings and are therefore not tempted to overindulge."
+msgstr ""
+"Nestřídmí lidé pociťují silné chutě a nutkání, kterým těžko odolávají. "
+"Zaměřují se spíše na krátkodobé potěšení a odměnu než na dlouhodobé "
+"následky. Lidé s nízkým skóre silné, neodolatelné chutě neprožívají, a proto"
+" nemají sklon to s čímkoli přehánět."
+
 msgid "Vulnerability"
 msgstr "Zranitelnost"
 
-#: bigfive/templates/result.html:216
-#, python-format
 msgid ""
-"The \"fight-or-flight\" system of the brain of anxious individuals is too "
-"easily and too often engaged. Therefore, people who are high in anxiety "
-"often feel like something dangerous is about to happen. They may be afraid "
-"of specific situations or be just generally fearful. They feel tense, "
-"jittery, and nervous. Persons low in <em>Anxiety</em> are generally calm and "
-"fearless. Your level of anxiety is %(level)s."
+"High scorers experience panic, confusion, and helplessness under pressure or"
+" stress. Low scorers feel more poised, confident, and clear-headed when "
+"stressed."
 msgstr ""
-"Systém „boj nebo útěk“ v mozku úzkostných jedinců je příliš snadno a příliš "
-"často aktivován. Proto lidé, kteří mají vysokou úzkost, často mají pocit, že "
-"se na ně chystá něco nebezpečného. Mohou se bát konkrétních situací nebo mít "
-"obecný strach. Cítí se napjatí, v neklidu a nervózní. Osoby s nízkou mírou "
-"<em>Úzkostnosti</em> jsou obvykle klidné a nebojácné. Vaše skóre "
-"<em>Úzkostnosti</em> je %(level)s."
+"Lidé s vysokým skóre pod tlakem nebo ve stresu propadají panice, zmatku a "
+"bezmoci. Lidé s nízkým skóre zůstávají ve stresu vyrovnanější, sebejistější "
+"a zachovávají si jasnou hlavu."
 
-#: bigfive/templates/result.html:217
-#, python-format
-msgid ""
-"Persons who score high in <em>Anger</em> feel enraged when things do not go "
-"their way. They are sensitive about being treated fairly and feel resentful "
-"and bitter when they feel they are being cheated. This scale measures the "
-"tendency to <em>feel</em> angry; whether or not the person <em>expresses</"
-"em> annoyance and hostility depends on the individual's level on "
-"<em>Agreeableness</em>. Low scorers do not get angry often or easily. Your "
-"level of anger is %(level)s."
-msgstr ""
-"Osoby, které dosáhnou vysokého skóre v <em>Hněvivosti</em>, cítí vztek, když "
-"se věci nedaří podle jejich představ. Jsou citliví na spravedlivé zacházení "
-"a cítí se uraženi a hořce, když mají pocit, že jsou podvedeni. Tato škála "
-"měří tendenci <em>cítit</em> hněv; zda osoba <em>projevuje</em> podrážděnost "
-"a agrese závisí na skóre osoby v <em>Přívětivosti</em>. Osoby s nízkým skóre "
-"se nehněvají často, případně je těžké je naštvat. Vaše skóre <em>Hněvivosti</"
-"em> je %(level)s."
+msgid "Openness to experience"
+msgstr "Otevřenost vůči zkušenostem"
 
-#: bigfive/templates/result.html:218
-#, python-format
-msgid ""
-"This scale measures the tendency to feel sad, dejected, and discouraged. "
-"High scorers lack energy and have difficult initiating activities. Low "
-"scorers tend to be free from these depressive feelings. Your level of "
-"depression is %(level)s."
-msgstr ""
-"Toto měřítko ukazuje tendenci cítit smutek, sklíčenost a znechucení. Osoby s "
-"vysokým skóre mají nedostatek energie a mají potíže se zahájením aktivit. "
-"Osoby s nízkým skóre mají tendenci být oproštěny od těchto depresivních "
-"pocitů. Vaše skóre <em>Depresivnosti</em> je %(level)s."
+msgid "Openness to experience facets"
+msgstr "Aspekty otevřenosti vůči zkušenostem"
 
-#: bigfive/templates/result.html:219
-#, python-format
-msgid ""
-"Self-conscious individuals are sensitive about what others think of them. "
-"Their concern about rejection and ridicule cause them to feel shy and "
-"uncomfortable around others. They are easily embarrassed and often feel "
-"ashamed. Their fears that others will criticize or make fun of them are "
-"exaggerated and unrealistic, but their awkwardness and discomfort may make "
-"these fears a self-fulfilling prophecy. Low scorers, in contrast, do not "
-"suffer from the mistaken impression that everyone is watching and judging "
-"them. They do not feel nervous in social situations. Your level of self-"
-"consciousness is %(level)s."
-msgstr ""
-"Rozpačití jedinci jsou citliví na to, co si o nich myslí ostatní. Jejich "
-"obavy z odmítnutí a posměchu způsobují, že se mezi dalšími lidmi cítí "
-"nesměle a nepohodlně. Snadno se dostanou do rozpaků a často cítí stud. "
-"Jejich obavy, že je ostatní budou kritizovat nebo si z nich dělat legraci, "
-"jsou přehnané a nerealistické, ale jejich nemotornost a nepohoda mohou tyto "
-"obavy naplnit. Osoby s nízkým skóre naopak netrpí mylným dojmem, že je každý "
-"sleduje a soudí. Necítí se nervózní v sociálních situacích. Vaše skóre "
-"<em>Rozpačitosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:220
-#, python-format
-msgid ""
-"Immoderate individuals feel strong cravings and urges that they have have "
-"difficulty resisting. They tend to be oriented toward short-term pleasures "
-"and rewards rather than long- term consequences. Low scorers do not "
-"experience strong, irresistible cravings and consequently do not find "
-"themselves tempted to overindulge. Your level of immoderation is %(level)s."
-msgstr ""
-"Impulzivní jedinci cítí silné touhy a pudy, kterým mají potíže odolávat. "
-"Mají tendenci orientovat se spíše na krátkodobé potěšení a odměny než na "
-"dlouhodobé výsledky. Osoby s nízkým skóre nezažívají silné, neodolatelné "
-"touhy a tudíž je neláká nadměrné holdování neřesti. Vaše skóre "
-"<em>Impulzivnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:221
-#, python-format
-msgid ""
-"High scorers on <em>Vulnerability</em> experience panic, confusion, and "
-"helplessness when under pressure or stress. Low scorers feel more poised, "
-"confident, and clear-thinking when stressed. Your level of vulnerability is "
-"%(level)s."
-msgstr ""
-"Osoby s vysokým skóre <em>Zranitelnosti</em> zažívají paniku, zmatek a "
-"bezmoc, když jsou pod tlakem nebo stresem. Osoby s nízkým skóre se při "
-"stresu cítí jako relativně klidní, sebevědomí a jasně uvažující. Vaše skóre "
-"<em>Zranitelnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:225
 msgid ""
 "<em>Openness to experience</em> describes a dimension of cognitive style "
 "that distinguishes imaginative, creative people from down-to-earth, "
-"conventional people. Open people are intellectually curious, appreciative of "
-"art, and sensitive to beauty. They tend to be, compared to closed people, "
-"more aware of their feelings. They tend to think and act in individualistic "
-"and nonconforming ways. Intellectuals typically score high on <em>Openness "
-"to experience</em>; consequently, this factor has also been called "
-"<em>Culture</em> or <em>Intellect</em>. Nonetheless, Intellect is probably "
-"best regarded as one aspect of <em>Openness to experience</em>. Scores on "
-"<em>Openness to experienc</em>e are only modestly related to years of "
-"education and scores on standard intelligent tests."
+"conventional people. Open people are intellectually curious, appreciate art,"
+" and are sensitive to beauty. Compared with closed people, they tend to be "
+"more aware of their feelings, and they think and act in individualistic and "
+"nonconforming ways. Intellectuals typically score high on this domain, which"
+" is why it has also been called <em>Culture</em> or <em>Intellect</em>. "
+"Intellect is probably best regarded as just one aspect of openness, though: "
+"scores on <em>Openness to experience</em> are only modestly related to years"
+" of education and to scores on standard intelligence tests."
 msgstr ""
-"<em>Otevřenost vůči zkušenostem</em> popisuje dimenzi kognitivního stylu, "
-"který rozlišuje nápadité a kreativní osoby od praktických a konvenčních. "
-"Otevření lidé jsou intelektuálně zvídaví, oceňují umění a jsou citliví na "
-"krásu. Ve srovnání s uzavřenými lidmi jsou si více vědomi svých pocitů. Mají "
-"tendenci myslet a jednat individualisticky a nekonformně. Intelektuálové "
-"obvykle dosahují vysokých hodnot v <em>Otevřenosti vůči zkušenostem</em>; "
-"proto byl tento faktor také nazýván <em>Kulturou</em> nebo <em>Intelektem</"
-"em>. Nicméně intelekt je pravděpodobně lepší zařadit jako jeden aspekt "
-"<em>Otevřenosti vůči zkušenostem</em>. Skóre v <em>Otevřenosti vůči "
-"zkušenostem</em> souvisí pouze mírně s roky vzdělání a dosaženém skóre v "
-"standardních inteligenčních testech."
+"<em>Otevřenost vůči zkušenostem</em> popisuje dimenzi stylu myšlení, která "
+"odlišuje nápadité a tvořivé lidi od lidí praktických a konvenčních. Otevření"
+" lidé jsou intelektuálně zvídaví, oceňují umění a jsou vnímaví ke kráse. Ve "
+"srovnání s uzavřenými lidmi si bývají více vědomi svých pocitů a myslí i "
+"jednají osobitě a nekonformně. Vysokého skóre v tomto rysu obvykle dosahují "
+"intelektuálové, a proto se mu také říkalo <em>Kultura</em> nebo "
+"<em>Intelekt</em>. Intelekt je však nejspíše lepší chápat jen jako jeden z "
+"aspektů otevřenosti: skóre <em>Otevřenosti vůči zkušenostem</em> souvisí s "
+"délkou vzdělání a s výsledky běžných testů inteligence jen slabě."
 
-#: bigfive/templates/result.html:226
 msgid ""
 "Another characteristic of the open cognitive style is a facility for "
 "thinking in symbols and abstractions far removed from concrete experience. "
-"Depending on the individual's specific intellectual abilities, this symbolic "
-"cognition may take the form of mathematical, logical, or geometric thinking, "
-"artistic and metaphorical use of language, music composition or performance, "
-"or one of the many visual or performing arts. People with low scores on "
-"<em>Openness to experience</em> tend to have narrow, common interests. They "
-"prefer the plain, straightforward, and obvious over the complex, ambiguous, "
-"and subtle. They may regard the arts and sciences with suspicion, regarding "
-"these endeavors as abstruse or of no practical use. Closed people prefer "
-"familiarity over novelty; they are conservative and resistant to change."
+"Depending on the person’s specific intellectual abilities, this may take the"
+" form of mathematical, logical, or geometric thinking, an artistic and "
+"metaphorical use of language, composing or performing music, or one of the "
+"many visual or performing arts. People with low scores tend to have narrow, "
+"common interests. They prefer the plain, straightforward, and obvious over "
+"the complex, ambiguous, and subtle. They may regard the arts and sciences "
+"with suspicion, as abstruse or of no practical use. Closed people prefer "
+"familiarity over novelty: they are conservative and resistant to change."
 msgstr ""
-"Další charakteristikou otevřeného kognitivního stylu je schopnost myslet v "
-"symbolech a abstrakcích vzdálených od skutečných zkušeností. V závislosti na "
-"konkrétních rozumových schopnostech jedince se tato symbolické poznání může "
-"projevovat ve formě matematického, logického nebo geometrického myšlení, "
-"uměleckého a metaforického používání jazyka, hudebního představení nebo "
-"kompozice, případně nějakého z mnoha výtvarných nebo múzických umění. Lidé s "
-"nízkým skóre v <em>Otevřenosti vůči zkušenostem</em> mají tendenci mít "
-"omezené, běžné zájmy. Dávají přednost jednoduchému, přímému a zřejmému před "
-"složitým, nejednoznačným a rafinovaným. Mohou považovat umění a vědu za "
-"podezřelé a pokládat jejich úsilí za nesrozumitelné nebo nepoužitelné v "
-"praxi. Uzavření lidé dávají přednost známému před novým; jsou konzervativní "
-"a vzdorují změnám."
+"Dalším znakem otevřeného stylu myšlení je schopnost uvažovat v symbolech a "
+"abstrakcích vzdálených od konkrétní zkušenosti. Podle konkrétních "
+"intelektuálních schopností člověka může mít podobu matematického, logického "
+"nebo geometrického myšlení, uměleckého a metaforického užívání jazyka, "
+"skládání či provozování hudby, nebo některého z mnoha výtvarných či "
+"múzických umění. Lidé s nízkým skóre mívají úzké, běžné zájmy. Dávají "
+"přednost prostému, přímému a zřejmému před složitým, nejednoznačným a "
+"jemným. Na umění a vědu mohou pohlížet s podezřením jako na něco "
+"nesrozumitelného nebo prakticky nepoužitelného. Uzavření lidé dávají "
+"přednost známému před novým: jsou konzervativní a brání se změnám."
 
-#: bigfive/templates/result.html:227
 msgid ""
-"Openness is often presented as healthier or more mature by psychologists, "
-"who are often themselves open to experience. However, open and closed styles "
-"of thinking are useful in different environments. The intellectual style of "
-"the open person may serve a professor well, but research has shown that "
-"closed thinking is related to superior job performance in police work, "
-"sales, and a number of service occupations."
+"Psychologists, who are often themselves open to experience, tend to present "
+"openness as healthier or more mature. However, open and closed styles of "
+"thinking are useful in different environments. The intellectual style of an "
+"open person may serve a professor well, but research has shown that closed "
+"thinking is related to superior job performance in police work, sales, and a"
+" number of service occupations."
 msgstr ""
-"Otevřenost je často psychology prezentována jako zdravější nebo zralejší, "
-"protože oni sami jsou často sami otevření vůči zkušenostem. Nicméně, "
-"otevřené a uzavřené styly myšlení mohou být užitečné v různých prostředích. "
-"Intelektuální styl otevřené osoby může být prospěšný pro profesora, ale "
-"výzkum ukázal, že uzavřené myšlení souvisí s lepším výkonem práce policistů, "
-"prodejců a dalších povoláních v sektoru služeb."
+"Psychologové, kteří jsou sami často otevření vůči zkušenostem, mají sklon "
+"prezentovat otevřenost jako zdravější nebo zralejší. Otevřený i uzavřený "
+"styl myšlení jsou však užitečné v různých prostředích. Intelektuální styl "
+"otevřeného člověka se může hodit profesorovi, ale výzkum ukázal, že uzavřené"
+" myšlení souvisí s lepším pracovním výkonem u policie, v prodeji a v řadě "
+"povolání ve službách."
 
-#: bigfive/templates/result.html:230
 msgid ""
-"Your score on <em>Openness to experience</em> is low, indicating you like to "
-"think in plain and simple terms. Others describe you as down-to-earth, "
-"practical, and conservative."
+"Your score on <em>Openness to experience</em> is low. You like to think in "
+"plain and simple terms, and others describe you as down-to-earth, practical,"
+" and conservative."
 msgstr ""
-"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je nízké, což značí, že "
-"rádi přemýšlíte jednoduše a prakticky. Ostatní vás popisují jako s nohama na "
-"zemi, pragmatického a konzervativního."
+"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je nízké. Přemýšlíte raději"
+" jednoduše a prakticky a ostatní vás popisují jako člověka při zemi, "
+"praktického a konzervativního."
 
-#: bigfive/templates/result.html:232
 msgid ""
-"Your score on <em>Openness to experience</em> is high, indicating you enjoy "
-"novelty, variety, and change. You are curious, imaginative, and creative."
+"Your score on <em>Openness to experience</em> is average. You enjoy "
+"tradition but are willing to try new things. Your thinking is neither simple"
+" nor complex, and to others you appear to be a well-educated person but not "
+"an intellectual."
 msgstr ""
-"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je vysoké, což značí, že "
-"vyhledáváte novoty, rozmanitost a změnu. Jste zvídaví, nápadití a kreativní."
+"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je průměrné. Máte v oblibě "
+"tradici, ale nebráníte se novým věcem. Vaše myšlení není ani prosté, ani "
+"složité a ostatním připadáte jako vzdělaný člověk, ne však intelektuál."
 
-#: bigfive/templates/result.html:234
 msgid ""
-"Your score on <em>Openness to experience</em> is average, indicating you "
-"enjoy tradition but are willing to try new things. Your thinking is neither "
-"simple nor complex. To others you appear to be a well-educated person but "
-"not an intellectual."
+"Your score on <em>Openness to experience</em> is high. You enjoy novelty, "
+"variety, and change, and you are curious, imaginative, and creative."
 msgstr ""
-"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je průměrné, což značí, že "
-"si máte rádi tradici, ale jste ochotni vyzkoušet nové věci. Vaše myšlení "
-"není ani jednoduché ani složité. Pro ostatní vypadáte jako vzdělaná osoba, "
-"ale ne jako typický intelektuál."
+"Vaše skóre <em>Otevřenosti vůči zkušenostem</em> je vysoké. Vyhledáváte "
+"novinky, rozmanitost a změnu. Jste zvídavý, nápaditý a tvořivý člověk."
 
-#: bigfive/templates/result.html:237 bigfive/templates/result.html:241
-msgid "Openness facets"
-msgstr "Aspekty Otevřenosti"
-
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:247
 msgid "Imagination"
 msgstr "Představivost"
 
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:248
+msgid ""
+"To imaginative people, the real world is often too plain and ordinary. High "
+"scorers use fantasy to create a richer, more interesting world. Low scorers "
+"are more oriented toward facts than fantasy."
+msgstr ""
+"Nápaditým lidem připadá skutečný svět často příliš prostý a obyčejný. Lidé s"
+" vysokým skóre si pomocí fantazie vytvářejí bohatší a zajímavější svět. Lidé"
+" s nízkým skóre se orientují spíše na fakta než na fantazii."
+
 msgid "Artistic interests"
 msgstr "Umělecké zájmy"
 
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:249
+msgid ""
+"High scorers love beauty, both in art and in nature. They easily become "
+"involved and absorbed in artistic and natural events. They are not "
+"necessarily artistically trained or talented, although many are: what "
+"defines this scale is <em>interest in</em> and <em>appreciation of</em> "
+"natural and artificial beauty. Low scorers lack aesthetic sensitivity and "
+"interest in the arts."
+msgstr ""
+"Lidé s vysokým skóre milují krásu, v umění i v přírodě. Snadno se zaberou do"
+" uměleckých zážitků i do dění v přírodě. Nemusí být nutně umělecky vzdělaní "
+"ani nadaní, i když mnozí jsou: tuto škálu určuje <em>zájem</em> o přírodní i"
+" uměle vytvořenou krásu a její <em>ocenění</em>. Lidem s nízkým skóre chybí "
+"estetické cítění a zájem o umění."
+
 msgid "Emotionality"
 msgstr "Emotivnost"
 
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:250
+msgid ""
+"High scorers have good access to and awareness of their own feelings. Low "
+"scorers are less aware of their feelings and tend not to express their "
+"emotions openly."
+msgstr ""
+"Lidé s vysokým skóre mají dobrý přístup ke svým pocitům a jsou si jich "
+"vědomi. Lidé s nízkým skóre si své pocity uvědomují méně a své emoce obvykle"
+" otevřeně neprojevují."
+
 msgid "Adventurousness"
 msgstr "Dobrodružnost"
 
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:251
+msgid ""
+"High scorers are eager to try new activities, travel to foreign lands, and "
+"experience different things. They find familiarity and routine boring, and "
+"they will take a new route home just because it is different. Low scorers "
+"tend to feel uncomfortable with change and prefer familiar routines."
+msgstr ""
+"Lidé s vysokým skóre dychtí po nových činnostech, cestách do cizích zemí a "
+"nových zážitcích. Známé věci a rutina je nudí a cestou domů zvolí novou "
+"trasu jen proto, že je jiná. Lidem s nízkým skóre jsou změny nepříjemné a "
+"dávají přednost zaběhnutým zvyklostem."
+
 msgid "Intellect"
 msgstr "Intelekt"
 
-#: bigfive/templates/result.html:242 bigfive/templates/result.html:252
+msgid ""
+"Intellect and artistic interests are the two most central aspects of "
+"openness to experience. High scorers love to play with ideas. They are open "
+"to new and unusual ideas, like to debate intellectual issues, and enjoy "
+"riddles, puzzles, and brain teasers. Low scorers prefer dealing with people "
+"or things rather than ideas, and they regard intellectual exercises as a "
+"waste of time. Intellect should <em>not</em> be equated with intelligence: "
+"it is an intellectual style, not an intellectual ability, although high "
+"scorers do score <em>slightly</em> higher than low scorers on standardized "
+"intelligence tests."
+msgstr ""
+"Intelekt a umělecké zájmy jsou dva nejdůležitější aspekty otevřenosti vůči "
+"zkušenostem. Lidé s vysokým skóre si rádi hrají s myšlenkami. Jsou otevření "
+"novým a neobvyklým nápadům, rádi diskutují o intelektuálních otázkách a baví"
+" je hádanky, rébusy a hlavolamy. Lidé s nízkým skóre se raději zabývají "
+"lidmi nebo věcmi než myšlenkami a intelektuální cvičení považují za ztrátu "
+"času. Intelekt by se <em>neměl</em> zaměňovat s inteligencí: je to styl "
+"myšlení, nikoli rozumová schopnost, i když lidé s vysokým skóre dosahují ve "
+"standardizovaných testech inteligence <em>o něco</em> lepších výsledků než "
+"lidé s nízkým skóre."
+
 msgid "Liberalism"
 msgstr "Liberalismus"
 
-#: bigfive/templates/result.html:247
+msgid ""
+"Psychological liberalism is a readiness to challenge authority, convention, "
+"and traditional values. In its most extreme form it can even mean outright "
+"hostility toward rules, sympathy for law-breakers, and a love of ambiguity, "
+"chaos, and disorder. Psychological conservatives prefer the security and "
+"stability that come with conformity to tradition. Psychological liberalism "
+"and conservatism are not the same as political affiliation, but they "
+"certainly incline people toward certain political parties."
+msgstr ""
+"Psychologický liberalismus je připravenost zpochybňovat autority, konvence a"
+" tradiční hodnoty. V krajní podobě může znamenat i otevřené nepřátelství k "
+"pravidlům, sympatie k těm, kdo porušují zákon, a zálibu v nejednoznačnosti, "
+"chaosu a nepořádku. Psychologičtí konzervativci dávají přednost bezpečí a "
+"stabilitě, které přináší soulad s tradicí. Psychologický liberalismus a "
+"konzervatismus nejsou totéž co politická příslušnost, ale rozhodně člověka "
+"naklánějí k určitým politickým stranám."
+
+msgid "Start the test"
+msgstr "Spustit test"
+
+msgid "Back"
+msgstr "Zpět"
+
+msgid "Next"
+msgstr "Další"
+
+msgid "Low score threshold"
+msgstr "Hranice nízkého skóre"
+
+msgid "High score threshold"
+msgstr "Hranice vysokého skóre"
+
+msgid "Percentile"
+msgstr "Percentil"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid ""
+"Based on the IPIP-NEO-120 inventory by John A. Johnson. The <a "
+"href=\"https://github.com/dqd/big-five\">source code</a> of this website is "
+"open."
+msgstr ""
+"Vychází z dotazníku IPIP-NEO-120 Johna A. Johnsona. <a "
+"href=\"https://github.com/dqd/big-five\">Zdrojový kód</a> tohoto webu je "
+"otevřený."
+
+msgid ""
+"Discover yourself. Explore the five key dimensions of your personality with "
+"a free 120-question Big Five personality test."
+msgstr ""
+"Objevte sebe sama. Prozkoumejte pět klíčových dimenzí své osobnosti pomocí "
+"bezplatného testu osobnosti Big Five se 120 otázkami."
+
+msgid "Free Big Five personality test"
+msgstr "Test osobnosti Big Five zdarma"
+
+msgid ""
+"Discover yourself. Explore the five key dimensions of your personality, free"
+" of charge."
+msgstr ""
+"Objevte sebe sama. Prozkoumejte pět klíčových dimenzí své osobnosti, a to "
+"zcela zdarma."
+
+msgid "What is the Big Five?"
+msgstr "Co je Big Five?"
+
+msgid ""
+"The Big Five is the most widely used model of personality in psychological "
+"research. It describes personality along five broad dimensions: <em>Openness"
+" to experience</em>, <em>Conscientiousness</em>, <em>Extraversion</em>, "
+"<em>Agreeableness</em>, and <em>Neuroticism</em>, often remembered by the "
+"acronym OCEAN. Each dimension is a spectrum, and everyone falls somewhere "
+"between its two extremes."
+msgstr ""
+"Big Five je nejpoužívanější model osobnosti v psychologickém výzkumu. "
+"Popisuje osobnost pomocí pěti širokých dimenzí: <em>Otevřenost vůči "
+"zkušenostem</em>, <em>Svědomitost</em>, <em>Extraverze</em>, "
+"<em>Přívětivost</em> a <em>Neuroticismus</em>; v angličtině se pro ně "
+"používá zkratka OCEAN. Každá dimenze je škála a každý člověk se nachází "
+"někde mezi jejími dvěma krajními póly."
+
+msgid "The five dimensions"
+msgstr "Pět dimenzí osobnosti"
+
+msgid ""
+"reflects intellectual curiosity, creativity, and a taste for novelty and "
+"variety. People high in openness are imaginative, open to new experiences, "
+"and have a broad range of interests. People lower in openness prefer routine"
+" and familiarity."
+msgstr ""
+"odráží intelektuální zvídavost, tvořivost a zálibu v novinkách a "
+"rozmanitosti. Lidé s vysokou otevřeností jsou nápadití, otevření novým "
+"zkušenostem a mají široké spektrum zájmů. Lidé s nižší otevřeností dávají "
+"přednost rutině a tomu, co dobře znají."
+
+msgid ""
+"describes thoughtfulness, impulse control, and goal-directed behavior. "
+"Highly conscientious people are organized, attentive to detail, and "
+"responsible. Less conscientious people are more spontaneous and less focused"
+" on details."
+msgstr ""
+"vyjadřuje uvážlivost, sebeovládání a cílevědomé jednání. Vysoce svědomití "
+"lidé jsou organizovaní, pečliví a zodpovědní. Méně svědomití lidé jsou "
+"spontánnější a méně se zaměřují na detaily."
+
+msgid ""
+"is marked by sociability, talkativeness, assertiveness, and emotional "
+"expressiveness. Extraverts draw energy from being with other people, while "
+"introverts, who score lower, recharge in solitary activities."
+msgstr ""
+"se projevuje společenskostí, hovorností, asertivitou a otevřeným "
+"vyjadřováním emocí. Extraverti čerpají energii z pobytu mezi lidmi, zatímco "
+"introverti, kteří mají nižší skóre, ji nabírají při činnostech o samotě."
+
+msgid ""
+"reflects how much a person values cooperation and social harmony. Agreeable "
+"people are compassionate, trusting, and altruistic, and they prefer to avoid"
+" conflict. Less agreeable people are more competitive and more willing to "
+"challenge others."
+msgstr ""
+"odráží, jak moc si člověk cení spolupráce a dobrých vztahů. Přívětiví lidé "
+"jsou soucitní, důvěřiví a nezištní a vyhýbají se konfliktům. Méně přívětiví "
+"lidé jsou soutěživější a ochotnější jít s ostatními do sporu."
+
+msgid ""
+"is the tendency toward unstable emotions and moodiness. High scorers "
+"experience mood swings, anxiety, irritability, and sadness more often. Low "
+"scorers are more emotionally stable and resilient."
+msgstr ""
+"je sklon k nestálým emocím a náladovosti. Lidé s vysokým skóre častěji "
+"zažívají výkyvy nálad, úzkost, podrážděnost a smutek. Lidé s nízkým skóre "
+"jsou emočně stabilnější a odolnější."
+
+msgid "Comparison with the MBTI"
+msgstr "Srovnání s MBTI"
+
+msgid ""
+"The Big Five and the popular Myers–Briggs Type Indicator (MBTI) are two very"
+" different approaches to personality assessment. The Big Five is highly "
+"regarded by psychologists for its empirical support and reliability. It "
+"measures each of the five dimensions on a continuous scale, which gives a "
+"nuanced picture of a person."
+msgstr ""
+"Big Five a populární Myers–Briggs Type Indicator (MBTI) jsou dva velmi "
+"odlišné přístupy k hodnocení osobnosti. Psychologové si Big Five cení pro "
+"jeho empirickou podloženost a spolehlivost. Každou z pěti dimenzí měří na "
+"spojité škále, což poskytuje jemný obraz osobnosti."
+
+msgid ""
+"The MBTI, on the other hand, sorts people into 16 types based on four "
+"either-or choices. Psychologists have criticized it for its weak empirical "
+"grounding: the binary choices oversimplify personality, and many people get "
+"a different type when they retake the test. Despite its popularity in "
+"companies and schools, the MBTI is best seen as a tool for self-reflection "
+"rather than a scientifically validated instrument."
+msgstr ""
+"MBTI naproti tomu třídí lidi do 16 typů na základě čtyř voleb typu "
+"buď–anebo. Psychologové mu vytýkají slabé empirické základy: binární volby "
+"osobnost příliš zjednodušují a mnoha lidem při opakování testu vyjde jiný "
+"typ. Navzdory své oblibě ve firmách a školách je MBTI lepší brát jako "
+"pomůcku k sebereflexi než jako vědecky ověřený nástroj."
+
+msgid ""
+"The Big Five, in contrast, has proven consistent across diverse populations "
+"and predicts real-life outcomes such as job performance and psychological "
+"well-being. That is why researchers and clinicians who want an evidence-"
+"based approach prefer it."
+msgstr ""
+"Big Five se naproti tomu osvědčil jako konzistentní napříč různými "
+"populacemi a dokáže předpovídat skutečné životní výsledky, jako je pracovní "
+"výkon nebo psychická pohoda. Proto mu dávají přednost výzkumníci i kliničtí "
+"psychologové, kteří chtějí přístup založený na důkazech."
+
+msgid "Take the test"
+msgstr "Vyplňte test"
+
+msgid ""
+"The test consists of 120 short statements. For each of them, choose how "
+"accurately it describes you. It takes about 15 minutes, and there are no "
+"right or wrong answers. Please answer honestly: the report is only as "
+"accurate as your answers."
+msgstr ""
+"Test tvoří 120 krátkých tvrzení. U každého z nich zvolte, jak přesně vás "
+"vystihuje. Zabere přibližně 15 minut a neexistují v něm správné ani špatné "
+"odpovědi. Odpovídejte prosím upřímně: vyhodnocení bude jen tak přesné, jak "
+"přesné budou vaše odpovědi."
+
+msgid "About you"
+msgstr "O vás"
+
+msgid ""
+"Your answers are compared with those of people of the same sex and a similar"
+" age."
+msgstr ""
+"Vaše odpovědi porovnáme s odpověďmi lidí stejného pohlaví a podobného věku."
+
+msgid "How accurately does the following statement describe you?"
+msgstr "Jak přesně vás vystihuje následující tvrzení?"
+
+#, python-format
+msgid "Question %(number)s of %(total)s"
+msgstr "Otázka %(number)s ze %(total)s"
+
+msgid "Show my results"
+msgstr "Zobrazit výsledky"
+
+msgid "Your detailed report"
+msgstr "Podrobné vyhodnocení"
+
+msgid ""
+"After you complete the <a href=\"#test\">120-question test</a>, you will "
+"receive a detailed report on each of the Big Five traits and the six facets "
+"that make up each of them, with bar charts of your scores. The report helps "
+"you understand your unique personality profile and supports self-awareness "
+"and personal growth."
+msgstr ""
+"Po vyplnění <a href=\"#test\">testu se 120 otázkami</a> získáte podrobné "
+"vyhodnocení každého z pěti osobnostních rysů Big Five i šesti aspektů, které"
+" je tvoří, doplněné sloupcovými grafy vašich skóre. Vyhodnocení vám pomůže "
+"porozumět vašemu jedinečnému osobnostnímu profilu a podpoří vaše sebepoznání"
+" i osobní růst."
+
+msgid "The history of the Big Five"
+msgstr "Historie modelu Big Five"
+
+msgid ""
+"The Big Five model grew out of decades of research. Its roots go back to the"
+" 1930s, when psychologist Gordon Allport and his colleague H. S. Odbert "
+"hypothesized that the fundamental traits of human personality could be found"
+" in the language we use to describe people. They began by collecting "
+"thousands of English words that describe personality."
+msgstr ""
+"Model Big Five je výsledkem desetiletí výzkumu. Jeho kořeny sahají do 30. "
+"let 20. století, kdy psycholog Gordon Allport se svým kolegou H. S. Odbertem"
+" vyslovili hypotézu, že základní rysy lidské osobnosti lze najít v jazyce, "
+"kterým popisujeme druhé lidi. Začali tím, že shromáždili tisíce anglických "
+"slov popisujících osobnost."
+
+msgid ""
+"Over the following decades, psychologists refined this list, most notably "
+"Raymond Cattell in the 1940s and 1950s. Cattell used factor analysis, a "
+"statistical method, to reduce the long list of traits to a manageable "
+"number. The Big Five as we know it took shape in the 1970s and 1980s, when "
+"researchers such as Paul Costa and Robert McCrae applied factor analysis to "
+"personality questionnaires and consistently found five broad factors: "
+"<em>Openness to experience</em>, <em>Conscientiousness</em>, "
+"<em>Extraversion</em>, <em>Agreeableness</em>, and <em>Neuroticism</em>."
+msgstr ""
+"V následujících desetiletích tento seznam psychologové zpřesňovali, "
+"především Raymond Cattell ve 40. a 50. letech. Cattell pomocí faktorové "
+"analýzy, statistické metody, zredukoval dlouhý seznam rysů na zvládnutelný "
+"počet. Big Five v dnešní podobě vznikl v 70. a 80. letech, kdy výzkumníci "
+"jako Paul Costa a Robert McCrae použili faktorovou analýzu na osobnostní "
+"dotazníky a opakovaně nacházeli pět širokých faktorů: <em>Otevřenost vůči "
+"zkušenostem</em>, <em>Svědomitost</em>, <em>Extraverzi</em>, "
+"<em>Přívětivost</em> a <em>Neuroticismus</em>."
+
+msgid ""
+"In the 1990s, a large body of research confirmed that the model applies "
+"across cultures and languages, establishing it as a universal framework for "
+"understanding personality."
+msgstr ""
+"V 90. letech rozsáhlý výzkum potvrdil, že model platí napříč kulturami a "
+"jazyky, a upevnil tak jeho postavení univerzálního rámce pro porozumění "
+"osobnosti."
+
+msgid ""
+"Thanks to its simplicity and empirical support, the Big Five is used not "
+"only in research but also in psychotherapy, career counseling, and hiring. "
+"Today it is the standard scientific model of personality."
+msgstr ""
+"Díky své jednoduchosti a empirické podloženosti se Big Five používá nejen ve"
+" výzkumu, ale také v psychoterapii, kariérním poradenství a při náboru "
+"zaměstnanců. Dnes je standardním vědeckým modelem osobnosti."
+
+msgid "Accuracy and reliability"
+msgstr "Přesnost a spolehlivost"
+
+msgid ""
+"The Big Five stands out for its accuracy and reliability, which have been "
+"validated by extensive research. The model has produced consistent results "
+"across many studies and cultural contexts."
+msgstr ""
+"Big Five vyniká přesností a spolehlivostí, které potvrdil rozsáhlý výzkum. "
+"Model dává konzistentní výsledky v mnoha studiích i kulturních prostředích."
+
+msgid ""
+"Its key strength is its empirical basis. Numerous studies have confirmed "
+"that the five dimensions predict important life outcomes, including academic"
+" and career success, relationships, and psychological well-being. This "
+"predictive validity shows that the model is useful in the real world, not "
+"just in theory."
+msgstr ""
+"Jeho hlavní silnou stránkou je empirický základ. Řada studií potvrdila, že "
+"pět dimenzí předpovídá důležité životní výsledky, včetně studijních a "
+"pracovních úspěchů, mezilidských vztahů a psychické pohody. Tato prediktivní"
+" platnost ukazuje, že model je užitečný v praxi, nejen v teorii."
+
+msgid ""
+"The model is also replicable: different researchers working with diverse "
+"populations keep finding the same five factors. Unlike assessments that rely"
+" on subjective interpretation, the Big Five rests on objective, data-driven "
+"analysis, which gives it a high degree of scientific credibility."
+msgstr ""
+"Model je také replikovatelný: různí výzkumníci pracující s různými "
+"populacemi nacházejí stále stejných pět faktorů. Na rozdíl od metod, které "
+"se opírají o subjektivní výklad, stojí Big Five na objektivní analýze dat, "
+"což mu dodává vysokou vědeckou důvěryhodnost."
+
+msgid ""
+"Finally, the model is flexible. It can be adapted to different purposes, "
+"from a broad overview of personality to a detailed analysis of individual "
+"facets, without losing its reliability."
+msgstr ""
+"A konečně je model flexibilní. Lze jej přizpůsobit různým účelům, od "
+"obecného přehledu osobnosti až po podrobnou analýzu jednotlivých aspektů, "
+"aniž by ztratil na spolehlivosti."
+
+msgid "Acknowledgement"
+msgstr "Poděkování"
+
+msgid ""
+"This website is based on the <a href=\"https://github.com/kholia/IPIP-NEO-"
+"PI/\">Python port</a> of <a href=\"https://sites.psu.edu/drj5j/\">John A. "
+"Johnson’s</a> IPIP-NEO-120, a public-domain inventory that measures the same"
+" traits as the NEO-PI-R."
+msgstr ""
+"Tento web vychází z <a href=\"https://github.com/kholia/IPIP-NEO-"
+"PI/\">pythonového portu</a> dotazníku IPIP-NEO-120 <a "
+"href=\"https://sites.psu.edu/drj5j/\">Johna A. Johnsona</a>, volně "
+"dostupného nástroje, který měří stejné rysy jako test NEO-PI-R."
+
+msgid ""
+"Your personal Big Five report: percentile scores and descriptions of the "
+"five personality domains and their thirty facets."
+msgstr ""
+"Vaše osobní vyhodnocení Big Five: percentilová skóre a popisy pěti "
+"osobnostních rysů a jejich třiceti aspektů."
+
+msgid "Your Big Five personality test results"
+msgstr "Výsledky vašeho testu osobnosti Big Five"
+
 #, python-format
 msgid ""
-"To imaginative individuals, the real world is often too plain and ordinary. "
-"High scorers on this scale use fantasy as a way of creating a richer, more "
-"interesting world. Low scorers are on this scale are more oriented to facts "
-"than fantasy. Your level of imagination is %(level)s."
+"This report, generated on %(created)s, estimates your level on each of the "
+"five broad personality domains of the Big Five model."
 msgstr ""
-"Pro jedince s představivostí je skutečný svět často příliš prostý a "
-"obyčejný. Osoby s vysokým skóre v tomto měřítku používají fantazii jako "
-"způsob, jak vytvořit pestřejší a zajímavější svět. Osoby s nízkým skóre na "
-"této škále jsou více orientovány na fakta než na fantazii. Vaše skóre "
-"<em>Představivosti</em> je %(level)s."
+"Tato zpráva, vytvořená %(created)s, odhaduje vaši úroveň v každém z pěti "
+"širokých osobnostních rysů modelu Big Five."
 
-#: bigfive/templates/result.html:248
+msgid ""
+"Personality traits describe how often or how intensely a person feels, "
+"thinks, or behaves in a certain way, relative to other people. Having a "
+"trait is therefore a matter of degree. We might call two people "
+"<em>extraverts</em> and still see one of them as more extraverted than the "
+"other. This report uses expressions such as “extravert” or “high in "
+"extraversion” for someone who is likely to be seen by others as relatively "
+"extraverted."
+msgstr ""
+"Osobnostní rysy popisují, jak často nebo jak silně člověk určitým způsobem "
+"cítí, myslí nebo jedná ve srovnání s ostatními lidmi. Mít určitý rys je tedy"
+" otázkou míry. Dva lidi můžeme označit za <em>extraverty</em>, a přesto "
+"jednoho z nich vnímat jako extravertnějšího. Výrazy jako „extravert“ nebo "
+"„vysoká extraverze“ v této zprávě označují člověka, kterého ostatní "
+"pravděpodobně vnímají jako poměrně extravertního."
+
 #, python-format
 msgid ""
-"High scorers on this scale love beauty, both in art and in nature. They "
-"become easily involved and absorbed in artistic and natural events. They are "
-"not necessarily artistically trained nor talented, although many will be. "
-"The defining features of this scale are <em>interest in</em>, and "
-"<em>appreciation of</em> natural and artificial beauty. Low scorers lack "
-"aesthetic sensitivity and interest in the arts. Your level of artistic "
-"interests is %(level)s."
+"The program that generates this report classifies you as low, average, or "
+"high in a trait according to whether your score falls roughly in the lowest "
+"30%%, the middle 40%%, or the highest 30%% of the scores of people of your "
+"sex and about your age (%(sex)s, %(age_group)s). Your scores are reported "
+"and charted as <em>percentile estimates</em>. For example, a score of 60 "
+"means that your level of that trait is estimated to be higher than that of "
+"60%% of people of your sex and age."
 msgstr ""
-"Osoby s vysokým skóre v tomto měřítku milují krásu, a to jak v umění, tak v "
-"přírodě. Snadno se angažují a ponoří do událostí v umění a přírodě. Nemusí "
-"být nutně umělecky vzdělaní ani talentovaní, ačkoliv mnozí jsou. "
-"Definujícími rysy této škály jsou <em>zájem</em> o krásu a její <em>ocenění</"
-"em>. Osoby s nízkým skóre mají nedostatek estetického vnímání a zájmu o "
-"umění. Vaše skóre <em>Uměleckých zájmů</em> je %(level)s."
+"Program, který tuto zprávu vytváří, vás zařadí do kategorie nízkého, "
+"průměrného nebo vysokého skóre podle toho, zda vaše skóre spadá zhruba do "
+"nejnižších 30 %%, prostředních 40 %%, nebo nejvyšších 30 %% skóre lidí "
+"stejného pohlaví a přibližně stejného věku (%(sex)s, %(age_group)s). Vaše "
+"skóre jsou uvedena a vykreslena jako <em>odhady percentilů</em>. Skóre 60 "
+"například znamená, že vaše úroveň daného rysu je odhadem vyšší než u 60 %% "
+"lidí stejného pohlaví a věku."
 
-#: bigfive/templates/result.html:249
+msgid ""
+"Please keep in mind that “low”, “average”, and “high” scores on a "
+"personality test are neither good nor bad in themselves. A particular level "
+"of any trait will probably be neutral or irrelevant for a great many "
+"activities, helpful for some, and a hindrance for others."
+msgstr ""
+"Mějte prosím na paměti, že „nízké“, „průměrné“ ani „vysoké“ skóre v testu "
+"osobnosti není samo o sobě dobré ani špatné. Určitá úroveň kteréhokoli rysu "
+"bude pro mnoho činností pravděpodobně neutrální nebo nepodstatná, u "
+"některých pomůže a u jiných bude na překážku."
+
+msgid ""
+"As with any personality inventory, scores and descriptions can only "
+"approximate your actual personality. Descriptions of high and low scores are"
+" usually accurate, but an average score close to the low or high boundary "
+"might misclassify you as merely average. It is somewhat uncommon, but "
+"certainly possible, to score high in some of the six facets of a domain and "
+"low in others. In such cases the facet scores deserve more attention than "
+"the broad domain score. The best way to check the accuracy of your results "
+"is to show this report to people who know you well."
+msgstr ""
+"Jako u každého osobnostního dotazníku mohou skóre a popisy vaši skutečnou "
+"osobnost pouze přibližně vystihnout. Popisy vysokého a nízkého skóre bývají "
+"přesné, ale průměrné skóre blízko hranice nízkého či vysokého skóre vás může"
+" chybně zařadit mezi průměr. Je poměrně neobvyklé, ale rozhodně možné, mít v"
+" některých ze šesti aspektů daného rysu vysoké skóre a v jiných nízké. V "
+"takovém případě si skóre aspektů zaslouží více pozornosti než skóre celého "
+"rysu. Přesnost svých výsledků nejlépe ověříte tak, že tuto zprávu ukážete "
+"lidem, kteří vás dobře znají."
+
+msgid "Your results"
+msgstr "Vaše výsledky"
+
+msgid "Trait"
+msgstr "Osobnostní rys"
+
+msgid "Level"
+msgstr "Hodnocení"
+
+msgid "Personality traits"
+msgstr "Osobnostní rysy"
+
+msgid ""
+"Below you will find an explanation of what these scores mean. Each of the "
+"five broad domains is described first, followed by the six facets that make "
+"it up."
+msgstr ""
+"Níže najdete vysvětlení, co tato skóre znamenají. U každého z pěti "
+"osobnostních rysů je nejprve popsán rys samotný a poté šest aspektů, které "
+"jej tvoří."
+
 #, python-format
+msgid "<strong>%(name)s</strong>: %(level)s (%(score)s)."
+msgstr "<strong>%(name)s</strong>: %(level)s skóre (%(score)s)."
+
+msgid "Share your results"
+msgstr "Podělte se o výsledky"
+
 msgid ""
-"Persons high on <em>Emotionality</em> have good access to and awareness of "
-"their own feelings. Low scorers are less aware of their feelings and tend "
-"not to express their emotions openly. Your level of emotionality is "
-"%(level)s."
+"Did you like the test? Share your results with your friends by sending them "
+"the link to this page."
 msgstr ""
-"Osoby s vysokým skóre <em>Emotivnosti</em> jsou si jich vědomy vlastních "
-"pocitů a dokáží je ovládat. Osoby s nízkým skóre si jsou méně vědomy svých "
-"pocitů a mají tendenci nevyjadřovat své emoce otevřeně. Vaše skóre "
-"<em>Emotivnosti</em> je %(level)s."
+"Líbil se vám test? Podělte se o své výsledky s přáteli: stačí jim poslat "
+"odkaz na tuto stránku."
 
-#: bigfive/templates/result.html:250
-#, python-format
-msgid ""
-"High scorers on adventurousness are eager to try new activities, travel to "
-"foreign lands, and experience different things. They find familiarity and "
-"routine boring, and will take a new route home just because it is different. "
-"Low scorers tend to feel uncomfortable with change and prefer familiar "
-"routines. Your level of adventurousness is %(level)s."
-msgstr ""
-"Osoby s vysokým skóre <em>Dobrodružnosti</em> jsou ochotny vyzkoušet nové "
-"aktivity, cestovat do cizích zemí a vyhledávat zážitky. Shledávají všednost "
-"a rutinu nudnou a rádi se vydají novou cestou domů jen proto, že je odlišná. "
-"Osoby s nízkým skóre mají tendenci cítit se nepohodlně v případě změny a "
-"preferují zaběhané postupy. Vaše skóre <em>Dobrodružnosti</em> je %(level)s."
-
-#: bigfive/templates/result.html:251
-#, python-format
-msgid ""
-"Intellect and artistic interests are the two most important, central aspects "
-"of openness to experience. High scorers on <em>Intellect</em> love to play "
-"with ideas. They are open-minded to new and unusual ideas, and like to "
-"debate intellectual issues. They enjoy riddles, puzzles, and brain teasers. "
-"Low scorers on <em>Intellect</em> prefer dealing with either people or "
-"things rather than ideas. They regard intellectual exercises as a waste of "
-"time. <em>Intellect</em> should <em>not</em> be equated with intelligence. "
-"<em>Intellect</em> is an intellectual style, not an intellectual ability, "
-"although high scorers on <em>Intellect</em> score <em>slightly</em> higher "
-"than low-<em>Intellect</em> individuals on standardized intelligence tests. "
-"Your level of intellect is %(level)s."
-msgstr ""
-"Intelekt a umělecké zájmy jsou dvěma nejdůležitějšími, centrálními aspekty "
-"<em>Otevřenosti vůči zkušenostem</em>. Osoby s vysokým skóre v "
-"<em>Intelektu</em> si rády hrají s nápady. Jsou otevřené novým a neobvyklým "
-"idejím a rády diskutují o intelektuálních tématech. Baví je hádanky, rébusy "
-"a hlavolamy. Osoby s nízkým skóre <em>Intelektu</em> upřednostňují zabývat "
-"se raději lidmi nebo věcmi než nápady. Považují intelektuální cvičení za "
-"ztrátu času. <em>Intelekt</em> by <em>se neměl</em> zaměňovat za "
-"inteligenci. <em>Intelekt</em> je intelektuální styl, ne intelektuální "
-"schopnost, ačkoli osoby s vysokým skóre <em>Intelektu</em> dosahují "
-"<em>mírně</em> vyššího skóre než osoby s nízkým <em>Intelektem</em> ve "
-"standardizovaných testech inteligence. Vaše skóre <em>Intelektu</em> je "
-"%(level)s."
-
-#: bigfive/templates/result.html:252
-#, python-format
-msgid ""
-"Psychological liberalism refers to a readiness to challenge authority, "
-"convention, and traditional values. In its most extreme form, psychological "
-"liberalism can even represent outright hostility toward rules, sympathy for "
-"law-breakers, and love of ambiguity, chaos, and disorder. Psychological "
-"conservatives prefer the security and stability brought by conformity to "
-"tradition. Psychological liberalism and conservatism are not identical to "
-"political affiliation, but certainly incline individuals toward certain "
-"political parties. Your level of liberalism is %(level)s."
-msgstr ""
-"<em>Liberalismus</em> v psychologii ukazuje ochotu stavět se autoritám, "
-"konvencím a tradičním hodnotám. V jeho nejextrémnější formě může "
-"psychologický liberalismus dokonce představovat otevřené nepřátelství vůči "
-"pravidlům, sympatie k porušovatelům zákona a lásku k nejistotě, chaosu a "
-"nepořádku. Psychologičtí konzervativci dávají přednost zabezpečení a "
-"stabilitě, kterou přináší shoda s tradicí. Psychologický liberalismus a "
-"konzervatismus nejsou identické s politickou příslušností, ale určitě "
-"směřuje jedince k určitým politickým stranám. Vaše skóre <em>Liberalismu</"
-"em> je %(level)s."
-
-#: bigfive/templates/result.html:255
-msgid "Sharing is caring"
-msgstr "Sdílení potěší"
-
-#: bigfive/templates/result.html:257
-msgid ""
-"Did you like this test? Tell about your result to your friends by sending "
-"them the URL to this page or by sharing it on the social media."
-msgstr ""
-"Líbil se vám tento test osobnosti? Podělte se o své výsledky se svými "
-"přáteli zasláním odkazu na tuto stránku nebo jejím sdílením na sociální síti."
-
-#: bigfive/templates/result.html:262
-msgid "Take another test!"
-msgstr "Zkuste vyplnit další test!"
+msgid "Take the test again"
+msgstr "Vyplnit test znovu"

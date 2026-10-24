@@ -1,16 +1,12 @@
 from django import template
-from django.conf import settings
+from django.urls import translate_url
 
 register = template.Library()
 
 
 @register.simple_tag(takes_context=True)
-def language_url(context, code_new, code_current):
-    path = (
-        context["request"].path
-        if settings.LANGUAGE_CODE == code_current
-        else context["request"].path[3:]
-    )
-    prefix = "" if settings.LANGUAGE_CODE == code_new else f"/{code_new}"
-
-    return prefix + path
+def translate_current_url(context, language_code: str, absolute: bool = False) -> str:
+    """Return the URL of the current page in the given language."""
+    request = context["request"]
+    url = translate_url(request.path, language_code)
+    return request.build_absolute_uri(url) if absolute else url

@@ -1,16 +1,21 @@
 import os
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Build paths inside the project like this: BASE_DIR / "subdir".
 BASE_DIR = Path(__file__).resolve().parent
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.setdefault(
-    "SECRET_KEY", "django-insecure-mwui+-qa5x+3pdge@r60&@b%qfvqfx^(32u#@#o!+!7#_ntksl"
-)
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, "").lower() in {"1", "true", "yes", "on"}
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.setdefault("DEBUG", "False").lower() == "true"
+DEBUG = env_flag("DEBUG")
+
+# SECURITY WARNING: set the SECRET_KEY environment variable in production!
+SECRET_KEY = os.environ.get(
+    "SECRET_KEY", "django-insecure-mwui+-qa5x+3pdge@r60&@b%qfvqfx^(32u#@#o!+!7#_ntksl"
+)
 
 ALLOWED_HOSTS = [
     "localhost",
@@ -23,17 +28,12 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
-    "django.contrib.sessions",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
     "django.contrib.staticfiles",
-    "django_extensions",
     "bigfive.b5",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
-    "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -43,14 +43,9 @@ MIDDLEWARE = [
 if DEBUG:
     INSTALLED_APPS.append("debug_toolbar")
     MIDDLEWARE.insert(0, "debug_toolbar.middleware.DebugToolbarMiddleware")
-
-    import socket
-
-    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
-    INTERNAL_IPS = [ip[: ip.rfind(".")] + ".1" for ip in ips] + [
-        "127.0.0.1",
-        "10.0.2.2",
-    ]
+    # The toolbar is shown to everyone, as the development server runs in Docker
+    # and the client address is therefore not predictable.
+    DEBUG_TOOLBAR_CONFIG = {"SHOW_TOOLBAR_CALLBACK": lambda request: DEBUG}
 
 ROOT_URLCONF = "bigfive.urls"
 
@@ -62,9 +57,8 @@ TEMPLATES = [
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.debug",
+                "django.template.context_processors.i18n",
                 "django.template.context_processors.request",
-                "django.contrib.auth.context_processors.auth",
-                "django.contrib.messages.context_processors.messages",
             ],
         },
     },
