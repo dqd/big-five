@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('questionnaire');
     const labels = JSON.parse(document.getElementById('questionnaire-labels').textContent);
     const personalInfo = document.getElementById('personal-info');
-    const questions = Array.from(form.querySelectorAll('fieldset.question'));
+    const questionsContainer = document.getElementById('questions');
+    const questions = Array.from(questionsContainer.querySelectorAll('fieldset.question'));
     const progress = document.createElement('progress');
     // -1 stands for the personal info step.
     let current = -1;
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const show = (index) => {
         stepElement(current).hidden = true;
         stepElement(index).hidden = false;
-        progress.hidden = index < 0;
+        questionsContainer.hidden = index < 0;
         progress.value = Math.max(index, 0);
         current = index;
         form.scrollIntoView({ block: 'start' });
@@ -46,8 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Questions: the next step is available once the question is answered.
     progress.max = questions.length;
-    progress.hidden = true;
-    document.getElementById('questions').prepend(progress);
+    questionsContainer.prepend(progress);
+    questionsContainer.hidden = true;
 
     questions.forEach((question, index) => {
         const control = question.querySelector('.control');
